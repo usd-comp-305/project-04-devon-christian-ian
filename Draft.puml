@@ -1,0 +1,164 @@
+@startuml
+
+' ===========================
+'        TradeScrubber
+' ===========================
+class TradeScrubber {
+    + BuildTradesFromCSV(path: String): TradeHistory
+}
+
+' ===========================
+'            Trade
+' ===========================
+class Trade {
+    - date: LocalDate
+    - ticker: String
+    - price: double
+    - type: TradeType
+    - estimatedAmount: double
+
+    + Trade(date: LocalDate, ticker: String, price: double, estimatedAmount: double, type: TradeType)
+    + calculateEstimatedProfit(laterPrice: double): double
+}
+
+enum TradeType {
+    BUY
+    SELL
+}
+
+' ===========================
+'        TradeHistory
+' ===========================
+class TradeHistory {
+    - trades: List<Trade>
+
+    + addTrade(trade: Trade): void
+    + getTrades(): List<Trade>
+    + getWeeklyTrades(week: int): List<Trade>
+    + getNetProfit(prices: Map<String, Double>): double
+    + getTotalTradeAmount(): double
+    + getWeeklyProfit(week: int, prices: Map<String, Double>): double
+}
+
+' ===========================
+'         Politician
+' ===========================
+class Politician {
+    - name: String
+    - IDnumber: int
+    - party: String
+    - tradeHistory: TradeHistory
+
+    + Politician(name: String, IDnumber: int, party: String, tradeHistory: TradeHistory)
+    + getName(): String
+    + getTradeHistory(): TradeHistory
+}
+
+' ===========================
+'        DraftManager
+' ===========================
+class DraftManager {
+    - availablePlayers: List<Politician>
+    - teams: List<Team>
+    - draftOrder: List<Team>
+    - rosterLimit: int
+
+    + DraftManager(players: List<Politician>, teams: List<Team>, rosterLimit: int)
+    + generateDraftOrder(): void
+    + runSnakeDraft(): void
+    + pickPlayer(team: Team, politician: Politician): void
+}
+
+' ===========================
+'            Team
+' ===========================
+class Team {
+    - name: String
+    - roster: List<Politician>
+    - MVP: Politician
+    - bust: Politician
+
+    + Team(name: String)
+    + addPolitician(p: Politician): void
+    + getRoster(): List<Politician>
+    + calculateWeeklyScore(strategy: ScoringStrategy, week: int): double
+    + getMVP(strategy: ScoringStrategy, week: int): Politician
+}
+
+' ===========================
+'            Match
+' ===========================
+class Match {
+    - home: Team
+    - away: Team
+    - homeScore: double
+    - awayScore: double
+    - mvp: Politician
+
+    + Match(home: Team, away: Team)
+    + play(strategy: ScoringStrategy, week: int): void
+    + getWinner(): Team
+    + getMVP(): Politician
+    + isTie(): boolean
+}
+
+' ===========================
+'            Week
+' ===========================
+class Week {
+    - weekNumber: int
+    - matches: List<Match>
+
+    + Week(weekNumber: int, matches: List<Match>)
+    + simulate(strategy: ScoringStrategy): void
+    + getMatches(): List<Match>
+}
+
+' ===========================
+'            Season
+' ===========================
+class Season {
+    - teams: List<Team>
+    - weeks: List<Week>
+    - standings: Map<Team, Integer>
+
+    + Season(teams: List<Team>)
+    + generateSchedule(): void
+    + runSeason(strategy: ScoringStrategy): void
+    + updateStandings(match: Match): void
+    + getStandings(): Map<Team, Integer>
+    + getChampion(): Team
+}
+
+' ===========================
+'     ScoringStrategy + Impl
+' ===========================
+interface ScoringStrategy {
+    + calculateScore(p: Politician, week: int): double
+}
+
+class PortfolioProfitStrategy {
+    - priceMap: Map<String, Double>
+
+    + PortfolioProfitStrategy(priceMap: Map<String, Double>)
+    + calculateScore(p: Politician, week: int): double
+}
+
+ScoringStrategy <|.. PortfolioProfitStrategy
+
+' ===========================
+'        Relationships
+' ===========================
+TradeScrubber --> TradeHistory
+Politician --> TradeHistory
+TradeType --> Trade
+TradeHistory --> Trade
+Team --> Politician
+Match --> Team
+ScoringStrategy --> Match
+Week --> Match
+Season --> Week
+DraftManager --> Politician
+DraftManager --> Team
+
+@enduml
