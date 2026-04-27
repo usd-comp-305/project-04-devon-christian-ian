@@ -1,6 +1,7 @@
 package edu.sandiego.comp305;
 
 import java.util.*;
+import java.time.temporal.IsoFields;
 
 public class TradeHistory {
 
@@ -19,24 +20,33 @@ public class TradeHistory {
     }
 
     public List<Trade> getWeeklyTrades(int week) {
-        return trades;
+        List<Trade> weeklyTrades = new ArrayList<>();
+
+        for (Trade trade : trades) {
+            int tradeWeek = trade.getDate().get(IsoFields.WEEK_OF_WEEK_BASED_YEAR);
+
+            if (tradeWeek == week) {
+                weeklyTrades.add(trade);
+            }
+        }
+
+        return weeklyTrades;
     }
 
     public double getWeeklyProfit(int week, Map<String, Double> prices) {
-        double total = 0;
+        double totalProfit = 0.0;
 
         List<Trade> weeklyTrades = getWeeklyTrades(week);
 
         for (Trade trade : weeklyTrades) {
             String ticker = trade.getTicker();
 
-            if (!prices.containsKey(ticker)) continue;
-
-            double laterPrice = prices.get(ticker);
-
-            total += trade.calculateEstimatedProfit(laterPrice);
+            if (prices.containsKey(ticker)) {
+                double laterPrice = prices.get(ticker);
+                totalProfit += trade.calculateEstimatedProfit(laterPrice);
+            }
         }
 
-        return total;
+        return totalProfit;
     }
 }
