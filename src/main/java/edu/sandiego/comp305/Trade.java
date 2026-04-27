@@ -19,7 +19,11 @@ public class Trade {
     }
 
     public double calculateEstimatedProfit(double laterPrice) {
-        return 0;
+        if (type == TradeType.BUY) {
+            return estimatedAmount * ((laterPrice - price) / price);
+        } else {
+            return estimatedAmount * ((price - laterPrice) / price);
+        }
     }
 
     public String getTicker() {
