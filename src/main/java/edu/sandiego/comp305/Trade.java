@@ -26,6 +26,11 @@ public class Trade {
         }
     }
 
+
+    public LocalDate getDate() {
+        return date;
+    }
+
     public String getTicker() {
         return ticker;
     }
