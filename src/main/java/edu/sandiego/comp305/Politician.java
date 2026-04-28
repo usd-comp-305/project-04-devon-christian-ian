@@ -1,5 +1,9 @@
 package edu.sandiego.comp305;
 
+/**
+ *
+ *
+ */
 public class Politician {
 
     private String name;

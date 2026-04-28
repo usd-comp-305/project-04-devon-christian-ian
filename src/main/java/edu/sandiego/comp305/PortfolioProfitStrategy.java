@@ -2,6 +2,10 @@ package edu.sandiego.comp305;
 
 import java.util.Map;
 
+/**
+ *
+ *
+ */
 public class PortfolioProfitStrategy implements ScoringStrategy {
 
     private Map<String, Double> priceMap;

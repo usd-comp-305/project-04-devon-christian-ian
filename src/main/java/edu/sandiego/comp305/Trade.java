@@ -2,6 +2,10 @@ package edu.sandiego.comp305;
 
 import java.time.LocalDate;
 
+/**
+ *
+ *
+ */
 public class Trade {
 
     private LocalDate date;

@@ -3,6 +3,10 @@ package edu.sandiego.comp305;
 import java.util.*;
 import java.time.temporal.IsoFields;
 
+/**
+ *
+ *
+ */
 public class TradeHistory {
 
     private List<Trade> trades;
