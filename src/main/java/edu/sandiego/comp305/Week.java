@@ -1,23 +1,23 @@
 package edu.sandiego.comp305;
 
-import java.util.List;
-
 /**
- *
- *
+ * Represents a week in the draft system.
  */
 public class Week {
 
-    private int weekNumber;
-    private List<Match> matches;
-
-    public Week(int weekNumber, List<Match> matches) {
+    /**
+     * Creates a week.
+     *
+     * @param weekNumber the week number
+     */
+    public Week(final int weekNumber) {
     }
 
-    public void simulate(ScoringStrategy strategy) {
-    }
-
-    public List<Match> getMatches() {
-        return null;
+    /**
+     * Simulates the week.
+     *
+     * @param strategy the scoring strategy
+     */
+    public void simulateWeek(final ScoringStrategy strategy) {
     }
 }

@@ -12,7 +12,6 @@ public class DraftManager {
     private List<Politician> availablePlayers;
     private List<Team> teams;
     private List<Team> draftOrder;
-    private int rosterLimit;
 
     public DraftManager(List<Politician> players, List<Team> teams, int rosterLimit) {
     }
