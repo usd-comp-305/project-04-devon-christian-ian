@@ -2,17 +2,14 @@ package edu.sandiego.comp305;
 
 public class Match {
 
-    private Team home;
-    private Team away;
-    private double homeScore;
-    private double awayScore;
-    private Politician mvp;
 
-    public Match(Team home, Team away) {
+    public Match(final Team home, final Team away) {
     }
 
-    public void play(ScoringStrategy strategy, int week) {
+
+    public void play(final ScoringStrategy strategy, final int week) {
     }
+
 
     public Team getWinner() {
         return null;

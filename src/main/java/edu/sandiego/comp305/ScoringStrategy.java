@@ -1,5 +1,10 @@
 package edu.sandiego.comp305;
 
+
 public interface ScoringStrategy {
-    double calculateScore(Politician p, int week);
+
+
+    public abstract double calculateScore(
+            final Politician politician, final int week);
+
 }
