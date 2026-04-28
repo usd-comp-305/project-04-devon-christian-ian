@@ -1,35 +1,58 @@
 package edu.sandiego.comp305;
 
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
 /**
- *
- *
+ * Represents a season.
  */
-
 public class Season {
 
-    private List<Team> teams;
-    private List<Week> weeks;
-    private Map<Team, Integer> standings;
-
-    public Season(List<Team> teams) {
+    /**
+     * Creates a season.
+     *
+     * @param teams the teams
+     */
+    public Season(final List<Team> teams) {
     }
 
+    /**
+     * Generates the schedule.
+     */
     public void generateSchedule() {
     }
 
-    public void runSeason(ScoringStrategy strategy) {
+    /**
+     * Runs the season.
+     *
+     * @param strategy the scoring strategy
+     */
+    public void runSeason(final ScoringStrategy strategy) {
     }
 
-    public void updateStandings(Match match) {
+    /**
+     * Updates standings.
+     *
+     * @param match the match
+     */
+    public void updateStandings(final Match match) {
     }
 
+    /**
+     * Gets standings.
+     *
+     * @return standings
+     */
     public Map<Team, Integer> getStandings() {
-        return null;
+        return new HashMap<>();
     }
 
+    /**
+     * Gets champion.
+     *
+     * @return champion
+     */
     public Team getChampion() {
         return null;
     }
