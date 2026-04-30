@@ -7,6 +7,7 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertSame;
+import static org.junit.jupiter.api.Assertions.assertNull;
 
 
 class SeasonTest {
@@ -68,6 +69,14 @@ class SeasonTest {
 
         assertEquals(1, season.getStandings().size());
         assertSame(firstTeam, season.getChampion());
+    }
+
+    @Test
+    void getChampionReturnsNull() {
+        final List<Team> teams = new ArrayList<>();
+        final Season season = new Season(teams);
+
+        assertNull(season.getChampion());
     }
 
 }

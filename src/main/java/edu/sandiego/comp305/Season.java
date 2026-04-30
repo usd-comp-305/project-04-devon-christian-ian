@@ -58,6 +58,10 @@ public class Season {
      * @return
      */
     public Team getChampion() {
+        if (teams.isEmpty()) {
+            return null;
+        }
+
         Team champion = teams.get(0);
 
         for (final Team team : teams) {
