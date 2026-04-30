@@ -160,4 +160,20 @@ class SeasonTest {
         assertEquals(0, season.getStandings().get(secondTeam));
     }
 
+    @Test
+    void generateScheduleCreateWeeks() {
+        final List<Team> teams = new ArrayList<>();
+
+        final Team firstTeam = new Team("First");
+        final Team secondTeam = new Team("Second");
+        teams.add(firstTeam);
+        teams.add(secondTeam);
+
+        final Season season = new Season(teams);
+
+        season.generateSchedule();
+
+        assertEquals(1, season.getWeeks().size());
+    }
+
 }

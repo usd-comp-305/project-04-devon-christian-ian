@@ -14,6 +14,8 @@ public class Season {
 
     private final List<Team> teams;
 
+    private final List<Week> weeks;
+
     /**
      *Creates a season with all teams starting at zero
      * @param teams the teams ing the season
@@ -21,6 +23,7 @@ public class Season {
     public Season(final List<Team> teams) {
         standings = new HashMap<>();
         this.teams = new ArrayList<>(teams);
+        this.weeks = new ArrayList<>();
 
         for (final Team team : teams) {
             standings.put(team, 0);
@@ -31,6 +34,10 @@ public class Season {
      *
      */
     public void generateSchedule() {
+        final List<Match> matches = new ArrayList<>();
+        matches.add(new Match(teams.get(0), teams.get(1)));
+
+        weeks.add(new Week(1, matches));
     }
 
     /**
@@ -85,5 +92,13 @@ public class Season {
         }
 
         return champion;
+    }
+
+    /**
+     *
+     * @return
+     */
+    public List<Week> getWeeks() {
+        return new ArrayList<>(weeks);
     }
 }
