@@ -1,8 +1,8 @@
 package edu.sandiego.comp305;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
-import java.util.ArrayList;
 import java.util.Map;
 
 /**
@@ -45,6 +45,10 @@ public class Season {
      * @param match
      */
     public void updateStandings(final Match match) {
+        if (match.isTie()) {
+            return;
+        }
+
         final Team winner = match.getWinner();
 
         standings.put(winner, standings.get(winner) + 1);
