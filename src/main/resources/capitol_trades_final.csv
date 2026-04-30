@@ -1,0 +1,1378 @@
+Table 1
+Politician,Party,Chamber,State,Traded Issuer,Ticker,Published,Trade Date,Days Filed After,Owner,Type,Size Range,Price
+Richard Blumenthal,Democrat,Senate,CT,HEDOSOPHIA PARTNERS V LP,N/A,21 Jan 2026,30 Dec 2025,20,Spouse,sell,500K–1M,N/A
+John Boozman,Republican,Senate,AR,iShares S&P 500 Growth ETF,IVW:US,13 Jan 2026,30 Dec 2025,13,Joint,buy,1K–15K,$123.26
+John Boozman,Republican,Senate,AR,SUPER MICRO COMPUTER INC,SMCI:US,13 Jan 2026,30 Dec 2025,13,Joint,sell,1K–15K,$29.27
+Lindsey Graham,Republican,Senate,SC,US TREASURY BILLS,N/A,6 Jan 2026,30 Dec 2025,6,Self,buy,50K–100K,N/A
+Lindsey Graham,Republican,Senate,SC,INVESCO BULLETSHARES 2026 CORPORATE BOND ETF (BSCQ),N/A,6 Jan 2026,30 Dec 2025,6,Self,buy,15K–50K,N/A
+Lindsey Graham,Republican,Senate,SC,US TREASURY BILLS,N/A,6 Jan 2026,30 Dec 2025,6,Self,buy,15K–50K,N/A
+Angus King,Other,Senate,ME,Honeywell International Inc,HON:US,26 Jan 2026,28 Dec 2025,28,Spouse,buy,1K–15K,$197.09
+Angus King,Other,Senate,ME,Eli Lilly and Co,LLY:US,26 Jan 2026,28 Dec 2025,28,Spouse,buy,1K–15K,$1078.73
+Angus King,Other,Senate,ME,Comcast Corp,CMCSA:US,26 Jan 2026,28 Dec 2025,28,Spouse,sell,1K–15K,$29.87
+Markwayne Mullin,Republican,Senate,OK,Caterpillar Inc,CAT:US,16 Jan 2026,28 Dec 2025,18,Joint,buy,15K–50K,$578.61
+Markwayne Mullin,Republican,Senate,OK,Eli Lilly and Co,LLY:US,16 Jan 2026,28 Dec 2025,18,Joint,buy,15K–50K,$1078.73
+Markwayne Mullin,Republican,Senate,OK,JPMorgan Chase & Co,JPM:US,16 Jan 2026,28 Dec 2025,18,Joint,buy,50K–100K,$323.75
+Markwayne Mullin,Republican,Senate,OK,Capital One Financial Corp,COF:US,16 Jan 2026,28 Dec 2025,18,Joint,buy,50K–100K,$245.75
+Markwayne Mullin,Republican,Senate,OK,RTX Corp,RTX:US,16 Jan 2026,28 Dec 2025,18,Joint,buy,15K–50K,$184.42
+Markwayne Mullin,Republican,Senate,OK,Alphabet Inc,GOOGL:US,16 Jan 2026,28 Dec 2025,18,Joint,buy,100K–250K,$313.56
+Markwayne Mullin,Republican,Senate,OK,Intercontinental Exchange Inc,ICE:US,16 Jan 2026,28 Dec 2025,18,Joint,buy,15K–50K,$163.98
+Markwayne Mullin,Republican,Senate,OK,DEERE & COMPANY,DE:US,16 Jan 2026,28 Dec 2025,18,Joint,buy,15K–50K,$470.24
+Markwayne Mullin,Republican,Senate,OK,Boston Scientific Corp,BSX:US,16 Jan 2026,28 Dec 2025,18,Joint,buy,15K–50K,$95.76
+Markwayne Mullin,Republican,Senate,OK,Microsoft Corp,MSFT:US,16 Jan 2026,28 Dec 2025,18,Joint,buy,100K–250K,$487.10
+Markwayne Mullin,Republican,Senate,OK,The Goldman Sachs Group Inc,GS:US,16 Jan 2026,28 Dec 2025,18,Joint,buy,15K–50K,$892.18
+Markwayne Mullin,Republican,Senate,OK,Lam Research Corp,LRCX:US,16 Jan 2026,28 Dec 2025,18,Joint,buy,50K–100K,$175.87
+Markwayne Mullin,Republican,Senate,OK,The Coca-Cola Co,KO:US,16 Jan 2026,28 Dec 2025,18,Joint,buy,15K–50K,$70.16
+Markwayne Mullin,Republican,Senate,OK,Amazon.com Inc,AMZN:US,16 Jan 2026,28 Dec 2025,18,Joint,buy,100K–250K,$232.07
+Markwayne Mullin,Republican,Senate,OK,NVIDIA Corporation,NVDA:US,16 Jan 2026,28 Dec 2025,18,Joint,buy,100K–250K,$188.22
+Markwayne Mullin,Republican,Senate,OK,salesforce.com Inc,CRM:US,16 Jan 2026,28 Dec 2025,18,Joint,buy,15K–50K,$266.23
+Markwayne Mullin,Republican,Senate,OK,Iqvia Holdings Inc,IQV:US,16 Jan 2026,28 Dec 2025,18,Joint,buy,15K–50K,$227.11
+Markwayne Mullin,Republican,Senate,OK,Elevance Health Inc,ELV:US,16 Jan 2026,28 Dec 2025,18,Joint,buy,15K–50K,$348.38
+Markwayne Mullin,Republican,Senate,OK,American Express Co,AXP:US,16 Jan 2026,28 Dec 2025,18,Joint,buy,1K–15K,$375.32
+Markwayne Mullin,Republican,Senate,OK,Chevron Corp,CVX:US,16 Jan 2026,28 Dec 2025,18,Joint,buy,15K–50K,$150.99
+Markwayne Mullin,Republican,Senate,OK,Apple Inc,AAPL:US,16 Jan 2026,28 Dec 2025,18,Joint,buy,100K–250K,$273.76
+Markwayne Mullin,Republican,Senate,OK,Meta Platforms Inc,META:US,16 Jan 2026,28 Dec 2025,18,Joint,buy,50K–100K,$658.69
+Markwayne Mullin,Republican,Senate,OK,Mastercard Inc,MA:US,16 Jan 2026,28 Dec 2025,18,Joint,buy,50K–100K,$577.90
+Markwayne Mullin,Republican,Senate,OK,Hilton Worldwide Holdings Inc,HLT:US,16 Jan 2026,28 Dec 2025,18,Joint,buy,15K–50K,$292.36
+Markwayne Mullin,Republican,Senate,OK,Applied Materials Inc,AMAT:US,16 Jan 2026,28 Dec 2025,18,Joint,buy,15K–50K,$263.05
+Markwayne Mullin,Republican,Senate,OK,Costco Wholesale Corp,COST:US,16 Jan 2026,28 Dec 2025,18,Joint,buy,15K–50K,$867.84
+Markwayne Mullin,Republican,Senate,OK,Intuitive Surgical Inc,ISRG:US,16 Jan 2026,28 Dec 2025,18,Joint,buy,15K–50K,$575.40
+Markwayne Mullin,Republican,Senate,OK,The Home Depot Inc,HD:US,16 Jan 2026,28 Dec 2025,18,Joint,buy,15K–50K,$347.45
+Markwayne Mullin,Republican,Senate,OK,Intuit Inc,INTU:US,16 Jan 2026,28 Dec 2025,18,Joint,buy,15K–50K,$674.15
+Markwayne Mullin,Republican,Senate,OK,ServiceNow Inc,NOW:US,16 Jan 2026,28 Dec 2025,18,Joint,buy,15K–50K,$154.58
+Markwayne Mullin,Republican,Senate,OK,ConocoPhillips,COP:US,16 Jan 2026,28 Dec 2025,18,Joint,buy,15K–50K,$92.63
+John Boozman,Republican,Senate,AR,iShares Core S&P Small-Cap ETF,IJR:US,13 Jan 2026,25 Dec 2025,18,Joint,buy,1K–15K,$123.13
+John Boozman,Republican,Senate,AR,SPDR S&P Regional Banking ETF,KRE:US,13 Jan 2026,25 Dec 2025,18,Joint,sell,1K–15K,$66.52
+Mark Warner,Democrat,Senate,VA,WEST DEPTFORD ENERGY HOLDINGS LLC,N/A,16 Jan 2026,23 Dec 2025,23,Self,sell,1K–15K,N/A
+Mitch McConnell,Republican,Senate,KY,LUMINAR TECHNOLOGIES INC,LAZR:US,13 Jan 2026,23 Dec 2025,20,Spouse,sell,1K–15K,$0.15
+John Boozman,Republican,Senate,AR,STATE STREET SPDR PORTFOLIO S&P 500 ETF,N/A,13 Jan 2026,23 Dec 2025,20,Joint,buy,15K–50K,N/A
+John Boozman,Republican,Senate,AR,iShares Silver Trust,SLV:US,13 Jan 2026,23 Dec 2025,20,Joint,sell,1K–15K,$65.22
+John Boozman,Republican,Senate,AR,ABRDN PHYSICAL PLATIN SH ETF,PPLT:US,13 Jan 2026,23 Dec 2025,20,Joint,sell,1K–15K,$204.52
+John Boozman,Republican,Senate,AR,ABRDN PHYSICAL PALLAD SH ETF,PALL:US,13 Jan 2026,23 Dec 2025,20,Joint,sell,1K–15K,$156.50
+Richard Blumenthal,Democrat,Senate,CT,COMMODORE CAPITAL DOMESTIC LP,N/A,21 Jan 2026,21 Dec 2025,29,Spouse,sell,15K–50K,N/A
+Richard Blumenthal,Democrat,Senate,CT,COMMODORE CAPITAL DOMESTIC LP,N/A,21 Jan 2026,21 Dec 2025,29,Spouse,sell,15K–50K,N/A
+Richard Blumenthal,Democrat,Senate,CT,COMMODORE CAPITAL DOMESTIC LP,N/A,21 Jan 2026,21 Dec 2025,29,Spouse,sell,50K–100K,N/A
+Richard Blumenthal,Democrat,Senate,CT,COMMODORE CAPITAL DOMESTIC LP,N/A,21 Jan 2026,21 Dec 2025,29,Spouse,sell,100K–250K,N/A
+John Fetterman,Democrat,Senate,PA,Steel Dynamics Inc,STLD:US,6 Jan 2026,21 Dec 2025,15,Child,sell,1K–15K,N/A
+Bernie Moreno,Republican,Senate,OH,BOFA FINANCE LLC,N/A,9 Jan 2026,18 Dec 2025,21,Self,buy,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,21 Jan 2026,17 Dec 2025,33,Spouse,buy,15K–50K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,21 Jan 2026,17 Dec 2025,33,Spouse,buy,1K–15K,N/A
+Markwayne Mullin,Republican,Senate,OK,Primo Water Corp,PRMW:US,13 Jan 2026,17 Dec 2025,26,Self,sell,1K–15K,$16.25
+Markwayne Mullin,Republican,Senate,OK,MasTec Inc,MTZ:US,13 Jan 2026,17 Dec 2025,26,Self,sell,15K–50K,$213.96
+Markwayne Mullin,Republican,Senate,OK,Stride Inc,LRN:US,13 Jan 2026,17 Dec 2025,26,Self,sell,1K–15K,$65.78
+Markwayne Mullin,Republican,Senate,OK,Iron Mountain Inc,IRM:US,13 Jan 2026,17 Dec 2025,26,Self,sell,1K–15K,$78.86
+Markwayne Mullin,Republican,Senate,OK,The Goldman Sachs Group Inc,GS:US,13 Jan 2026,17 Dec 2025,26,Self,sell,15K–50K,$876.30
+Markwayne Mullin,Republican,Senate,OK,Dell Technologies Inc,DELL:US,13 Jan 2026,17 Dec 2025,26,Self,sell,15K–50K,$122.94
+Markwayne Mullin,Republican,Senate,OK,CREDO TECH GROUP HOLDING LTD,N/A,13 Jan 2026,17 Dec 2025,26,Self,sell,15K–50K,N/A
+Markwayne Mullin,Republican,Senate,OK,Coherent Corp,COHR:US,13 Jan 2026,17 Dec 2025,26,Self,sell,15K–50K,$175.71
+Markwayne Mullin,Republican,Senate,OK,Applied Industrial Technologies Inc,AIT:US,13 Jan 2026,17 Dec 2025,26,Self,sell,15K–50K,$259.48
+Markwayne Mullin,Republican,Senate,OK,Primo Water Corp,PRMW:US,13 Jan 2026,17 Dec 2025,26,Spouse,sell,1K–15K,$16.25
+Markwayne Mullin,Republican,Senate,OK,MasTec Inc,MTZ:US,13 Jan 2026,17 Dec 2025,26,Spouse,sell,15K–50K,$213.96
+Markwayne Mullin,Republican,Senate,OK,Stride Inc,LRN:US,13 Jan 2026,17 Dec 2025,26,Spouse,sell,1K–15K,$65.78
+Markwayne Mullin,Republican,Senate,OK,Iron Mountain Inc,IRM:US,13 Jan 2026,17 Dec 2025,26,Spouse,sell,15K–50K,$78.86
+Markwayne Mullin,Republican,Senate,OK,The Goldman Sachs Group Inc,GS:US,13 Jan 2026,17 Dec 2025,26,Spouse,sell,15K–50K,$876.30
+Markwayne Mullin,Republican,Senate,OK,Dell Technologies Inc,DELL:US,13 Jan 2026,17 Dec 2025,26,Spouse,sell,15K–50K,$122.94
+Markwayne Mullin,Republican,Senate,OK,CREDO TECH GROUP HOLDING LTD,N/A,13 Jan 2026,17 Dec 2025,26,Spouse,sell,15K–50K,N/A
+Markwayne Mullin,Republican,Senate,OK,Coherent Corp,COHR:US,13 Jan 2026,17 Dec 2025,26,Spouse,sell,15K–50K,$175.71
+Markwayne Mullin,Republican,Senate,OK,Applied Industrial Technologies Inc,AIT:US,13 Jan 2026,17 Dec 2025,26,Spouse,sell,15K–50K,$259.48
+Lindsey Graham,Republican,Senate,SC,iShares iBonds Dec 2025 Term Corporate ETF,IBDQ:US,6 Jan 2026,17 Dec 2025,19,Self,sell,15K–50K,N/A
+Tommy Tuberville,Republican,Senate,AL,The Utilities Select Sector SPDR Fund,XLU:US,15 Jan 2026,16 Dec 2025,29,Self,buy,15K–50K,$42.76
+Tommy Tuberville,Republican,Senate,AL,The Consumer Staples Select Sector SPDR Fund,XLP:US,15 Jan 2026,16 Dec 2025,29,Self,buy,15K–50K,$79.65
+Tommy Tuberville,Republican,Senate,AL,The Health Care Select Sector SPDR Fund,XLV:US,15 Jan 2026,16 Dec 2025,29,Self,buy,15K–50K,$153.79
+Tommy Tuberville,Republican,Senate,AL,Apple Inc,AAPL:US,15 Jan 2026,16 Dec 2025,29,Self,sell,50K–100K,$271.84
+Tommy Tuberville,Republican,Senate,AL,Alphabet Inc,GOOGL:US,15 Jan 2026,16 Dec 2025,29,Self,sell,1K–15K,$296.72
+Markwayne Mullin,Republican,Senate,OK,Primo Water Corp,PRMW:US,13 Jan 2026,16 Dec 2025,27,Joint,sell,1K–15K,$16.32
+John Boozman,Republican,Senate,AR,Wells Fargo & Co,WFC:US,13 Jan 2026,16 Dec 2025,27,Joint,buy,1K–15K,$92.59
+John Boozman,Republican,Senate,AR,Microsoft Corp,MSFT:US,13 Jan 2026,16 Dec 2025,27,Joint,buy,1K–15K,$476.12
+John Boozman,Republican,Senate,AR,Apple Inc,AAPL:US,13 Jan 2026,16 Dec 2025,27,Joint,buy,1K–15K,$271.84
+John Boozman,Republican,Senate,AR,Motorola Solutions Inc,MSI:US,13 Jan 2026,16 Dec 2025,27,Joint,sell,1K–15K,$374.49
+John Boozman,Republican,Senate,AR,Boston Scientific Corp,BSX:US,13 Jan 2026,16 Dec 2025,27,Joint,sell,1K–15K,$94.48
+Bernie Moreno,Republican,Senate,OH,Canadian Imperial Bank of Commerce,CM:US,9 Jan 2026,16 Dec 2025,23,Self,buy,1K–15K,N/A
+Lindsey Graham,Republican,Senate,SC,INVESCO BULLETSHARES 2025 CORPORATE BOND ETF (BSCP),N/A,6 Jan 2026,16 Dec 2025,20,Self,sell,15K–50K,N/A
+Dave McCormick,Republican,Senate,PA,DELAWARE COUNTY PENNSYLVANIA,N/A,26 Dec 2025,16 Dec 2025,9,Self,buy,250K–500K,N/A
+Dave McCormick,Republican,Senate,PA,OHIO STATE UNIVERSITY,N/A,26 Dec 2025,16 Dec 2025,9,Spouse,buy,100K–250K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,21 Jan 2026,15 Dec 2025,35,Spouse,sell,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,21 Jan 2026,15 Dec 2025,35,Spouse,sell,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,21 Jan 2026,15 Dec 2025,35,Spouse,sell,15K–50K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,21 Jan 2026,15 Dec 2025,35,Spouse,sell,50K–100K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,21 Jan 2026,15 Dec 2025,35,Spouse,sell,1K–15K,N/A
+Shelley Moore Capito,Republican,Senate,WV,Microsoft Corp,MSFT:US,6 Jan 2026,15 Dec 2025,21,Spouse,sell,1K–15K,$476.39
+Shelley Moore Capito,Republican,Senate,WV,Apple Inc,AAPL:US,6 Jan 2026,15 Dec 2025,21,Spouse,sell,1K–15K,$274.61
+Shelley Moore Capito,Republican,Senate,WV,Alphabet Inc,GOOGL:US,6 Jan 2026,15 Dec 2025,21,Spouse,sell,1K–15K,$306.57
+Dave McCormick,Republican,Senate,PA,DEPARTMENT OF STATE PENNSYLVANIA,N/A,26 Dec 2025,14 Dec 2025,11,Spouse,buy,100K–250K,N/A
+Gary Peters,Democrat,Senate,MI,Intel Corp,INTC:US,7 Jan 2026,11 Dec 2025,26,Spouse,sell,15K–50K,$37.81
+Gary Peters,Democrat,Senate,MI,Verizon Communications Inc,VZ:US,7 Jan 2026,11 Dec 2025,26,Self,buy,1K–15K,$40.89
+John Boozman,Republican,Senate,AR,SUPER MICRO COMPUTER INC,SMCI:US,13 Jan 2026,10 Dec 2025,33,Joint,buy,1K–15K,$34.02
+John Boozman,Republican,Senate,AR,Arista Networks Inc,ANET:US,13 Jan 2026,10 Dec 2025,33,Joint,buy,1K–15K,$134.39
+John Boozman,Republican,Senate,AR,INVESCO SHORT TERM TREAS ETF,TBLL:US,13 Jan 2026,10 Dec 2025,33,Joint,sell,1K–15K,$105.78
+Shelley Moore Capito,Republican,Senate,WV,Kellogg Co,K:US,6 Jan 2026,10 Dec 2025,26,Spouse,sell,1K–15K,N/A
+Mark Warner,Democrat,Senate,VA,BETTERCLOUD INC,N/A,16 Jan 2026,9 Dec 2025,37,Self,sell,1K–15K,N/A
+John Hickenlooper,Democrat,Senate,CO,Formula One Group - The Liberty Media Group,FWONK:US,6 Jan 2026,9 Dec 2025,27,Spouse,sell,15K–50K,$92.30
+John Hickenlooper,Democrat,Senate,CO,Formula One Group - The Liberty Media Group,FWONK:US,6 Jan 2026,9 Dec 2025,27,Spouse,sell,50K–100K,$92.30
+Dave McCormick,Republican,Senate,PA,DEPARTMENT OF STATE PENNSYLVANIA,N/A,26 Dec 2025,9 Dec 2025,16,Self,buy,250K–500K,N/A
+Dave McCormick,Republican,Senate,PA,ENERGY NORTHWEST,N/A,26 Dec 2025,8 Dec 2025,17,Spouse,buy,100K–250K,N/A
+Dave McCormick,Republican,Senate,PA,SENECA VALLEY SCHOOL DISTRICT BUTLER COUNTY PENNSYLVANIA,N/A,26 Dec 2025,7 Dec 2025,18,Spouse,sell,100K–250K,N/A
+Dave McCormick,Republican,Senate,PA,CITY OF PHILADELPHIA PENNSYLVANIA,N/A,26 Dec 2025,7 Dec 2025,18,Spouse,sell,100K–250K,N/A
+Dave McCormick,Republican,Senate,PA,UNIVERSITY OF PITTSBURGH,N/A,26 Dec 2025,4 Dec 2025,21,Spouse,buy,100K–250K,N/A
+Markwayne Mullin,Republican,Senate,OK,CITY OF CORSICANA TEXAS,N/A,12 Dec 2025,2 Dec 2025,9,Joint,buy,50K–100K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,22 Dec 2025,30 Nov 2025,21,Spouse,buy,15K–50K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,22 Dec 2025,30 Nov 2025,21,Spouse,sell,50K–100K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,22 Dec 2025,30 Nov 2025,21,Spouse,buy,50K–100K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,22 Dec 2025,30 Nov 2025,21,Spouse,sell,250K–500K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,22 Dec 2025,30 Nov 2025,21,Spouse,buy,500K–1M,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,22 Dec 2025,30 Nov 2025,21,Spouse,sell,500K–1M,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,22 Dec 2025,30 Nov 2025,21,Spouse,buy,500K–1M,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,22 Dec 2025,30 Nov 2025,21,Spouse,sell,15K–50K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,22 Dec 2025,30 Nov 2025,21,Spouse,buy,15K–50K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,22 Dec 2025,30 Nov 2025,21,Spouse,sell,15K–50K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,22 Dec 2025,30 Nov 2025,21,Spouse,buy,15K–50K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,22 Dec 2025,30 Nov 2025,21,Spouse,sell,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,22 Dec 2025,30 Nov 2025,21,Spouse,buy,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,22 Dec 2025,30 Nov 2025,21,Spouse,sell,15K–50K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,22 Dec 2025,30 Nov 2025,21,Spouse,buy,15K–50K,N/A
+Mitch McConnell,Republican,Senate,KY,Wells Fargo & Co,WFC:US,19 Dec 2025,30 Nov 2025,18,Spouse,buy,1K–15K,$85.40
+Dave McCormick,Republican,Senate,PA,BITWISE BITCOIN ETF,BITB:US,26 Dec 2025,27 Nov 2025,28,Self,buy,50K–100K,$49.32
+Richard Blumenthal,Democrat,Senate,CT,COMMODORE CAPITAL DOMESTIC LP,N/A,22 Dec 2025,27 Nov 2025,24,Spouse,sell,15K–50K,N/A
+Richard Blumenthal,Democrat,Senate,CT,COMMODORE CAPITAL DOMESTIC LP,N/A,22 Dec 2025,27 Nov 2025,24,Spouse,sell,15K–50K,N/A
+Richard Blumenthal,Democrat,Senate,CT,COMMODORE CAPITAL DOMESTIC LP,N/A,22 Dec 2025,27 Nov 2025,24,Spouse,sell,50K–100K,N/A
+Richard Blumenthal,Democrat,Senate,CT,COMMODORE CAPITAL DOMESTIC LP,N/A,22 Dec 2025,27 Nov 2025,24,Spouse,sell,100K–250K,N/A
+Dave McCormick,Republican,Senate,PA,BITWISE BITCOIN ETF,BITB:US,26 Dec 2025,25 Nov 2025,30,Self,buy,50K–100K,$48.86
+Dave McCormick,Republican,Senate,PA,BITWISE BITCOIN ETF,BITB:US,27 Nov 2025,24 Nov 2025,2,Self,buy,15K–50K,$47.48
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,22 Dec 2025,23 Nov 2025,28,Spouse,buy,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,22 Dec 2025,23 Nov 2025,28,Spouse,buy,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,22 Dec 2025,23 Nov 2025,28,Spouse,buy,15K–50K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,22 Dec 2025,23 Nov 2025,28,Spouse,buy,50K–100K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,22 Dec 2025,23 Nov 2025,28,Spouse,buy,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,22 Dec 2025,23 Nov 2025,28,Spouse,buy,15K–50K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,22 Dec 2025,23 Nov 2025,28,Spouse,buy,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,22 Dec 2025,23 Nov 2025,28,Spouse,buy,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,22 Dec 2025,23 Nov 2025,28,Spouse,buy,1K–15K,N/A
+Dave McCormick,Republican,Senate,PA,BITWISE BITCOIN ETF,BITB:US,27 Nov 2025,23 Nov 2025,3,Self,buy,50K–100K,$48.45
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,22 Dec 2025,20 Nov 2025,31,Spouse,sell,15K–50K,N/A
+John Boozman,Republican,Senate,AR,SPDR MidCap 400 ETF Trust,MDY:US,8 Dec 2025,20 Nov 2025,17,Joint,buy,1K–15K,$582.32
+John Boozman,Republican,Senate,AR,PayPal Holdings Inc,PYPL:US,8 Dec 2025,20 Nov 2025,17,Joint,buy,1K–15K,$60.57
+John Boozman,Republican,Senate,AR,Janus Henderson Mortgage-Backed Securities ETF,JMBS:US,8 Dec 2025,20 Nov 2025,17,Joint,buy,1K–15K,$45.81
+John Boozman,Republican,Senate,AR,iShares CMBS ETF,CMBS:US,8 Dec 2025,20 Nov 2025,17,Joint,buy,1K–15K,$49.07
+John Boozman,Republican,Senate,AR,iShares MBS ETF,MBB:US,8 Dec 2025,20 Nov 2025,17,Joint,buy,1K–15K,$95.49
+John Boozman,Republican,Senate,AR,Goldman Sachs Access Investment Grade Corporate Bond ETF,GIGB:US,8 Dec 2025,20 Nov 2025,17,Joint,buy,1K–15K,$46.48
+John Boozman,Republican,Senate,AR,Vanguard FTSE Developed Markets ETF,VEA:US,8 Dec 2025,20 Nov 2025,17,Joint,sell,1K–15K,$59.77
+John Boozman,Republican,Senate,AR,Vanguard Global ex-U.S. Real Estate ETF,VNQI:US,8 Dec 2025,20 Nov 2025,17,Joint,sell,1K–15K,$46.90
+John Boozman,Republican,Senate,AR,Managed Portfolio Series Tortoise North American Pipeline Fund,TPYP:US,8 Dec 2025,20 Nov 2025,17,Joint,sell,1K–15K,$35.42
+John Boozman,Republican,Senate,AR,Eli Lilly and Co,LLY:US,8 Dec 2025,20 Nov 2025,17,Joint,sell,1K–15K,$1059.70
+John Boozman,Republican,Senate,AR,iShares Core S&P 500 ETF,IVV:US,8 Dec 2025,20 Nov 2025,17,Joint,sell,1K–15K,$662.28
+John Boozman,Republican,Senate,AR,iShares Trust - iShares Russell 2000 ETF,IWM:US,8 Dec 2025,20 Nov 2025,17,Joint,sell,1K–15K,$235.60
+John Boozman,Republican,Senate,AR,Fiserv Inc,FISV:US,8 Dec 2025,20 Nov 2025,17,Joint,sell,1K–15K,$60.84
+John Boozman,Republican,Senate,AR,FIRST TR GLOBAL TACTICAL CMD,FTGC:US,8 Dec 2025,20 Nov 2025,17,Joint,sell,1K–15K,$26.51
+John Boozman,Republican,Senate,AR,FT EGY PARTNER ENHANCED ETF,EIPI:US,8 Dec 2025,20 Nov 2025,17,Joint,sell,1K–15K,$20.01
+Sheldon Whitehouse,Democrat,Senate,RI,The Hershey Co,HSY:US,1 Dec 2025,20 Nov 2025,10,Self,buy,1K–15K,$186.00
+Sheldon Whitehouse,Democrat,Senate,RI,The Coca-Cola Co,KO:US,1 Dec 2025,20 Nov 2025,10,Self,buy,1K–15K,$72.95
+Sheldon Whitehouse,Democrat,Senate,RI,Guardant Health Inc,GH:US,1 Dec 2025,20 Nov 2025,10,Self,buy,1K–15K,$105.42
+Tina Smith,Democrat,Senate,MN,Huntington Bancshares Inc,HBAN:US,26 Nov 2025,20 Nov 2025,5,Spouse,sell,100K–250K,$15.88
+John Boozman,Republican,Senate,AR,WESTWOOD SMALLCAP FUND,WHGSX:US,8 Dec 2025,19 Nov 2025,18,Joint,buy,1K–15K,N/A
+John Boozman,Republican,Senate,AR,AMERICAN FUNDS NEW WORLD FUND,NEWFX:UD,8 Dec 2025,19 Nov 2025,18,Joint,sell,1K–15K,N/A
+John Boozman,Republican,Senate,AR,iShares MSCI EAFE ETF,EFA:US,8 Dec 2025,19 Nov 2025,18,Joint,sell,1K–15K,$91.24
+John Boozman,Republican,Senate,AR,Goldman Sachs ActiveBeta Emerging Markets Equity ETF,GEM:US,8 Dec 2025,19 Nov 2025,18,Joint,sell,1K–15K,$40.73
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,22 Dec 2025,18 Nov 2025,33,Spouse,buy,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,22 Dec 2025,18 Nov 2025,33,Spouse,buy,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,22 Dec 2025,18 Nov 2025,33,Spouse,buy,50K–100K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,22 Dec 2025,18 Nov 2025,33,Spouse,buy,100K–250K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,22 Dec 2025,18 Nov 2025,33,Spouse,buy,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,22 Dec 2025,18 Nov 2025,33,Spouse,buy,15K–50K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,22 Dec 2025,18 Nov 2025,33,Spouse,buy,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,22 Dec 2025,18 Nov 2025,33,Spouse,buy,15K–50K,N/A
+Dave McCormick,Republican,Senate,PA,OHIO WATER DEVELOPMENT AUTHORITY,N/A,27 Nov 2025,18 Nov 2025,8,Spouse,buy,100K–250K,N/A
+John Fetterman,Democrat,Senate,PA,GXO Logistic Inc,GXO:US,12 Dec 2025,17 Nov 2025,24,Child,buy,1K–15K,N/A
+Dave McCormick,Republican,Senate,PA,MONTGOMERY COUNTY INDUSTRIAL DEVELOPMENT,N/A,27 Nov 2025,17 Nov 2025,9,Spouse,buy,100K–250K,N/A
+Gary Peters,Democrat,Senate,MI,Conagra Brands Inc,CAG:US,4 Dec 2025,13 Nov 2025,20,Self,buy,1K–15K,$17.45
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,15 Dec 2025,12 Nov 2025,29,Spouse,sell,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,15 Dec 2025,12 Nov 2025,29,Spouse,sell,15K–50K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,15 Dec 2025,12 Nov 2025,29,Spouse,sell,100K–250K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,15 Dec 2025,12 Nov 2025,29,Spouse,sell,500K–1M,N/A
+Richard Blumenthal,Democrat,Senate,CT,RADCLIFF DT I LLC,N/A,15 Dec 2025,12 Nov 2025,29,Spouse,buy,100K–250K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,15 Dec 2025,12 Nov 2025,29,Spouse,sell,15K–50K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,15 Dec 2025,12 Nov 2025,29,Spouse,sell,100K–250K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,15 Dec 2025,12 Nov 2025,29,Spouse,sell,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,15 Dec 2025,12 Nov 2025,29,Spouse,sell,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,15 Dec 2025,12 Nov 2025,29,Spouse,sell,50K–100K,N/A
+John Boozman,Republican,Senate,AR,Meta Platforms Inc,META:US,8 Dec 2025,12 Nov 2025,25,Joint,buy,1K–15K,$609.89
+John Boozman,Republican,Senate,AR,Arista Networks Inc,ANET:US,8 Dec 2025,12 Nov 2025,25,Joint,buy,1K–15K,$130.30
+John Boozman,Republican,Senate,AR,Amazon.com Inc,AMZN:US,8 Dec 2025,12 Nov 2025,25,Joint,buy,1K–15K,$237.58
+John Boozman,Republican,Senate,AR,salesforce.com Inc,CRM:US,8 Dec 2025,12 Nov 2025,25,Joint,sell,1K–15K,$240.43
+Shelley Moore Capito,Republican,Senate,WV,Meta Platforms Inc,META:US,4 Dec 2025,12 Nov 2025,21,Spouse,buy,1K–15K,$609.89
+Shelley Moore Capito,Republican,Senate,WV,Paychex Inc,PAYX:US,4 Dec 2025,12 Nov 2025,21,Spouse,sell,1K–15K,$111.80
+Shelley Moore Capito,Republican,Senate,WV,Lowe's Cos Inc,LOW:US,4 Dec 2025,12 Nov 2025,21,Spouse,sell,1K–15K,$231.47
+Ted Cruz,Republican,Senate,TX,The Goldman Sachs Group Inc,GS:US,12 Nov 2025,10 Nov 2025,1,Spouse,sell,100K–250K,$810.31
+Markwayne Mullin,Republican,Senate,OK,Capital One Financial Corp,COF:US,5 Dec 2025,9 Nov 2025,25,Joint,buy,50K–100K,$220.36
+Markwayne Mullin,Republican,Senate,OK,CSX Corp,CSX:US,5 Dec 2025,9 Nov 2025,25,Joint,sell,15K–50K,$35.12
+Markwayne Mullin,Republican,Senate,OK,Zoetis Inc,ZTS:US,5 Dec 2025,9 Nov 2025,25,Joint,sell,15K–50K,$119.79
+Markwayne Mullin,Republican,Senate,OK,Pentair PLC,PNR:US,5 Dec 2025,9 Nov 2025,25,Joint,buy,15K–50K,$108.69
+Katie Britt,Republican,Senate,AL,NVIDIA Corporation,NVDA:US,26 Jan 2026,6 Nov 2025,80,Spouse,sell,1K–15K,$188.15
+Katie Britt,Republican,Senate,AL,Apple Inc,AAPL:US,26 Jan 2026,6 Nov 2025,80,Spouse,sell,1K–15K,$268.47
+Katie Britt,Republican,Senate,AL,Alphabet Inc,GOOGL:US,26 Jan 2026,6 Nov 2025,80,Spouse,sell,1K–15K,$279.70
+Katie Britt,Republican,Senate,AL,United Parcel Service Inc,UPS:US,26 Jan 2026,6 Nov 2025,80,Spouse,buy,1K–15K,$95.95
+Katie Britt,Republican,Senate,AL,Amazon.com Inc,AMZN:US,26 Jan 2026,6 Nov 2025,80,Spouse,sell,1K–15K,$244.41
+Katie Britt,Republican,Senate,AL,Visa Inc,V:US,26 Jan 2026,6 Nov 2025,80,Spouse,buy,1K–15K,$336.02
+John Boozman,Republican,Senate,AR,Vanguard FTSE Developed Markets ETF,VEA:US,8 Dec 2025,5 Nov 2025,32,Joint,buy,1K–15K,$60.42
+John Boozman,Republican,Senate,AR,Vanguard FTSE Emerging Markets ETF,VWO:US,8 Dec 2025,5 Nov 2025,32,Joint,buy,1K–15K,$54.59
+John Boozman,Republican,Senate,AR,iShares MSCI All Country Asia ex Japan ETF,AAXJ:US,8 Dec 2025,5 Nov 2025,32,Joint,sell,1K–15K,$93.74
+Lindsey Graham,Republican,Senate,SC,VANGUARD US GROWTH FUND,VWUSX:US,1 Dec 2025,5 Nov 2025,25,Self,buy,100K–250K,N/A
+Lindsey Graham,Republican,Senate,SC,VANGUARD US GROWTH FUND,VWUSX:US,1 Dec 2025,5 Nov 2025,25,Self,sell,100K–250K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH FOUR WINDS LLC,N/A,15 Dec 2025,3 Nov 2025,38,Spouse,buy,15K–50K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH FOUR WINDS LLC,N/A,15 Dec 2025,3 Nov 2025,38,Spouse,buy,50K–100K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH FOUR WINDS LLC,N/A,15 Dec 2025,3 Nov 2025,38,Spouse,buy,500K–1M,N/A
+Richard Blumenthal,Democrat,Senate,CT,CONSONANCE CONCORD CF LP,N/A,15 Dec 2025,3 Nov 2025,38,Spouse,buy,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,15 Dec 2025,3 Nov 2025,38,Spouse,sell,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH FOUR WINDS LLC,N/A,15 Dec 2025,3 Nov 2025,38,Spouse,buy,500K–1M,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH FOUR WINDS LLC,N/A,15 Dec 2025,3 Nov 2025,38,Spouse,buy,100K–250K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH FOUR WINDS LLC,N/A,15 Dec 2025,3 Nov 2025,38,Spouse,buy,250K–500K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH FOUR WINDS LLC,N/A,15 Dec 2025,3 Nov 2025,38,Spouse,buy,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH FOUR WINDS LLC,N/A,15 Dec 2025,3 Nov 2025,38,Spouse,buy,15K–50K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH FOUR WINDS LLC,N/A,15 Dec 2025,3 Nov 2025,38,Spouse,buy,100K–250K,N/A
+Dave McCormick,Republican,Senate,PA,HEMPFIELD PA AREA SCHOOL DIST,N/A,27 Nov 2025,3 Nov 2025,23,Self,buy,250K–500K,N/A
+Markwayne Mullin,Republican,Senate,OK,Fiserv Inc,FISV:US,21 Nov 2025,2 Nov 2025,18,Joint,sell,15K–50K,$65.14
+Markwayne Mullin,Republican,Senate,OK,Chipotle Mexican Grill Inc,CMG:US,21 Nov 2025,2 Nov 2025,18,Joint,sell,15K–50K,$31.51
+Markwayne Mullin,Republican,Senate,OK,Microsoft Corp,MSFT:US,21 Nov 2025,2 Nov 2025,18,Joint,buy,250K–500K,$517.03
+Markwayne Mullin,Republican,Senate,OK,Berkshire Hathaway Inc,BRK/B:US,21 Nov 2025,2 Nov 2025,18,Joint,sell,15K–50K,$475.68
+Markwayne Mullin,Republican,Senate,OK,T-Mobile US Inc,TMUS:US,21 Nov 2025,2 Nov 2025,18,Joint,sell,50K–100K,$203.32
+John Boozman,Republican,Senate,AR,Managed Portfolio Series Tortoise North American Pipeline Fund,TPYP:US,15 Nov 2025,2 Nov 2025,12,Joint,sell,1K–15K,$34.39
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,1 Dec 2025,30 Oct 2025,31,Spouse,sell,15K–50K,N/A
+Richard Blumenthal,Democrat,Senate,CT,NOT FADE AWAY LLC,N/A,1 Dec 2025,30 Oct 2025,31,Spouse,buy,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,1 Dec 2025,30 Oct 2025,31,Spouse,sell,100K–250K,N/A
+Richard Blumenthal,Democrat,Senate,CT,NOT FADE AWAY LLC,N/A,1 Dec 2025,30 Oct 2025,31,Spouse,buy,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,1 Dec 2025,30 Oct 2025,31,Spouse,sell,500K–1M,N/A
+Richard Blumenthal,Democrat,Senate,CT,NOT FADE AWAY LLC,N/A,1 Dec 2025,30 Oct 2025,31,Spouse,buy,15K–50K,N/A
+Dave McCormick,Republican,Senate,PA,GREATER LATROBE SCH AUTH,N/A,27 Nov 2025,30 Oct 2025,27,Spouse,buy,100K–250K,N/A
+Dave McCormick,Republican,Senate,PA,DANIEL BOONE AREA SCH DIST,N/A,27 Nov 2025,30 Oct 2025,27,Spouse,sell,50K–100K,N/A
+Dave McCormick,Republican,Senate,PA,TOWNSHIP OF DERRY DAUPHIN COUNTY PENNSYLVANIA,N/A,27 Nov 2025,30 Oct 2025,27,Spouse,sell,1K–15K,N/A
+Dave McCormick,Republican,Senate,PA,SALISBURY TOWNSHIP SCHOOL DISTRICT LEHIGH COUNTY PENNSYLVANIA,N/A,27 Nov 2025,30 Oct 2025,27,Spouse,sell,15K–50K,N/A
+John Boozman,Republican,Senate,AR,Meta Platforms Inc,META:US,15 Nov 2025,30 Oct 2025,15,Joint,buy,1K–15K,$648.35
+John Boozman,Republican,Senate,AR,Omnicom Group Inc,OMC:US,15 Nov 2025,30 Oct 2025,15,Joint,sell,1K–15K,$75.02
+Bernie Moreno,Republican,Senate,OH,BITCOIN,$BTC,3 Nov 2025,30 Oct 2025,3,Self,sell,1K–15K,$109556.00
+Dave McCormick,Republican,Senate,PA,PHILADELPHIA WATER DEPARTMENT,N/A,27 Nov 2025,28 Oct 2025,29,Spouse,buy,100K–250K,N/A
+Shelley Moore Capito,Republican,Senate,WV,Citigroup Inc,C:US,4 Nov 2025,28 Oct 2025,6,Spouse,sell,1K–15K,$99.12
+Shelley Moore Capito,Republican,Senate,WV,International Business Machines Corp,IBM:US,4 Nov 2025,28 Oct 2025,6,Spouse,sell,15K–50K,$308.21
+Shelley Moore Capito,Republican,Senate,WV,Microsoft Corp,MSFT:US,4 Nov 2025,28 Oct 2025,6,Spouse,sell,15K–50K,$541.55
+Dave McCormick,Republican,Senate,PA,UNIVERSITY OF PITTSBURGH,N/A,27 Nov 2025,27 Oct 2025,30,Spouse,sell,50K–100K,N/A
+Dave McCormick,Republican,Senate,PA,UPPER MERION AREA SCHOOL DISTRICT MONTGOMERY COUNTY PENNSYLVANIA,N/A,27 Nov 2025,27 Oct 2025,30,Spouse,sell,15K–50K,N/A
+Dave McCormick,Republican,Senate,PA,SCHOOL DISTRICT OF HAVERFORD TOWNSHIP DELAWARE COUNTY PENNSYLVANIA,N/A,27 Nov 2025,27 Oct 2025,30,Spouse,sell,15K–50K,N/A
+Dave McCormick,Republican,Senate,PA,DELAWARE RIVER PORT AUTHORITY,N/A,27 Nov 2025,27 Oct 2025,30,Spouse,sell,100K–250K,N/A
+Dave McCormick,Republican,Senate,PA,DEPARTMENT OF STATE PENNSYLVANIA,N/A,27 Nov 2025,27 Oct 2025,30,Spouse,sell,100K–250K,N/A
+Dave McCormick,Republican,Senate,PA,PENNSYLVANIA HIGHER EDUCATIONAL FACILITIES AUTHORITY,N/A,27 Nov 2025,27 Oct 2025,30,Spouse,buy,100K–250K,N/A
+Sheldon Whitehouse,Democrat,Senate,RI,The Progressive Corp,PGR:US,3 Nov 2025,26 Oct 2025,7,Spouse,sell,15K–50K,$216.59
+Dave McCormick,Republican,Senate,PA,NESHAMINY SCHOOL DISTRICT BUCK COUNTY PENNSYLVANIA,N/A,7 Nov 2025,23 Oct 2025,14,Spouse,sell,50K–100K,N/A
+Dave McCormick,Republican,Senate,PA,CITY OF EASTON NORTHAMPTON COUNTY PENNSYLVANIA,N/A,7 Nov 2025,23 Oct 2025,14,Spouse,buy,100K–250K,N/A
+Shelley Moore Capito,Republican,Senate,WV,Eli Lilly and Co,LLY:US,4 Nov 2025,23 Oct 2025,11,Spouse,buy,1K–15K,$825.45
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,1 Dec 2025,22 Oct 2025,39,Spouse,buy,15K–50K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,1 Dec 2025,22 Oct 2025,39,Spouse,buy,50K–100K,N/A
+Dave McCormick,Republican,Senate,PA,DEPARTMENT OF STATE PENNSYLVANIA,N/A,7 Nov 2025,22 Oct 2025,15,Spouse,buy,100K–250K,N/A
+Shelley Moore Capito,Republican,Senate,WV,Microsoft Corp,MSFT:US,4 Nov 2025,21 Oct 2025,13,Spouse,sell,1K–15K,$520.54
+Bernie Moreno,Republican,Senate,OH,GS FINANCE CORP,N/A,3 Nov 2025,21 Oct 2025,12,Self,buy,1K–15K,N/A
+Dave McCormick,Republican,Senate,PA,CITY OF CLARKSVILLE,N/A,7 Nov 2025,20 Oct 2025,17,Spouse,buy,100K–250K,N/A
+Dave McCormick,Republican,Senate,PA,WASHINGTON KING COUNTY,N/A,7 Nov 2025,20 Oct 2025,17,Spouse,buy,100K–250K,N/A
+Shelley Moore Capito,Republican,Senate,WV,Lowe's Cos Inc,LOW:US,4 Nov 2025,20 Oct 2025,14,Spouse,sell,1K–15K,$245.27
+Shelley Moore Capito,Republican,Senate,WV,Paychex Inc,PAYX:US,4 Nov 2025,20 Oct 2025,14,Spouse,sell,1K–15K,$127.54
+Dave McCormick,Republican,Senate,PA,DEPARTMENT OF STATE PENNSYLVANIA,N/A,7 Nov 2025,19 Oct 2025,18,Spouse,sell,15K–50K,N/A
+Dave McCormick,Republican,Senate,PA,WHITEHALL TWP-PENNSYLVANIA,N/A,7 Nov 2025,19 Oct 2025,18,Spouse,sell,15K–50K,N/A
+Dave McCormick,Republican,Senate,PA,DEPARTMENT OF STATE PENNSYLVANIA,N/A,7 Nov 2025,19 Oct 2025,18,Spouse,sell,50K–100K,N/A
+Dave McCormick,Republican,Senate,PA,DEPARTMENT OF STATE PENNSYLVANIA,N/A,7 Nov 2025,19 Oct 2025,18,Spouse,sell,100K–250K,N/A
+Shelley Moore Capito,Republican,Senate,WV,Lowe's Cos Inc,LOW:US,4 Nov 2025,19 Oct 2025,15,Spouse,sell,1K–15K,$242.27
+Sheldon Whitehouse,Democrat,Senate,RI,NVIDIA Corporation,NVDA:US,3 Nov 2025,19 Oct 2025,14,Self,sell,15K–50K,$182.64
+Richard Blumenthal,Democrat,Senate,CT,KIRKOSWALD GLOBAL MACRO FUND LP,N/A,1 Dec 2025,16 Oct 2025,45,Spouse,sell,15K–50K,N/A
+Richard Blumenthal,Democrat,Senate,CT,KIRKOSWALD GLOBAL MACRO FUND LP,N/A,1 Dec 2025,16 Oct 2025,45,Spouse,sell,50K–100K,N/A
+Shelley Moore Capito,Republican,Senate,WV,Chevron Corp,CVX:US,4 Nov 2025,16 Oct 2025,18,Spouse,sell,1K–15K,$153.08
+Shelley Moore Capito,Republican,Senate,WV,Costco Wholesale Corp,COST:US,4 Nov 2025,16 Oct 2025,18,Spouse,sell,1K–15K,$936.33
+Dave McCormick,Republican,Senate,PA,DEPARTMENT OF STATE PENNSYLVANIA,N/A,7 Nov 2025,15 Oct 2025,22,Spouse,buy,100K–250K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,18 Nov 2025,13 Oct 2025,34,Spouse,sell,15K–50K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,18 Nov 2025,13 Oct 2025,34,Spouse,sell,50K–100K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,18 Nov 2025,13 Oct 2025,34,Spouse,sell,50K–100K,N/A
+Dave McCormick,Republican,Senate,PA,STATE OF NEVADA,N/A,7 Nov 2025,13 Oct 2025,24,Spouse,buy,50K–100K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,18 Nov 2025,8 Oct 2025,39,Spouse,buy,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,18 Nov 2025,8 Oct 2025,39,Spouse,buy,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,18 Nov 2025,8 Oct 2025,39,Spouse,buy,15K–50K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,18 Nov 2025,8 Oct 2025,39,Spouse,buy,50K–100K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,18 Nov 2025,8 Oct 2025,39,Spouse,buy,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,18 Nov 2025,8 Oct 2025,39,Spouse,buy,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,18 Nov 2025,8 Oct 2025,39,Spouse,buy,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,18 Nov 2025,8 Oct 2025,39,Spouse,buy,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,18 Nov 2025,8 Oct 2025,39,Spouse,buy,1K–15K,N/A
+John Boozman,Republican,Senate,AR,Costco Wholesale Corp,COST:US,15 Nov 2025,8 Oct 2025,37,Joint,buy,1K–15K,$942.89
+John Boozman,Republican,Senate,AR,Colgate-Palmolive Co,CL:US,15 Nov 2025,8 Oct 2025,37,Joint,sell,1K–15K,$77.81
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,18 Nov 2025,7 Oct 2025,40,Spouse,sell,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,18 Nov 2025,7 Oct 2025,40,Spouse,sell,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,18 Nov 2025,7 Oct 2025,40,Spouse,sell,100K–250K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,18 Nov 2025,7 Oct 2025,40,Spouse,sell,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,18 Nov 2025,7 Oct 2025,40,Spouse,sell,15K–50K,N/A
+Dave McCormick,Republican,Senate,PA,DEPARTMENT OF STATE PENNSYLVANIA,N/A,7 Nov 2025,7 Oct 2025,30,Spouse,buy,100K–250K,N/A
+Gary Peters,Democrat,Senate,MI,Organon & Co,OGN:US,24 Nov 2025,6 Oct 2025,48,Self,sell,1K–15K,$10.60
+Tommy Tuberville,Republican,Senate,AL,CITY OF BIRMINGHAM ALABAMA,N/A,15 Nov 2025,6 Oct 2025,39,Joint,sell,15K–50K,N/A
+Tommy Tuberville,Republican,Senate,AL,Oracle Corp,ORCL:US,15 Nov 2025,6 Oct 2025,39,Joint,sell,15K–50K,$284.24
+Tommy Tuberville,Republican,Senate,AL,Alphabet Inc,GOOGL:US,15 Nov 2025,6 Oct 2025,39,Joint,sell,15K–50K,$245.76
+Tommy Tuberville,Republican,Senate,AL,Apple Inc,AAPL:US,15 Nov 2025,6 Oct 2025,39,Joint,sell,15K–50K,$256.48
+Tommy Tuberville,Republican,Senate,AL,Microsoft Corp,MSFT:US,15 Nov 2025,6 Oct 2025,39,Joint,sell,15K–50K,$523.98
+Tommy Tuberville,Republican,Senate,AL,Owens Corning,OC:US,15 Nov 2025,6 Oct 2025,39,Joint,sell,15K–50K,$133.38
+Tommy Tuberville,Republican,Senate,AL,PepsiCo Inc,PEP:US,15 Nov 2025,6 Oct 2025,39,Joint,sell,15K–50K,$140.79
+John Boozman,Republican,Senate,AR,FIRST TR GLOBAL TACTICAL CMD,FTGC:US,15 Nov 2025,2 Oct 2025,43,Joint,buy,1K–15K,$25.91
+John Boozman,Republican,Senate,AR,FT EGY PARTNER ENHANCED ETF,EIPI:US,15 Nov 2025,2 Oct 2025,43,Joint,buy,15K–50K,$19.83
+John Boozman,Republican,Senate,AR,SPROTT URANIUM MINERS ETF,URNM:US,15 Nov 2025,2 Oct 2025,43,Joint,sell,1K–15K,$59.70
+John Boozman,Republican,Senate,AR,SPROTT LITHIUM MINERS ETF (LITP),N/A,15 Nov 2025,2 Oct 2025,43,Joint,sell,1K–15K,N/A
+John Boozman,Republican,Senate,AR,iShares Silver Trust,SLV:US,15 Nov 2025,2 Oct 2025,43,Joint,sell,1K–15K,$43.52
+John Boozman,Republican,Senate,AR,First Trust North American Energy Infrastructure Fund,EMLP:US,15 Nov 2025,2 Oct 2025,43,Joint,sell,15K–50K,$38.27
+John Boozman,Republican,Senate,AR,Iqvia Holdings Inc,IQV:US,15 Nov 2025,1 Oct 2025,44,Joint,sell,1K–15K,$204.34
+Rick Scott,Republican,Senate,FL,NORTH TEXAS TOLLWAY AUTHORITY,N/A,30 Oct 2025,1 Oct 2025,28,Spouse,buy,100K–250K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,27 Oct 2025,30 Sept 2025,23,Spouse,buy,15K–50K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,27 Oct 2025,30 Sept 2025,23,Spouse,buy,50K–100K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,27 Oct 2025,30 Sept 2025,23,Spouse,buy,250K–500K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,27 Oct 2025,30 Sept 2025,23,Spouse,buy,500K–1M,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,27 Oct 2025,30 Sept 2025,23,Spouse,buy,50K–100K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,27 Oct 2025,30 Sept 2025,23,Spouse,buy,100K–250K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,27 Oct 2025,30 Sept 2025,23,Spouse,buy,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,27 Oct 2025,29 Sept 2025,24,Spouse,sell,15K–50K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,27 Oct 2025,29 Sept 2025,24,Spouse,sell,15K–50K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,27 Oct 2025,29 Sept 2025,24,Spouse,sell,100K–250K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,27 Oct 2025,29 Sept 2025,24,Spouse,sell,250K–500K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,27 Oct 2025,29 Sept 2025,24,Spouse,sell,50K–100K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,27 Oct 2025,29 Sept 2025,24,Spouse,sell,50K–100K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,27 Oct 2025,29 Sept 2025,24,Spouse,sell,1K–15K,N/A
+Susan Collins,Republican,Senate,ME,MAINE MUNICIPAL BOND BANK,N/A,12 Oct 2025,29 Sept 2025,11,Spouse,buy,15K–50K,N/A
+Lindsey Graham,Republican,Senate,SC,US TREASURY BILLS,N/A,3 Oct 2025,29 Sept 2025,3,Self,buy,50K–100K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,27 Oct 2025,23 Sept 2025,30,Spouse,sell,15K–50K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,27 Oct 2025,23 Sept 2025,30,Spouse,sell,15K–50K,N/A
+Markwayne Mullin,Republican,Senate,OK,Adobe Inc,ADBE:US,1 Oct 2025,23 Sept 2025,7,Joint,sell,15K–50K,$353.27
+Markwayne Mullin,Republican,Senate,OK,Unitedhealth Group Inc,UNH:US,1 Oct 2025,23 Sept 2025,7,Joint,buy,15K–50K,$351.81
+Markwayne Mullin,Republican,Senate,OK,ServiceNow Inc,NOW:US,1 Oct 2025,23 Sept 2025,7,Joint,buy,1K–15K,$933.37
+Markwayne Mullin,Republican,Senate,OK,Intuit Inc,INTU:US,1 Oct 2025,23 Sept 2025,7,Joint,buy,15K–50K,$694.79
+Markwayne Mullin,Republican,Senate,OK,Accenture PLC,ACN:US,1 Oct 2025,23 Sept 2025,7,Joint,sell,15K–50K,$239.08
+Markwayne Mullin,Republican,Senate,OK,Intuitive Surgical Inc,ISRG:US,1 Oct 2025,23 Sept 2025,7,Joint,buy,50K–100K,$443.99
+Markwayne Mullin,Republican,Senate,OK,Texas Instruments Inc,TXN:US,1 Oct 2025,23 Sept 2025,7,Joint,sell,15K–50K,$184.44
+Markwayne Mullin,Republican,Senate,OK,ISHARES US HEALTHCARE PRVDRS,N/A,1 Oct 2025,23 Sept 2025,7,Joint,sell,15K–50K,N/A
+Jerry Moran,Republican,Senate,KS,Alphabet Inc,GOOGL:US,27 Oct 2025,22 Sept 2025,34,Self,sell,1K–15K,$252.34
+Jerry Moran,Republican,Senate,KS,Berkshire Hathaway Inc,BRK/B:US,27 Oct 2025,22 Sept 2025,34,Self,buy,1K–15K,$494.10
+Jerry Moran,Republican,Senate,KS,Alphabet Inc,GOOGL:US,27 Oct 2025,22 Sept 2025,34,Spouse,sell,1K–15K,$252.34
+Markwayne Mullin,Republican,Senate,OK,Westinghouse Air Brake Technologies Corp,WAB:US,1 Oct 2025,22 Sept 2025,8,Self,sell,15K–50K,$194.51
+Markwayne Mullin,Republican,Senate,OK,Westinghouse Air Brake Technologies Corp,WAB:US,1 Oct 2025,22 Sept 2025,8,Joint,sell,1K–15K,$194.51
+Markwayne Mullin,Republican,Senate,OK,Westinghouse Air Brake Technologies Corp,WAB:US,1 Oct 2025,22 Sept 2025,8,Spouse,sell,15K–50K,$194.51
+Adam Schiff,Democrat,Senate,CA,Apple Inc,AAPL:US,30 Sept 2025,21 Sept 2025,8,Spouse,sell,15K–50K,$256.08
+John Fetterman,Democrat,Senate,PA,Elevance Health Inc,ELV:US,7 Oct 2025,18 Sept 2025,18,Child,sell,1K–15K,N/A
+Shelley Moore Capito,Republican,Senate,WV,Apple Inc,AAPL:US,5 Oct 2025,17 Sept 2025,17,Spouse,sell,15K–50K,$237.88
+Shelley Moore Capito,Republican,Senate,WV,Microsoft Corp,MSFT:US,5 Oct 2025,17 Sept 2025,17,Spouse,sell,15K–50K,$508.45
+John Boozman,Republican,Senate,AR,Micron Technology Inc,MU:US,10 Oct 2025,16 Sept 2025,23,Joint,sell,1K–15K,$159.99
+John Boozman,Republican,Senate,AR,Alphabet Inc,GOOGL:US,10 Oct 2025,16 Sept 2025,23,Joint,buy,15K–50K,$249.53
+John Boozman,Republican,Senate,AR,Goldman Sachs Access Investment Grade Corporate Bond ETF,GIGB:US,10 Oct 2025,15 Sept 2025,24,Joint,sell,1K–15K,$46.94
+John Boozman,Republican,Senate,AR,Goldman Sachs AccessTreasury 0-1 Year ETF,GBIL:US,10 Oct 2025,15 Sept 2025,24,Joint,sell,1K–15K,$100.10
+John Boozman,Republican,Senate,AR,iShares Agency Bond ETF,AGZ:US,10 Oct 2025,15 Sept 2025,24,Joint,sell,1K–15K,$110.41
+John Boozman,Republican,Senate,AR,iShares MBS ETF,MBB:US,10 Oct 2025,15 Sept 2025,24,Joint,sell,1K–15K,$95.69
+John Boozman,Republican,Senate,AR,iShares Trust iShares 20 Year Treasury Bond ETF,TLT:US,10 Oct 2025,15 Sept 2025,24,Joint,sell,15K–50K,$90.35
+John Boozman,Republican,Senate,AR,iShares CMBS ETF,CMBS:US,10 Oct 2025,15 Sept 2025,24,Joint,sell,1K–15K,$49.17
+John Boozman,Republican,Senate,AR,Janus Henderson Mortgage-Backed Securities ETF,JMBS:US,10 Oct 2025,15 Sept 2025,24,Joint,sell,1K–15K,$45.92
+John Boozman,Republican,Senate,AR,iShares 3-7 Year Treasury Bond ETF,IEI:US,10 Oct 2025,15 Sept 2025,24,Joint,buy,15K–50K,$120.06
+John Boozman,Republican,Senate,AR,iShares 1-3 Year Treasury Bond ETF,SHY:US,10 Oct 2025,15 Sept 2025,24,Joint,buy,1K–15K,$83.00
+John Boozman,Republican,Senate,AR,iShares 7-10 Year Treasury Bond ETF,IEF:US,10 Oct 2025,15 Sept 2025,24,Joint,buy,15K–50K,$97.20
+John Boozman,Republican,Senate,AR,Schwab US TIPS ETF,SCHP:US,10 Oct 2025,15 Sept 2025,24,Joint,buy,1K–15K,$27.10
+Dave McCormick,Republican,Senate,PA,COUNTY OF MONTGOMERY PENNSYLVANIA,N/A,10 Oct 2025,11 Sept 2025,28,Spouse,buy,100K–250K,N/A
+John Boozman,Republican,Senate,AR,Oracle Corp,ORCL:US,10 Oct 2025,11 Sept 2025,28,Joint,sell,1K–15K,$292.18
+John Boozman,Republican,Senate,AR,Eaton Corp PLC,ETN:US,10 Oct 2025,11 Sept 2025,28,Joint,buy,1K–15K,$365.90
+Rick Scott,Republican,Senate,FL,DALLAS FORT WORTH INTERNATIONAL AIRPORT,N/A,18 Sept 2025,10 Sept 2025,7,Spouse,buy,250K–500K,N/A
+Dave McCormick,Republican,Senate,PA,Hilton Worldwide Holdings Inc,HLT:US,10 Oct 2025,9 Sept 2025,30,Self,sell,250K–500K,N/A
+Dave McCormick,Republican,Senate,PA,CENTRAL BUCKS SCHOOL DISTRICT BUCKS COUNTY PENNSYLVANIA,N/A,10 Oct 2025,9 Sept 2025,30,Self,sell,250K–500K,N/A
+John Fetterman,Democrat,Senate,PA,ARES CAPITAL CORPORATION,ARCC:US,7 Oct 2025,8 Sept 2025,28,Child,buy,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,NOT FADE AWAY LLC,N/A,25 Sept 2025,8 Sept 2025,15,Spouse,buy,15K–50K,N/A
+Richard Blumenthal,Democrat,Senate,CT,NOT FADE AWAY LLC,N/A,25 Sept 2025,8 Sept 2025,15,Spouse,buy,50K–100K,N/A
+Richard Blumenthal,Democrat,Senate,CT,NOT FADE AWAY LLC,N/A,25 Sept 2025,8 Sept 2025,15,Spouse,buy,500K–1M,N/A
+Richard Blumenthal,Democrat,Senate,CT,NOT FADE AWAY LLC,N/A,25 Sept 2025,8 Sept 2025,15,Spouse,buy,250K–500K,N/A
+Richard Blumenthal,Democrat,Senate,CT,NOT FADE AWAY LLC,N/A,25 Sept 2025,8 Sept 2025,15,Spouse,buy,50K–100K,N/A
+Richard Blumenthal,Democrat,Senate,CT,NOT FADE AWAY LLC,N/A,25 Sept 2025,8 Sept 2025,15,Spouse,buy,100K–250K,N/A
+Richard Blumenthal,Democrat,Senate,CT,NOT FADE AWAY LLC,N/A,25 Sept 2025,8 Sept 2025,15,Spouse,buy,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,NOT FADE AWAY LLC,N/A,25 Sept 2025,8 Sept 2025,15,Spouse,buy,15K–50K,N/A
+Richard Blumenthal,Democrat,Senate,CT,NOT FADE AWAY LLC,N/A,25 Sept 2025,8 Sept 2025,15,Spouse,buy,50K–100K,N/A
+Rick Scott,Republican,Senate,FL,METROPOLITAN WATER RECLAMATION DISTRICT OF GREATER CHICAGO,N/A,18 Sept 2025,8 Sept 2025,9,Self,buy,500K–1M,N/A
+Markwayne Mullin,Republican,Senate,OK,STATE OF MASSACHUSETTS,N/A,17 Sept 2025,8 Sept 2025,8,Joint,buy,50K–100K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,25 Sept 2025,7 Sept 2025,16,Spouse,sell,15K–50K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,25 Sept 2025,7 Sept 2025,16,Spouse,sell,50K–100K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,25 Sept 2025,7 Sept 2025,16,Spouse,sell,500K–1M,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,25 Sept 2025,7 Sept 2025,16,Spouse,sell,250K–500K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,25 Sept 2025,7 Sept 2025,16,Spouse,sell,50K–100K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,25 Sept 2025,7 Sept 2025,16,Spouse,sell,100K–250K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,25 Sept 2025,7 Sept 2025,16,Spouse,sell,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,25 Sept 2025,7 Sept 2025,16,Spouse,sell,15K–50K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,25 Sept 2025,7 Sept 2025,16,Spouse,sell,50K–100K,N/A
+John Boozman,Republican,Senate,AR,Adobe Inc,ADBE:US,10 Oct 2025,3 Sept 2025,36,Joint,buy,1K–15K,$344.31
+John Fetterman,Democrat,Senate,PA,ARES CAPITAL CORPORATION,ARCC:US,7 Oct 2025,3 Sept 2025,33,Child,sell,1K–15K,N/A
+Sheldon Whitehouse,Democrat,Senate,RI,Microsoft Corp,MSFT:US,3 Oct 2025,3 Sept 2025,29,Self,sell,15K–50K,$507.97
+Sheldon Whitehouse,Democrat,Senate,RI,Apple Inc,AAPL:US,3 Oct 2025,3 Sept 2025,29,Self,sell,15K–50K,$239.78
+Sheldon Whitehouse,Democrat,Senate,RI,Amgen Inc,AMGN:US,3 Oct 2025,3 Sept 2025,29,Self,sell,1K–15K,$280.10
+Sheldon Whitehouse,Democrat,Senate,RI,RHODE ISLAND INFRASTRUCTURE BANK,N/A,3 Oct 2025,3 Sept 2025,29,Self,sell,15K–50K,N/A
+Sheldon Whitehouse,Democrat,Senate,RI,Honeywell International Inc,HON:US,3 Oct 2025,3 Sept 2025,29,Self,sell,15K–50K,$215.16
+Sheldon Whitehouse,Democrat,Senate,RI,NVIDIA Corporation,NVDA:US,3 Oct 2025,3 Sept 2025,29,Self,sell,15K–50K,$171.66
+Sheldon Whitehouse,Democrat,Senate,RI,Verizon Communications Inc,VZ:US,3 Oct 2025,3 Sept 2025,29,Self,sell,1K–15K,$44.18
+Sheldon Whitehouse,Democrat,Senate,RI,Unitedhealth Group Inc,UNH:US,3 Oct 2025,3 Sept 2025,29,Self,sell,15K–50K,$310.38
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,25 Sept 2025,2 Sept 2025,21,Spouse,buy,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,25 Sept 2025,2 Sept 2025,21,Spouse,buy,15K–50K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,25 Sept 2025,2 Sept 2025,21,Spouse,buy,100K–250K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,25 Sept 2025,2 Sept 2025,21,Spouse,buy,100K–250K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,25 Sept 2025,2 Sept 2025,21,Spouse,buy,15K–50K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,25 Sept 2025,2 Sept 2025,21,Spouse,buy,50K–100K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,25 Sept 2025,2 Sept 2025,21,Spouse,buy,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,25 Sept 2025,2 Sept 2025,21,Spouse,buy,15K–50K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,25 Sept 2025,2 Sept 2025,21,Spouse,buy,15K–50K,N/A
+John Hickenlooper,Democrat,Senate,CO,Palo Alto Networks Inc,PANW:US,6 Oct 2025,1 Sept 2025,34,Self,buy,100K–250K,$190.52
+John Hickenlooper,Democrat,Senate,CO,PepsiCo Inc,PEP:US,6 Oct 2025,1 Sept 2025,34,Self,sell,100K–250K,$150.28
+John Hickenlooper,Democrat,Senate,CO,Intuit Inc,INTU:US,6 Oct 2025,1 Sept 2025,34,Self,buy,100K–250K,$661.99
+Richard Blumenthal,Democrat,Senate,CT,BRAZIL GOVERNMENT BONDS,N/A,25 Sept 2025,31 Aug 2025,23,Spouse,buy,250K–500K,N/A
+Mitch McConnell,Republican,Senate,KY,Wells Fargo & Co,WFC:US,12 Sept 2025,31 Aug 2025,11,Spouse,buy,1K–15K,N/A
+James Justice II,Republican,Senate,WV,PEOPLES BANCORP INC/DE,PEBO:US,10 Oct 2025,27 Aug 2025,43,Self,sell,250K–500K,N/A
+Sheldon Whitehouse,Democrat,Senate,RI,Danaher Corp,DHR:US,3 Sept 2025,27 Aug 2025,6,Self,sell,1K–15K,$205.29
+Sheldon Whitehouse,Democrat,Senate,RI,KENVUE INC,KVUE:US,3 Sept 2025,27 Aug 2025,6,Spouse,sell,1K–15K,$20.54
+Sheldon Whitehouse,Democrat,Senate,RI,Lam Research Corp,LRCX:US,3 Sept 2025,27 Aug 2025,6,Spouse,sell,15K–50K,$104.09
+Sheldon Whitehouse,Democrat,Senate,RI,Unitedhealth Group Inc,UNH:US,3 Sept 2025,27 Aug 2025,6,Spouse,sell,15K–50K,$302.29
+Dave McCormick,Republican,Senate,PA,TREDYFFRIN EASTTOWN SCHOOL DISTRICT,N/A,1 Sept 2025,27 Aug 2025,4,Self,buy,100K–250K,N/A
+Dave McCormick,Republican,Senate,PA,PITTSBURGH WATER AND SEWER AUTHORITY,N/A,1 Sept 2025,27 Aug 2025,4,Self,buy,100K–250K,N/A
+John Fetterman,Democrat,Senate,PA,VENUS INDEPENDENT SCHOOL DISTRICT,N/A,4 Sept 2025,26 Aug 2025,8,Child,buy,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,25 Sept 2025,25 Aug 2025,29,Spouse,sell,100K–250K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,25 Sept 2025,25 Aug 2025,29,Spouse,buy,100K–250K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,25 Sept 2025,25 Aug 2025,29,Spouse,sell,250K–500K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,25 Sept 2025,25 Aug 2025,29,Spouse,buy,100K–250K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,25 Sept 2025,25 Aug 2025,29,Spouse,sell,1M–5M,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,25 Sept 2025,25 Aug 2025,29,Spouse,buy,1M–5M,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,25 Sept 2025,25 Aug 2025,29,Spouse,sell,1M–5M,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,25 Sept 2025,25 Aug 2025,29,Spouse,buy,1M–5M,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,25 Sept 2025,25 Aug 2025,29,Spouse,sell,250K–500K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,25 Sept 2025,25 Aug 2025,29,Spouse,buy,250K–500K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,25 Sept 2025,25 Aug 2025,29,Spouse,sell,500K–1M,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,25 Sept 2025,25 Aug 2025,29,Spouse,buy,500K–1M,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,25 Sept 2025,25 Aug 2025,29,Spouse,sell,15K–50K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,25 Sept 2025,25 Aug 2025,29,Spouse,buy,15K–50K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,25 Sept 2025,25 Aug 2025,29,Spouse,sell,100K–250K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,25 Sept 2025,25 Aug 2025,29,Spouse,buy,100K–250K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,25 Sept 2025,25 Aug 2025,29,Spouse,sell,250K–500K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,25 Sept 2025,25 Aug 2025,29,Spouse,buy,250K–500K,N/A
+John Fetterman,Democrat,Senate,PA,Dell Technologies Inc,DELL:US,4 Sept 2025,25 Aug 2025,9,Child,sell,1K–15K,N/A
+John Fetterman,Democrat,Senate,PA,Leidos Holdings Inc,LDOS:US,4 Sept 2025,25 Aug 2025,9,Child,sell,1K–15K,N/A
+John Boozman,Republican,Senate,AR,Eli Lilly and Co,LLY:US,12 Sept 2025,21 Aug 2025,21,Joint,buy,1K–15K,$711.68
+John Boozman,Republican,Senate,AR,NVIDIA Corporation,NVDA:US,12 Sept 2025,21 Aug 2025,21,Joint,buy,1K–15K,$177.99
+John Boozman,Republican,Senate,AR,AbbVie Inc,ABBV:US,12 Sept 2025,21 Aug 2025,21,Joint,sell,1K–15K,$210.60
+John Boozman,Republican,Senate,AR,Micron Technology Inc,MU:US,12 Sept 2025,21 Aug 2025,21,Joint,sell,1K–15K,$117.68
+Richard Blumenthal,Democrat,Senate,CT,FALCON EDGE GLOBAL LP,N/A,12 Sept 2025,21 Aug 2025,21,Spouse,sell,15K–50K,N/A
+Richard Blumenthal,Democrat,Senate,CT,FALCON EDGE GLOBAL LP,N/A,12 Sept 2025,21 Aug 2025,21,Spouse,sell,1K–15K,N/A
+Rick Scott,Republican,Senate,FL,WASHINGTON COUNTY OREGON,N/A,18 Sept 2025,20 Aug 2025,28,Self,buy,500K–1M,N/A
+Dave McCormick,Republican,Senate,PA,UNIVERSITY OF PITTSBURGH,N/A,1 Sept 2025,19 Aug 2025,12,Spouse,buy,15K–50K,N/A
+Dave McCormick,Republican,Senate,PA,MONROE COUNTY HOSPITAL AUTHORITY,N/A,1 Sept 2025,18 Aug 2025,13,Spouse,buy,100K–250K,N/A
+Dave McCormick,Republican,Senate,PA,SCHOOL DISTRICT OF HAVERFORD TOWNSHIP DELAWARE COUNTY PENNSYLVANIA,N/A,1 Sept 2025,14 Aug 2025,17,Spouse,buy,15K–50K,N/A
+Dave McCormick,Republican,Senate,PA,PENNSYLVANIA TURNPIKE COMMISSION,N/A,1 Sept 2025,14 Aug 2025,17,Spouse,buy,15K–50K,N/A
+John Boozman,Republican,Senate,AR,NEW WORLD FUND INC,RNWGX:US,12 Sept 2025,13 Aug 2025,29,Joint,buy,15K–50K,N/A
+John Boozman,Republican,Senate,AR,VANECK EMERGING MARKETS FUND,EMRIX:US,12 Sept 2025,13 Aug 2025,29,Joint,sell,15K–50K,N/A
+Richard Blumenthal,Democrat,Senate,CT,iRhythm Technologies Inc,IRTC:US,12 Sept 2025,13 Aug 2025,29,Spouse,sell,1K–15K,$162.10
+Richard Blumenthal,Democrat,Senate,CT,SERA PROGNOSTICS INC,N/A,12 Sept 2025,13 Aug 2025,29,Spouse,sell,1K–15K,$2.25
+Richard Blumenthal,Democrat,Senate,CT,iRhythm Technologies Inc,IRTC:US,12 Sept 2025,13 Aug 2025,29,Spouse,sell,1K–15K,$162.10
+Richard Blumenthal,Democrat,Senate,CT,SERA PROGNOSTICS INC,N/A,12 Sept 2025,13 Aug 2025,29,Spouse,sell,1K–15K,$2.25
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,12 Sept 2025,13 Aug 2025,29,Spouse,sell,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,iRhythm Technologies Inc,IRTC:US,12 Sept 2025,13 Aug 2025,29,Spouse,sell,1K–15K,$162.10
+Richard Blumenthal,Democrat,Senate,CT,SERA PROGNOSTICS INC,N/A,12 Sept 2025,13 Aug 2025,29,Spouse,sell,1K–15K,$2.25
+Richard Blumenthal,Democrat,Senate,CT,iRhythm Technologies Inc,IRTC:US,12 Sept 2025,13 Aug 2025,29,Spouse,sell,1K–15K,$162.10
+Richard Blumenthal,Democrat,Senate,CT,SERA PROGNOSTICS INC,N/A,12 Sept 2025,13 Aug 2025,29,Spouse,sell,1K–15K,$2.25
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,12 Sept 2025,13 Aug 2025,29,Spouse,sell,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,iRhythm Technologies Inc,IRTC:US,12 Sept 2025,13 Aug 2025,29,Spouse,sell,1K–15K,$162.10
+John Boozman,Republican,Senate,AR,Eli Lilly and Co,LLY:US,12 Sept 2025,10 Aug 2025,32,Joint,buy,1K–15K,$635.22
+John Boozman,Republican,Senate,AR,AbbVie Inc,ABBV:US,12 Sept 2025,10 Aug 2025,32,Joint,sell,1K–15K,$198.64
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,12 Sept 2025,10 Aug 2025,32,Spouse,buy,1M–5M,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,12 Sept 2025,7 Aug 2025,35,Spouse,sell,500K–1M,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,12 Sept 2025,7 Aug 2025,35,Spouse,sell,500K–1M,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,12 Sept 2025,7 Aug 2025,35,Spouse,sell,1K–15K,N/A
+John Boozman,Republican,Senate,AR,Advanced Micro Devices Inc,AMD:US,12 Sept 2025,6 Aug 2025,36,Joint,buy,1K–15K,$172.40
+John Boozman,Republican,Senate,AR,NEW WORLD FUND INC,RNWGX:US,12 Sept 2025,6 Aug 2025,36,Joint,buy,15K–50K,N/A
+John Boozman,Republican,Senate,AR,VANECK EMERGING MARKETS FUND,EMRIX:US,12 Sept 2025,6 Aug 2025,36,Joint,sell,15K–50K,N/A
+Shelley Moore Capito,Republican,Senate,WV,Blackrock Inc,BLK:US,3 Sept 2025,3 Aug 2025,30,Spouse,sell,1K–15K,$1116.06
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,6 May 2025,3 Apr 2025,32,Spouse,sell,100K–250K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH FOUR WINDS LLC,N/A,6 May 2025,3 Apr 2025,32,Spouse,buy,15K–50K,N/A
+Dave McCormick,Republican,Senate,PA,COMMONWEALTH OF PENNSYLVANIA,N/A,30 Apr 2025,3 Apr 2025,26,Spouse,buy,15K–50K,N/A
+Sheldon Whitehouse,Democrat,Senate,RI,Honeywell International Inc,HON:US,13 May 2025,2 Apr 2025,40,Spouse,sell,15K–50K,$206.68
+Dave McCormick,Republican,Senate,PA,BITWISE BITCOIN ETF,BITB:US,30 Apr 2025,2 Apr 2025,27,Self,buy,15K–50K,$44.59
+Dave McCormick,Republican,Senate,PA,ALTOONA AREA SCHOOL DISTRICT,N/A,30 Apr 2025,1 Apr 2025,28,Spouse,buy,15K–50K,N/A
+Dave McCormick,Republican,Senate,PA,COMMONWEALTH OF PENNSYLVANIA,N/A,30 Apr 2025,1 Apr 2025,28,Spouse,buy,1K–15K,N/A
+Dave McCormick,Republican,Senate,PA,SALISBURY TOWNSHIP SCHOOL DISTRICT LEHIGH COUNTY PENNSYLVANIA,N/A,30 Apr 2025,1 Apr 2025,28,Spouse,buy,15K–50K,N/A
+Dave McCormick,Republican,Senate,PA,CITY OF PITTSBURGH PENNSYLVANIA,N/A,30 Apr 2025,1 Apr 2025,28,Spouse,buy,15K–50K,N/A
+Dave McCormick,Republican,Senate,PA,Oracle Corp,ORCL:US,30 Apr 2025,1 Apr 2025,28,Self,sell,250K–500K,N/A
+Dave McCormick,Republican,Senate,PA,FOX CHAPEL AREA SCHOOL DISTRICT ALLEGHENY COUNTY PENNSYLVANIA,N/A,30 Apr 2025,1 Apr 2025,28,Self,buy,250K–500K,N/A
+Dave McCormick,Republican,Senate,PA,BITWISE BITCOIN ETF,BITB:US,30 Apr 2025,1 Apr 2025,28,Self,buy,15K–50K,$47.33
+Bernie Moreno,Republican,Senate,OH,JPMORGAN CHASE FINANCIAL COMPANY LLC,N/A,24 Apr 2025,1 Apr 2025,22,Self,buy,1K–15K,N/A
+Dave McCormick,Republican,Senate,PA,MERCER COUNTY,N/A,30 Apr 2025,31 Mar 2025,29,Self,buy,250K–500K,N/A
+Dave McCormick,Republican,Senate,PA,BITWISE BITCOIN ETF,BITB:US,30 Apr 2025,30 Mar 2025,30,Self,buy,15K–50K,$44.88
+Dave McCormick,Republican,Senate,PA,BITWISE BITCOIN ETF,BITB:US,23 Apr 2025,26 Mar 2025,27,Self,buy,50K–100K,$47.38
+Shelley Moore Capito,Republican,Senate,WV,Meta Platforms Inc,META:US,10 Apr 2025,25 Mar 2025,15,Spouse,buy,1K–15K,$610.98
+Shelley Moore Capito,Republican,Senate,WV,CONSTELLATION ENE CORP,CEG:US,10 Apr 2025,25 Mar 2025,15,Spouse,buy,1K–15K,$216.97
+Dave McCormick,Republican,Senate,PA,TOWNSHIP OF EAST HEMPFIELD PENNSYLVANIA,N/A,23 Apr 2025,24 Mar 2025,29,Self,buy,250K–500K,N/A
+Dave McCormick,Republican,Senate,PA,BITWISE BITCOIN ETF,BITB:US,23 Apr 2025,24 Mar 2025,29,Self,buy,50K–100K,$48.00
+Ashley Moody,Republican,Senate,FL,SUPER MICRO COMPUTER INC,SMCI:US,20 Apr 2025,24 Mar 2025,26,Self,sell,1K–15K,N/A
+Ashley Moody,Republican,Senate,FL,SUPER MICRO COMPUTER INC,SMCI:US,20 Apr 2025,24 Mar 2025,26,Self,sell,1K–15K,N/A
+Ashley Moody,Republican,Senate,FL,SUPER MICRO COMPUTER INC,SMCI:US,20 Apr 2025,24 Mar 2025,26,Self,sell,1K–15K,N/A
+Ashley Moody,Republican,Senate,FL,SUPER MICRO COMPUTER INC,SMCI:US,20 Apr 2025,24 Mar 2025,26,Self,sell,1K–15K,N/A
+Ashley Moody,Republican,Senate,FL,NVIDIA Corporation,NVDA:US,20 Apr 2025,24 Mar 2025,26,Self,sell,1K–15K,N/A
+Ashley Moody,Republican,Senate,FL,SUPER MICRO COMPUTER INC,SMCI:US,20 Apr 2025,24 Mar 2025,26,Self,buy,100K–250K,$40.64
+Dave McCormick,Republican,Senate,PA,PENNSYLVANIA TURNPIKE COMMISSION,N/A,23 Apr 2025,23 Mar 2025,30,Self,buy,100K–250K,N/A
+Dave McCormick,Republican,Senate,PA,BITWISE BITCOIN ETF,BITB:US,23 Apr 2025,23 Mar 2025,30,Self,buy,15K–50K,$48.04
+Ashley Moody,Republican,Senate,FL,SUPER MICRO COMPUTER INC,SMCI:US,20 Apr 2025,23 Mar 2025,27,Self,sell,15K–50K,$41.72
+Ashley Moody,Republican,Senate,FL,NVIDIA Corporation,NVDA:US,20 Apr 2025,20 Mar 2025,30,Self,buy,15K–50K,$117.70
+Ashley Moody,Republican,Senate,FL,NVIDIA Corporation,NVDA:US,20 Apr 2025,19 Mar 2025,31,Self,buy,100K–250K,$118.53
+Dave McCormick,Republican,Senate,PA,BITWISE BITCOIN ETF,BITB:US,30 Mar 2025,19 Mar 2025,9,Self,buy,50K–100K,$45.81
+John Boozman,Republican,Senate,AR,iShares S&P 500 Growth ETF,IVW:US,20 Apr 2025,18 Mar 2025,32,Joint,sell,1K–15K,$94.80
+John Boozman,Republican,Senate,AR,DTE Energy Co,DTE:US,20 Apr 2025,18 Mar 2025,32,Joint,sell,1K–15K,$136.17
+John Boozman,Republican,Senate,AR,INVESCO SHORT TERM TREAS ETF,TBLL:US,20 Apr 2025,18 Mar 2025,32,Joint,buy,1K–15K,$105.76
+John Boozman,Republican,Senate,AR,Applied Materials Inc,AMAT:US,20 Apr 2025,18 Mar 2025,32,Joint,buy,1K–15K,$154.46
+Markwayne Mullin,Republican,Senate,OK,Capital One Financial Corp,COF:US,13 Apr 2025,18 Mar 2025,25,Joint,buy,15K–50K,$172.60
+John Hickenlooper,Democrat,Senate,CO,Formula One Group - The Liberty Media Group,FWONK:US,21 Apr 2025,17 Mar 2025,34,Spouse,sell,50K–100K,$87.53
+Bernie Moreno,Republican,Senate,OH,MOBILE INFRASTRUCTURE CORP,N/A,30 Apr 2025,16 Mar 2025,44,Self,sell,15K–50K,N/A
+Dave McCormick,Republican,Senate,PA,BETHLEHEM AREA SCHOOL DISTRICT,N/A,30 Mar 2025,16 Mar 2025,12,Spouse,buy,100K–250K,N/A
+Dave McCormick,Republican,Senate,PA,CENTRAL DAUPHIN SCHOOL DISTRICT,N/A,30 Mar 2025,16 Mar 2025,12,Spouse,buy,1K–15K,N/A
+Dave McCormick,Republican,Senate,PA,PENNSYLVANIA ECONOMIC DEVELOPMENT FINANCING AUTHORITY,N/A,30 Mar 2025,12 Mar 2025,16,Self,buy,100K–250K,N/A
+Dave McCormick,Republican,Senate,PA,Paramount Global Inc,PSKY:US,30 Mar 2025,12 Mar 2025,16,Self,sell,250K–500K,N/A
+Dave McCormick,Republican,Senate,PA,General Mills Inc,GIS:US,30 Mar 2025,12 Mar 2025,16,Self,buy,250K–500K,N/A
+Dave McCormick,Republican,Senate,PA,BITWISE BITCOIN ETF,BITB:US,30 Mar 2025,12 Mar 2025,16,Self,buy,15K–50K,$43.61
+Dave McCormick,Republican,Senate,PA,BITWISE BITCOIN ETF,BITB:US,30 Mar 2025,10 Mar 2025,18,Self,buy,15K–50K,$45.21
+Dave McCormick,Republican,Senate,PA,BITWISE BITCOIN ETF,BITB:US,30 Mar 2025,9 Mar 2025,19,Self,buy,50K–100K,$42.99
+Richard Blumenthal,Democrat,Senate,CT,BRAZIL GOVERNMENT BONDS,N/A,9 Apr 2025,6 Mar 2025,31,Spouse,buy,250K–500K,N/A
+Ashley Moody,Republican,Senate,FL,Eli Lilly and Co,LLY:US,23 Mar 2025,5 Mar 2025,16,Self,buy,100K–250K,$912.76
+John Boozman,Republican,Senate,AR,INVESCO SHORT TERM TREAS ETF,TBLL:US,20 Apr 2025,4 Mar 2025,46,Joint,buy,1K–15K,$105.59
+Dave McCormick,Republican,Senate,PA,KB Home,KBH:US,30 Mar 2025,4 Mar 2025,24,Self,buy,250K–500K,N/A
+Dave McCormick,Republican,Senate,PA,BITWISE BITCOIN ETF,BITB:US,30 Mar 2025,4 Mar 2025,24,Self,buy,15K–50K,$49.25
+Dave McCormick,Republican,Senate,PA,DELAWARE RIVER PORT AUTHORITY,N/A,30 Mar 2025,3 Mar 2025,25,Spouse,buy,100K–250K,N/A
+Dave McCormick,Republican,Senate,PA,COMMONWEALTH OF PENNSYLVANIA,N/A,30 Mar 2025,3 Mar 2025,25,Spouse,buy,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,NOT FADE AWAY LLC,N/A,19 Mar 2025,3 Mar 2025,13,Spouse,buy,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,NOT FADE AWAY LLC,N/A,19 Mar 2025,3 Mar 2025,13,Spouse,buy,15K–50K,N/A
+Richard Blumenthal,Democrat,Senate,CT,NOT FADE AWAY LLC,N/A,19 Mar 2025,3 Mar 2025,13,Spouse,buy,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,NOT FADE AWAY LLC,N/A,19 Mar 2025,3 Mar 2025,13,Spouse,buy,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,NOT FADE AWAY LLC,N/A,19 Mar 2025,3 Mar 2025,13,Spouse,buy,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,NOT FADE AWAY LLC,N/A,19 Mar 2025,3 Mar 2025,13,Spouse,buy,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,NOT FADE AWAY LLC,N/A,19 Mar 2025,3 Mar 2025,13,Spouse,buy,1K–15K,N/A
+Dave McCormick,Republican,Senate,PA,BITWISE BITCOIN ETF,BITB:US,30 Mar 2025,2 Mar 2025,26,Self,buy,50K–100K,$46.79
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,19 Mar 2025,2 Mar 2025,14,Spouse,buy,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,19 Mar 2025,2 Mar 2025,14,Spouse,buy,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,19 Mar 2025,2 Mar 2025,14,Spouse,buy,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,19 Mar 2025,2 Mar 2025,14,Spouse,buy,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,19 Mar 2025,2 Mar 2025,14,Spouse,buy,1K–15K,N/A
+Mitch McConnell,Republican,Senate,KY,Wells Fargo & Co,WFC:US,12 Mar 2025,2 Mar 2025,9,Spouse,buy,1K–15K,$77.03
+Cynthia Lummis,Republican,Senate,WY,LUMMIS LIVESTOCK COMPANY LLC,N/A,25 Apr 2025,28 Feb 2025,55,Self,buy,1M–5M,N/A
+Cynthia Lummis,Republican,Senate,WY,ARP & HAMMOND HARDWARE COMPANY,N/A,25 Apr 2025,28 Feb 2025,55,Self,buy,1M–5M,N/A
+Cynthia Lummis,Republican,Senate,WY,SWEETGRASS LAND CO LLC,N/A,25 Apr 2025,28 Feb 2025,55,Self,buy,1M–5M,N/A
+Dave McCormick,Republican,Senate,PA,The Goldman Sachs Group Inc,GS:US,30 Mar 2025,27 Feb 2025,29,Spouse,sell,1M–5M,$622.29
+Dave McCormick,Republican,Senate,PA,PENNSYLVANIA TURNPIKE COMMISSION,N/A,30 Mar 2025,27 Feb 2025,29,Spouse,buy,100K–250K,N/A
+Dave McCormick,Republican,Senate,PA,BITWISE BITCOIN ETF,BITB:US,30 Mar 2025,27 Feb 2025,29,Self,buy,15K–50K,$45.84
+Dave McCormick,Republican,Senate,PA,PENNSYLVANIA TURNPIKE COMMISSION,N/A,30 Mar 2025,26 Feb 2025,30,Spouse,buy,50K–100K,N/A
+Dave McCormick,Republican,Senate,PA,BITWISE BITCOIN ETF,BITB:US,30 Mar 2025,26 Feb 2025,30,Self,buy,50K–100K,$45.36
+Richard Blumenthal,Democrat,Senate,CT,NOT FADE AWAY LLC,N/A,19 Mar 2025,26 Feb 2025,18,Spouse,buy,500K–1M,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,19 Mar 2025,26 Feb 2025,18,Spouse,sell,250K–500K,N/A
+Richard Blumenthal,Democrat,Senate,CT,NOT FADE AWAY LLC,N/A,19 Mar 2025,26 Feb 2025,18,Spouse,buy,50K–100K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,19 Mar 2025,26 Feb 2025,18,Spouse,sell,15K–50K,N/A
+Richard Blumenthal,Democrat,Senate,CT,NOT FADE AWAY LLC,N/A,19 Mar 2025,26 Feb 2025,18,Spouse,buy,1M–5M,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,19 Mar 2025,26 Feb 2025,18,Spouse,sell,500K–1M,N/A
+Richard Blumenthal,Democrat,Senate,CT,NOT FADE AWAY LLC,N/A,19 Mar 2025,26 Feb 2025,18,Spouse,buy,250K–500K,N/A
+Richard Blumenthal,Democrat,Senate,CT,NOT FADE AWAY LLC,N/A,19 Mar 2025,26 Feb 2025,18,Spouse,buy,100K–250K,N/A
+Richard Blumenthal,Democrat,Senate,CT,NOT FADE AWAY LLC,N/A,19 Mar 2025,26 Feb 2025,18,Spouse,buy,100K–250K,N/A
+Richard Blumenthal,Democrat,Senate,CT,NOT FADE AWAY LLC,N/A,19 Mar 2025,26 Feb 2025,18,Spouse,buy,250K–500K,N/A
+Richard Blumenthal,Democrat,Senate,CT,NOT FADE AWAY LLC,N/A,19 Mar 2025,26 Feb 2025,18,Spouse,buy,50K–100K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,19 Mar 2025,26 Feb 2025,18,Spouse,sell,15K–50K,N/A
+Richard Blumenthal,Democrat,Senate,CT,NOT FADE AWAY LLC,N/A,19 Mar 2025,26 Feb 2025,18,Spouse,buy,100K–250K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,19 Mar 2025,26 Feb 2025,18,Spouse,sell,15K–50K,N/A
+Dave McCormick,Republican,Senate,PA,BITWISE BITCOIN ETF,BITB:US,19 Mar 2025,25 Feb 2025,21,Self,buy,15K–50K,$45.89
+Richard Blumenthal,Democrat,Senate,CT,COMMODORE CAPITAL DOMESTIC LP,N/A,19 Mar 2025,25 Feb 2025,19,Spouse,sell,250K–500K,N/A
+Richard Blumenthal,Democrat,Senate,CT,COMMODORE CAPITAL DOMESTIC LP,N/A,19 Mar 2025,25 Feb 2025,19,Spouse,sell,250K–500K,N/A
+Richard Blumenthal,Democrat,Senate,CT,COMMODORE CAPITAL DOMESTIC LP,N/A,19 Mar 2025,25 Feb 2025,19,Spouse,sell,50K–100K,N/A
+Richard Blumenthal,Democrat,Senate,CT,COMMODORE CAPITAL DOMESTIC LP,N/A,19 Mar 2025,25 Feb 2025,19,Spouse,sell,100K–250K,N/A
+John Boozman,Republican,Senate,AR,iShares S&P 500 Growth ETF,IVW:US,6 Mar 2025,25 Feb 2025,8,Joint,sell,1K–15K,$102.01
+John Boozman,Republican,Senate,AR,FIRST TR GLOBAL TACTICAL CMD,FTGC:US,6 Mar 2025,25 Feb 2025,8,Joint,sell,1K–15K,$25.08
+John Boozman,Republican,Senate,AR,First Trust North American Energy Infrastructure Fund,EMLP:US,6 Mar 2025,25 Feb 2025,8,Joint,sell,1K–15K,$37.11
+John Boozman,Republican,Senate,AR,SPROTT URANIUM MINERS ETF,URNM:US,6 Mar 2025,25 Feb 2025,8,Joint,buy,1K–15K,$35.96
+John Boozman,Republican,Senate,AR,NVIDIA Corporation,NVDA:US,6 Mar 2025,25 Feb 2025,8,Joint,buy,1K–15K,$131.28
+John Boozman,Republican,Senate,AR,Motorola Solutions Inc,MSI:US,6 Mar 2025,25 Feb 2025,8,Joint,buy,1K–15K,$426.27
+John Boozman,Republican,Senate,AR,INVESCO SHORT TERM TREAS ETF,TBLL:US,6 Mar 2025,25 Feb 2025,8,Joint,buy,1K–15K,$105.50
+John Boozman,Republican,Senate,AR,Ecolab Inc,ECL:US,6 Mar 2025,25 Feb 2025,8,Joint,buy,1K–15K,$266.47
+John Boozman,Republican,Senate,AR,American Express Co,AXP:US,6 Mar 2025,25 Feb 2025,8,Joint,buy,1K–15K,$296.10
+John Boozman,Republican,Senate,AR,Amazon.com Inc,AMZN:US,6 Mar 2025,25 Feb 2025,8,Joint,buy,1K–15K,$214.35
+Dave McCormick,Republican,Senate,PA,BITWISE BITCOIN ETF,BITB:US,5 Mar 2025,25 Feb 2025,7,Self,buy,15K–50K,$45.89
+Dave McCormick,Republican,Senate,PA,PENNSYLVANIA TURNPIKE COMMISSION,N/A,19 Mar 2025,24 Feb 2025,22,Spouse,buy,15K–50K,N/A
+Dave McCormick,Republican,Senate,PA,BITWISE BITCOIN ETF,BITB:US,19 Mar 2025,24 Feb 2025,22,Self,buy,50K–100K,$47.92
+John Boozman,Republican,Senate,AR,SPROTT URANIUM MINERS ETF,URNM:US,6 Mar 2025,24 Feb 2025,9,Joint,buy,1K–15K,$35.30
+Shelley Moore Capito,Republican,Senate,WV,Meta Platforms Inc,META:US,6 Mar 2025,24 Feb 2025,9,Spouse,buy,1K–15K,$657.50
+Dave McCormick,Republican,Senate,PA,DEPARTMENT OF STATE PENNSYLVANIA,N/A,5 Mar 2025,24 Feb 2025,8,Spouse,buy,15K–50K,N/A
+Dave McCormick,Republican,Senate,PA,BITWISE BITCOIN ETF,BITB:US,5 Mar 2025,24 Feb 2025,8,Self,buy,50K–100K,$47.92
+Ashley Moody,Republican,Senate,FL,CrowdStrike Holdings Inc,CRWD:US,23 Mar 2025,23 Feb 2025,26,Self,sell,1K–15K,N/A
+Ashley Moody,Republican,Senate,FL,Carnival Corporation & PLC,CCL:US,23 Mar 2025,23 Feb 2025,26,Self,sell,1K–15K,N/A
+Ashley Moody,Republican,Senate,FL,OKTA Inc,OKTA:US,23 Mar 2025,23 Feb 2025,26,Self,sell,1K–15K,N/A
+Ashley Moody,Republican,Senate,FL,Advanced Micro Devices Inc,AMD:US,23 Mar 2025,23 Feb 2025,26,Self,buy,100K–250K,$108.11
+Ashley Moody,Republican,Senate,FL,SUPER MICRO COMPUTER INC,SMCI:US,23 Mar 2025,23 Feb 2025,26,Self,sell,50K–100K,$51.61
+Ashley Moody,Republican,Senate,FL,SUPER MICRO COMPUTER INC,SMCI:US,23 Mar 2025,23 Feb 2025,26,Self,sell,15K–50K,$51.61
+Ashley Moody,Republican,Senate,FL,Howmet Aerospace Inc,HWM:US,23 Mar 2025,23 Feb 2025,26,Self,sell,50K–100K,$129.56
+Ashley Moody,Republican,Senate,FL,Applied Materials Inc,AMAT:US,23 Mar 2025,23 Feb 2025,26,Self,sell,1K–15K,N/A
+Ashley Moody,Republican,Senate,FL,ASML Holding NV,ASML:US,23 Mar 2025,23 Feb 2025,26,Self,sell,1K–15K,N/A
+Ashley Moody,Republican,Senate,FL,CRISPR Therapeutics AG,N/A,23 Mar 2025,23 Feb 2025,26,Self,sell,1K–15K,N/A
+Ashley Moody,Republican,Senate,FL,ARDELYX INC,N/A,23 Mar 2025,23 Feb 2025,26,Self,sell,1K–15K,N/A
+Ashley Moody,Republican,Senate,FL,Norwegian Cruise Line Holdings Ltd,NCLH:US,23 Mar 2025,23 Feb 2025,26,Self,sell,1K–15K,N/A
+Ashley Moody,Republican,Senate,FL,Norwegian Cruise Line Holdings Ltd,NCLH:US,23 Mar 2025,23 Feb 2025,26,Self,sell,1K–15K,N/A
+Ashley Moody,Republican,Senate,FL,INVESCO NASDAQ 100 ETF,QQQM:US,23 Mar 2025,23 Feb 2025,26,Self,sell,1K–15K,N/A
+Ashley Moody,Republican,Senate,FL,SYMBOTIC INC,N/A,23 Mar 2025,23 Feb 2025,26,Self,sell,1K–15K,N/A
+Ashley Moody,Republican,Senate,FL,SYMBOTIC INC,N/A,23 Mar 2025,23 Feb 2025,26,Self,sell,1K–15K,N/A
+Ashley Moody,Republican,Senate,FL,Truist Financial Corp,TFC:US,23 Mar 2025,23 Feb 2025,26,Self,sell,1K–15K,N/A
+Ashley Moody,Republican,Senate,FL,Wynn Resorts Ltd,N/A,23 Mar 2025,23 Feb 2025,26,Self,sell,1K–15K,N/A
+Ashley Moody,Republican,Senate,FL,GENIUS SPORTS LTD,N/A,23 Mar 2025,23 Feb 2025,26,Self,buy,1K–15K,N/A
+Ashley Moody,Republican,Senate,FL,ASML Holding NV,ASML:US,23 Mar 2025,23 Feb 2025,26,Self,buy,50K–100K,$735.96
+Dave McCormick,Republican,Senate,PA,PITTSBURGH WATER AND SEWER AUTHORITY,N/A,19 Mar 2025,23 Feb 2025,23,Self,buy,100K–250K,N/A
+Dave McCormick,Republican,Senate,PA,COUNTY OF ALLEGHANY PENNSYLVANIA,N/A,19 Mar 2025,23 Feb 2025,23,Self,buy,250K–500K,N/A
+Dave McCormick,Republican,Senate,PA,UPPER MERION AREA SCHOOL DISTRICT MONTGOMERY COUNTY PENNSYLVANIA,N/A,19 Mar 2025,23 Feb 2025,23,Spouse,buy,1K–15K,N/A
+Dave McCormick,Republican,Senate,PA,PENNSYLVANIA HIGHER EDUCATIONAL FACILITIES AUTHORITY,N/A,19 Mar 2025,23 Feb 2025,23,Spouse,buy,1K–15K,N/A
+Dave McCormick,Republican,Senate,PA,LANCASTER COUNTY NEBRASKA,N/A,19 Mar 2025,23 Feb 2025,23,Spouse,buy,15K–50K,N/A
+Dave McCormick,Republican,Senate,PA,COMMONWEALTH OF PENNSYLVANIA,N/A,19 Mar 2025,23 Feb 2025,23,Spouse,buy,1K–15K,N/A
+Dave McCormick,Republican,Senate,PA,COMMONWEALTH OF PENNSYLVANIA,N/A,19 Mar 2025,23 Feb 2025,23,Spouse,buy,15K–50K,N/A
+Shelley Moore Capito,Republican,Senate,WV,Comcast Corp,CMCSA:US,6 Mar 2025,23 Feb 2025,10,Spouse,sell,1K–15K,$36.30
+Shelley Moore Capito,Republican,Senate,WV,Accenture PLC,ACN:US,6 Mar 2025,23 Feb 2025,10,Spouse,sell,1K–15K,$363.91
+Shelley Moore Capito,Republican,Senate,WV,Abbott Laboratories,ABT:US,6 Mar 2025,23 Feb 2025,10,Spouse,sell,1K–15K,$134.95
+Dave McCormick,Republican,Senate,PA,CITY OF PITTSBURGH PENNSYLVANIA,N/A,5 Mar 2025,23 Feb 2025,9,Self,buy,100K–250K,N/A
+Dave McCormick,Republican,Senate,PA,NORTH ALLEGHENY SCHOOL DISTRICT ALLEGHENY COUNTY PENNSYLVANIA,N/A,5 Mar 2025,23 Feb 2025,9,Self,buy,250K–500K,N/A
+Dave McCormick,Republican,Senate,PA,UPPER MERION AREA SCHOOL DISTRICT MONTGOMERY COUNTY PENNSYLVANIA,N/A,5 Mar 2025,23 Feb 2025,9,Spouse,buy,1K–15K,N/A
+Dave McCormick,Republican,Senate,PA,PENNSYLVANIA STATE SYSTEM OF HIGHER EDUCATION,N/A,5 Mar 2025,23 Feb 2025,9,Spouse,buy,1K–15K,N/A
+Dave McCormick,Republican,Senate,PA,CITY OF LANCASTER LANCASTER COUNTY PENNSYLVANIA,N/A,5 Mar 2025,23 Feb 2025,9,Spouse,buy,15K–50K,N/A
+Dave McCormick,Republican,Senate,PA,DEPARTMENT OF STATE PENNSYLVANIA,N/A,5 Mar 2025,23 Feb 2025,9,Spouse,buy,1K–15K,N/A
+Dave McCormick,Republican,Senate,PA,DEPARTMENT OF STATE PENNSYLVANIA,N/A,5 Mar 2025,23 Feb 2025,9,Spouse,buy,15K–50K,N/A
+Ashley Moody,Republican,Senate,FL,KARYOPHARM THERAPEUTICS INC,N/A,23 Mar 2025,19 Feb 2025,30,Self,sell,1K–15K,N/A
+Ashley Moody,Republican,Senate,FL,DESKTOP METAL INC,N/A,23 Mar 2025,19 Feb 2025,30,Self,sell,1K–15K,N/A
+Ashley Moody,Republican,Senate,FL,ADC THERAPEUTICS SA,N/A,23 Mar 2025,19 Feb 2025,30,Self,sell,1K–15K,N/A
+Dave McCormick,Republican,Senate,PA,COMMONWEALTH OF PENNSYLVANIA,N/A,19 Mar 2025,19 Feb 2025,27,Spouse,buy,15K–50K,N/A
+Dave McCormick,Republican,Senate,PA,DEPARTMENT OF STATE PENNSYLVANIA,N/A,5 Mar 2025,19 Feb 2025,13,Spouse,buy,15K–50K,N/A
+Dave McCormick,Republican,Senate,PA,PENNSYLVANIA TURNPIKE COMMISSION,N/A,19 Mar 2025,18 Feb 2025,28,Spouse,buy,1K–15K,N/A
+Dave McCormick,Republican,Senate,PA,PENNSYLVANIA TURNPIKE COMMISSION,N/A,19 Mar 2025,18 Feb 2025,28,Spouse,buy,1K–15K,N/A
+Markwayne Mullin,Republican,Senate,OK,UNIVERSITY OF HOUSTON SYSTEM,N/A,18 Mar 2025,18 Feb 2025,26,Joint,buy,50K–100K,N/A
+Markwayne Mullin,Republican,Senate,OK,METROPOLITAN TRANSPORTATION AUTHORITY,N/A,18 Mar 2025,18 Feb 2025,26,Joint,buy,50K–100K,N/A
+Markwayne Mullin,Republican,Senate,OK,WEST PALM BEACH COMMUNITY REDEVELOPMENT AGENCY,N/A,18 Mar 2025,18 Feb 2025,26,Joint,buy,50K–100K,N/A
+Dave McCormick,Republican,Senate,PA,DEPARTMENT OF STATE PENNSYLVANIA,N/A,5 Mar 2025,18 Feb 2025,14,Spouse,buy,1K–15K,N/A
+Dave McCormick,Republican,Senate,PA,DEPARTMENT OF STATE PENNSYLVANIA,N/A,5 Mar 2025,18 Feb 2025,14,Spouse,buy,1K–15K,N/A
+Dave McCormick,Republican,Senate,PA,WHITEHALL TWP-PENNSYLVANIA,N/A,19 Mar 2025,17 Feb 2025,29,Spouse,buy,15K–50K,N/A
+Dave McCormick,Republican,Senate,PA,PHILADELPHIA WATER DEPARTMENT,N/A,19 Mar 2025,17 Feb 2025,29,Spouse,buy,15K–50K,N/A
+John Fetterman,Democrat,Senate,PA,TransCanada PipeLines Ltd,559242Z:CN,12 Mar 2025,17 Feb 2025,22,Child,buy,1K–15K,N/A
+John Fetterman,Democrat,Senate,PA,ARES CAPITAL CORPORATION,ARCC:US,12 Mar 2025,17 Feb 2025,22,Child,buy,1K–15K,N/A
+Jim Banks,Republican,Senate,IN,YUM BRANDS Inc,YUM:US,10 Mar 2025,17 Feb 2025,20,Joint,sell,1K–15K,N/A
+Dave McCormick,Republican,Senate,PA,WHITEHALL TWP-PENNSYLVANIA,N/A,5 Mar 2025,17 Feb 2025,15,Spouse,buy,15K–50K,N/A
+Dave McCormick,Republican,Senate,PA,COMMONWEALTH OF PENNSYLVANIA,N/A,19 Mar 2025,13 Feb 2025,33,Spouse,buy,1K–15K,N/A
+John Boozman,Republican,Senate,AR,iShares S&P 500 Growth ETF,IVW:US,6 Mar 2025,13 Feb 2025,20,Joint,sell,1K–15K,$106.63
+John Boozman,Republican,Senate,AR,Microsoft Corp,MSFT:US,6 Mar 2025,13 Feb 2025,20,Joint,buy,1K–15K,$408.43
+Dave McCormick,Republican,Senate,PA,DEPARTMENT OF STATE PENNSYLVANIA,N/A,5 Mar 2025,13 Feb 2025,19,Spouse,buy,1K–15K,N/A
+John Boozman,Republican,Senate,AR,Pfizer Inc,PFE:US,6 Mar 2025,12 Feb 2025,21,Joint,sell,1K–15K,$25.64
+John Boozman,Republican,Senate,AR,The Walt Disney Co,DIS:US,6 Mar 2025,12 Feb 2025,21,Joint,sell,1K–15K,$109.59
+John Boozman,Republican,Senate,AR,Boston Scientific Corp,BSX:US,6 Mar 2025,12 Feb 2025,21,Joint,buy,1K–15K,$106.14
+John Boozman,Republican,Senate,AR,Alphabet Inc,GOOGL:US,6 Mar 2025,12 Feb 2025,21,Joint,buy,1K–15K,$186.14
+Markwayne Mullin,Republican,Senate,OK,Vanguard Materials ETF,VAW:US,27 Feb 2025,12 Feb 2025,14,Joint,sell,100K–250K,$200.37
+Markwayne Mullin,Republican,Senate,OK,L3Harris Technologies Inc,LHX:US,27 Feb 2025,12 Feb 2025,14,Joint,buy,15K–50K,$200.00
+Markwayne Mullin,Republican,Senate,OK,Constellation Brands Inc,STZ:US,27 Feb 2025,12 Feb 2025,14,Joint,sell,15K–50K,$163.20
+Markwayne Mullin,Republican,Senate,OK,LPL Financial Holdings Inc,LPLA:US,27 Feb 2025,12 Feb 2025,14,Joint,buy,50K–100K,$372.34
+Markwayne Mullin,Republican,Senate,OK,Accenture PLC,ACN:US,27 Feb 2025,12 Feb 2025,14,Joint,buy,50K–100K,$389.53
+Markwayne Mullin,Republican,Senate,OK,Iqvia Holdings Inc,IQV:US,27 Feb 2025,12 Feb 2025,14,Joint,buy,15K–50K,$196.05
+Markwayne Mullin,Republican,Senate,OK,The TJX Companies Inc,TJX:US,27 Feb 2025,12 Feb 2025,14,Joint,buy,15K–50K,$125.85
+Markwayne Mullin,Republican,Senate,OK,Advanced Micro Devices Inc,AMD:US,27 Feb 2025,12 Feb 2025,14,Joint,sell,50K–100K,$111.81
+Markwayne Mullin,Republican,Senate,OK,Microsoft Corp,MSFT:US,27 Feb 2025,12 Feb 2025,14,Joint,buy,50K–100K,$410.54
+Markwayne Mullin,Republican,Senate,OK,Amazon.com Inc,AMZN:US,27 Feb 2025,12 Feb 2025,14,Joint,buy,15K–50K,$230.37
+Markwayne Mullin,Republican,Senate,OK,Danaher Corp,DHR:US,27 Feb 2025,12 Feb 2025,14,Joint,sell,15K–50K,$203.59
+Markwayne Mullin,Republican,Senate,OK,Honeywell International Inc,HON:US,27 Feb 2025,12 Feb 2025,14,Joint,sell,15K–50K,$205.27
+Markwayne Mullin,Republican,Senate,OK,Philip Morris International Inc,PM:US,27 Feb 2025,12 Feb 2025,14,Joint,buy,15K–50K,$149.18
+Markwayne Mullin,Republican,Senate,OK,Berkshire Hathaway Inc,BRK/B:US,27 Feb 2025,12 Feb 2025,14,Joint,sell,15K–50K,$25.39
+Tina Smith,Democrat,Senate,MN,PepsiCo Inc,PEP:US,19 Mar 2025,10 Feb 2025,36,Spouse,sell,100K–250K,$145.64
+Tina Smith,Democrat,Senate,MN,General Mills Inc,GIS:US,19 Mar 2025,10 Feb 2025,36,Spouse,sell,100K–250K,$59.35
+Dave McCormick,Republican,Senate,PA,PITTSBURGH WATER AND SEWER AUTHORITY,N/A,19 Mar 2025,9 Feb 2025,37,Self,buy,250K–500K,N/A
+Dave McCormick,Republican,Senate,PA,COUNTY OF ALLEGHANY PENNSYLVANIA,N/A,19 Mar 2025,9 Feb 2025,37,Self,buy,250K–500K,N/A
+Dave McCormick,Republican,Senate,PA,CITY OF PITTSBURGH PENNSYLVANIA,N/A,5 Mar 2025,9 Feb 2025,23,Self,buy,250K–500K,N/A
+Dave McCormick,Republican,Senate,PA,NORTH ALLEGHENY SCHOOL DISTRICT ALLEGHENY COUNTY PENNSYLVANIA,N/A,5 Mar 2025,9 Feb 2025,23,Self,buy,250K–500K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,5 Mar 2025,9 Feb 2025,22,Spouse,buy,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,5 Mar 2025,9 Feb 2025,22,Spouse,buy,15K–50K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,5 Mar 2025,9 Feb 2025,22,Spouse,buy,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,5 Mar 2025,9 Feb 2025,22,Spouse,buy,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,5 Mar 2025,9 Feb 2025,22,Spouse,buy,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,5 Mar 2025,9 Feb 2025,22,Spouse,buy,1K–15K,N/A
+Ron Wyden,Democrat,Senate,OR,Eli Lilly and Co,LLY:US,21 Feb 2025,9 Feb 2025,11,Spouse,sell,50K–100K,$868.88
+Rick Scott,Republican,Senate,FL,CENTRAL TEXAS REGIONAL MOBILITY AUTHORITY,N/A,3 Mar 2025,6 Feb 2025,24,Self,buy,500K–1M,N/A
+Rick Scott,Republican,Senate,FL,PORT OF SEATTLE WASHINGTON,N/A,3 Mar 2025,6 Feb 2025,24,Self,sell,100K–250K,N/A
+Rick Scott,Republican,Senate,FL,PORT OF SEATTLE WASHINGTON,N/A,3 Mar 2025,6 Feb 2025,24,Spouse,sell,250K–500K,N/A
+Rick Scott,Republican,Senate,FL,CITY OF CHARLOTTE NORTH CAROLINA,N/A,3 Mar 2025,6 Feb 2025,24,Self,buy,100K–250K,N/A
+Rick Scott,Republican,Senate,FL,CITY OF CHARLOTTE NORTH CAROLINA,N/A,3 Mar 2025,6 Feb 2025,24,Self,buy,500K–1M,N/A
+Rick Scott,Republican,Senate,FL,CITY OF CHARLOTTE NORTH CAROLINA,N/A,3 Mar 2025,6 Feb 2025,24,Spouse,buy,250K–500K,N/A
+John Fetterman,Democrat,Senate,PA,NATIONAL FINANCE AUTHORITY,N/A,12 Mar 2025,5 Feb 2025,34,Child,sell,1K–15K,N/A
+Ron Wyden,Democrat,Senate,OR,iRobot Corp,IRBT:US,21 Feb 2025,5 Feb 2025,15,Spouse,sell,1K–15K,$7.79
+Ron Wyden,Democrat,Senate,OR,SOLVENTUM CORP,SOLV:US,21 Feb 2025,5 Feb 2025,15,Spouse,sell,1K–15K,$74.78
+Dave McCormick,Republican,Senate,PA,SCHOOL DISTRICT OF CITY OF ALLENTOWN,N/A,19 Mar 2025,4 Feb 2025,42,Self,buy,500K–1M,N/A
+Dave McCormick,Republican,Senate,PA,EAGLE MOUNTAIN SAGINAW ISD,N/A,19 Mar 2025,4 Feb 2025,42,Self,buy,15K–50K,N/A
+John Boozman,Republican,Senate,AR,Lam Research Corp,LRCX:US,6 Mar 2025,4 Feb 2025,29,Joint,sell,1K–15K,$81.94
+John Boozman,Republican,Senate,AR,JPMorgan Chase & Co,JPM:US,6 Mar 2025,4 Feb 2025,29,Joint,sell,1K–15K,$270.43
+John Boozman,Republican,Senate,AR,Bank of America Corp,BAC:US,6 Mar 2025,4 Feb 2025,29,Joint,sell,1K–15K,$47.11
+John Boozman,Republican,Senate,AR,Microsoft Corp,MSFT:US,6 Mar 2025,4 Feb 2025,29,Joint,buy,1K–15K,$413.29
+John Boozman,Republican,Senate,AR,Mastercard Inc,MA:US,6 Mar 2025,4 Feb 2025,29,Joint,buy,1K–15K,$566.29
+John Boozman,Republican,Senate,AR,American Express Co,AXP:US,6 Mar 2025,4 Feb 2025,29,Joint,buy,1K–15K,$320.53
+Shelley Moore Capito,Republican,Senate,WV,Apple Inc,AAPL:US,6 Mar 2025,4 Feb 2025,29,Spouse,sell,1K–15K,$232.47
+Dave McCormick,Republican,Senate,PA,SCHOOL DISTRICT OF CITY OF ALLENTOWN,N/A,5 Mar 2025,4 Feb 2025,28,Self,buy,500K–1M,N/A
+Dave McCormick,Republican,Senate,PA,EAGLE MOUNTAIN SAGINAW ISD,N/A,5 Mar 2025,4 Feb 2025,28,Self,buy,15K–50K,N/A
+Dave McCormick,Republican,Senate,PA,MONTOUR SCHOOL DISTRICT,N/A,19 Mar 2025,3 Feb 2025,43,Spouse,buy,1K–15K,N/A
+Dave McCormick,Republican,Senate,PA,CITY OF PHILADELPHIA PENNSYLVANIA,N/A,19 Mar 2025,3 Feb 2025,43,Spouse,buy,15K–50K,N/A
+John Boozman,Republican,Senate,AR,Restaurant Brands International Inc,QSR:US,6 Mar 2025,3 Feb 2025,30,Joint,sell,1K–15K,$61.93
+John Boozman,Republican,Senate,AR,Amazon.com Inc,AMZN:US,6 Mar 2025,3 Feb 2025,30,Joint,buy,1K–15K,$242.06
+Shelley Moore Capito,Republican,Senate,WV,CONSTELLATION ENE CORP,CEG:US,6 Mar 2025,3 Feb 2025,30,Spouse,buy,1K–15K,$306.33
+Shelley Moore Capito,Republican,Senate,WV,Microsoft Corp,MSFT:US,6 Mar 2025,3 Feb 2025,30,Spouse,sell,1K–15K,$412.37
+Dave McCormick,Republican,Senate,PA,MONTOUR SCHOOL DISTRICT,N/A,5 Mar 2025,3 Feb 2025,29,Spouse,buy,1K–15K,N/A
+Dave McCormick,Republican,Senate,PA,CITY OF PHILADELPHIA PENNSYLVANIA,N/A,5 Mar 2025,3 Feb 2025,29,Spouse,buy,15K–50K,N/A
+Dave McCormick,Republican,Senate,PA,PENNSYLVANIA TURNPIKE COMMISSION,N/A,19 Mar 2025,2 Feb 2025,44,Spouse,buy,50K–100K,N/A
+Dave McCormick,Republican,Senate,PA,DEPARTMENT OF STATE PENNSYLVANIA,N/A,5 Mar 2025,2 Feb 2025,30,Spouse,buy,50K–100K,N/A
+Markwayne Mullin,Republican,Senate,OK,Westinghouse Air Brake Technologies Corp,WAB:US,27 Feb 2025,2 Feb 2025,24,Joint,buy,1K–15K,$204.64
+Markwayne Mullin,Republican,Senate,OK,Primo Water Corp,PRMW:US,27 Feb 2025,2 Feb 2025,24,Joint,buy,1K–15K,$32.88
+Markwayne Mullin,Republican,Senate,OK,MasTec Inc,MTZ:US,27 Feb 2025,2 Feb 2025,24,Joint,buy,1K–15K,$141.59
+Markwayne Mullin,Republican,Senate,OK,Stride Inc,LRN:US,27 Feb 2025,2 Feb 2025,24,Joint,buy,1K–15K,$137.66
+Markwayne Mullin,Republican,Senate,OK,Iron Mountain Inc,IRM:US,27 Feb 2025,2 Feb 2025,24,Joint,buy,1K–15K,$100.64
+Markwayne Mullin,Republican,Senate,OK,The Goldman Sachs Group Inc,GS:US,27 Feb 2025,2 Feb 2025,24,Joint,buy,1K–15K,$632.37
+Markwayne Mullin,Republican,Senate,OK,Dell Technologies Inc,DELL:US,27 Feb 2025,2 Feb 2025,24,Joint,buy,1K–15K,$100.09
+Markwayne Mullin,Republican,Senate,OK,CREDO TECH GROUP HOLDING LTD,N/A,27 Feb 2025,2 Feb 2025,24,Joint,buy,1K–15K,N/A
+Markwayne Mullin,Republican,Senate,OK,Coherent Corp,COHR:US,27 Feb 2025,2 Feb 2025,24,Joint,buy,1K–15K,$87.50
+Markwayne Mullin,Republican,Senate,OK,Applied Industrial Technologies Inc,AIT:US,27 Feb 2025,2 Feb 2025,24,Joint,buy,1K–15K,$258.46
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,5 Mar 2025,30 Jan 2025,32,Spouse,buy,250K–500K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,5 Mar 2025,30 Jan 2025,32,Spouse,buy,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,5 Mar 2025,30 Jan 2025,32,Spouse,buy,250K–500K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,5 Mar 2025,30 Jan 2025,32,Spouse,buy,15K–50K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,5 Mar 2025,30 Jan 2025,32,Spouse,buy,100K–250K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,5 Mar 2025,30 Jan 2025,32,Spouse,buy,15K–50K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,5 Mar 2025,30 Jan 2025,32,Spouse,buy,15K–50K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,5 Mar 2025,29 Jan 2025,33,Spouse,sell,250K–500K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,5 Mar 2025,29 Jan 2025,33,Spouse,sell,250K–500K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,5 Mar 2025,29 Jan 2025,33,Spouse,buy,100K–250K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,5 Mar 2025,29 Jan 2025,33,Spouse,buy,50K–100K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,5 Mar 2025,29 Jan 2025,33,Spouse,sell,50K–100K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,5 Mar 2025,29 Jan 2025,33,Spouse,sell,50K–100K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,5 Mar 2025,29 Jan 2025,33,Spouse,sell,100K–250K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,5 Mar 2025,28 Jan 2025,34,Spouse,sell,250K–500K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,5 Mar 2025,28 Jan 2025,34,Spouse,buy,250K–500K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,5 Mar 2025,28 Jan 2025,34,Spouse,sell,15K–50K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,5 Mar 2025,28 Jan 2025,34,Spouse,buy,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,5 Mar 2025,28 Jan 2025,34,Spouse,buy,250K–500K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,5 Mar 2025,28 Jan 2025,34,Spouse,buy,100K–250K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,5 Mar 2025,28 Jan 2025,34,Spouse,sell,50K–100K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,5 Mar 2025,28 Jan 2025,34,Spouse,buy,15K–50K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,5 Mar 2025,28 Jan 2025,34,Spouse,buy,50K–100K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,5 Mar 2025,28 Jan 2025,34,Spouse,buy,100K–250K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,5 Mar 2025,28 Jan 2025,34,Spouse,buy,15K–50K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,5 Mar 2025,28 Jan 2025,34,Spouse,buy,15K–50K,N/A
+John Fetterman,Democrat,Senate,PA,ENSTAR FINANCE LLC,N/A,7 Feb 2025,28 Jan 2025,9,Child,sell,1K–15K,N/A
+John Boozman,Republican,Senate,AR,NRG Energy Inc,NRG:US,9 Feb 2025,27 Jan 2025,11,Joint,buy,1K–15K,$100.87
+John Boozman,Republican,Senate,AR,INVESCO SHORT TERM TREAS ETF,TBLL:US,9 Feb 2025,27 Jan 2025,11,Joint,buy,1K–15K,$105.51
+John Boozman,Republican,Senate,AR,iShares S&P 500 Growth ETF,IVW:US,9 Feb 2025,27 Jan 2025,11,Joint,sell,1K–15K,$104.48
+John Boozman,Republican,Senate,AR,HP Inc,HPQ:US,9 Feb 2025,27 Jan 2025,11,Joint,sell,1K–15K,$32.74
+Richard Blumenthal,Democrat,Senate,CT,NOT FADE AWAY LLC,N/A,5 Mar 2025,26 Jan 2025,36,Spouse,buy,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,NOT FADE AWAY LLC,N/A,5 Mar 2025,26 Jan 2025,36,Spouse,buy,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,NOT FADE AWAY LLC,N/A,5 Mar 2025,26 Jan 2025,36,Spouse,buy,1K–15K,N/A
+Ashley Moody,Republican,Senate,FL,NVIDIA Corporation,NVDA:US,21 Feb 2025,26 Jan 2025,25,Self,sell,1K–15K,N/A
+Ashley Moody,Republican,Senate,FL,Applied Materials Inc,AMAT:US,21 Feb 2025,26 Jan 2025,25,Self,sell,1K–15K,N/A
+Ashley Moody,Republican,Senate,FL,Applied Materials Inc,AMAT:US,21 Feb 2025,26 Jan 2025,25,Self,buy,100K–250K,$174.57
+Ashley Moody,Republican,Senate,FL,Norwegian Cruise Line Holdings Ltd,NCLH:US,21 Feb 2025,26 Jan 2025,25,Self,sell,1K–15K,N/A
+Ashley Moody,Republican,Senate,FL,Applied Materials Inc,AMAT:US,21 Feb 2025,26 Jan 2025,25,Self,sell,1K–15K,N/A
+Dave McCormick,Republican,Senate,PA,COUNTY OF ARMSTRONG PENNSYLVANIA,N/A,9 Feb 2025,23 Jan 2025,16,Spouse,buy,1K–15K,N/A
+Ashley Moody,Republican,Senate,FL,Dell Technologies Inc,DELL:US,21 Feb 2025,22 Jan 2025,29,Self,sell,1K–15K,N/A
+Dave McCormick,Republican,Senate,PA,PENNSYLVANIA STATE UNIVERSITY,N/A,9 Feb 2025,22 Jan 2025,17,Self,buy,100K–250K,N/A
+Dave McCormick,Republican,Senate,PA,CITY OF PHILADELPHIA PENNSYLVANIA,N/A,9 Feb 2025,22 Jan 2025,17,Self,buy,100K–250K,N/A
+Dave McCormick,Republican,Senate,PA,CITY OF PHILADELPHIA PENNSYLVANIA,N/A,9 Feb 2025,22 Jan 2025,17,Spouse,buy,15K–50K,N/A
+Dave McCormick,Republican,Senate,PA,BELLEFONTE AREA SCHOOL DISTRICT,N/A,9 Feb 2025,22 Jan 2025,17,Spouse,buy,15K–50K,N/A
+Dave McCormick,Republican,Senate,PA,COMMONWEALTH OF PENNSYLVANIA,N/A,9 Feb 2025,22 Jan 2025,17,Spouse,buy,50K–100K,N/A
+Dave McCormick,Republican,Senate,PA,SCHOOL DISTRICT OF TOWNSHIP OF UPPER ST CLAIR PENNSYLVANIA,N/A,9 Feb 2025,22 Jan 2025,17,Spouse,buy,15K–50K,N/A
+Dave McCormick,Republican,Senate,PA,COMMONWEALTH OF PENNSYLVANIA,N/A,9 Feb 2025,22 Jan 2025,17,Spouse,buy,50K–100K,N/A
+Ashley Moody,Republican,Senate,FL,SUPER MICRO COMPUTER INC,SMCI:US,21 Feb 2025,21 Jan 2025,30,Self,sell,1K–15K,N/A
+Ashley Moody,Republican,Senate,FL,NVIDIA Corporation,NVDA:US,21 Feb 2025,21 Jan 2025,30,Self,sell,1K–15K,N/A
+Ashley Moody,Republican,Senate,FL,Applied Materials Inc,AMAT:US,21 Feb 2025,21 Jan 2025,30,Self,sell,1K–15K,N/A
+Ashley Moody,Republican,Senate,FL,Advanced Micro Devices Inc,AMD:US,21 Feb 2025,21 Jan 2025,30,Self,sell,1K–15K,N/A
+Ashley Moody,Republican,Senate,FL,Carnival Corporation & PLC,CCL:US,21 Feb 2025,21 Jan 2025,30,Self,sell,1K–15K,N/A
+Ashley Moody,Republican,Senate,FL,Micron Technology Inc,MU:US,21 Feb 2025,21 Jan 2025,30,Self,sell,1K–15K,N/A
+Ashley Moody,Republican,Senate,FL,SUPER MICRO COMPUTER INC,SMCI:US,21 Feb 2025,21 Jan 2025,30,Self,sell,1K–15K,N/A
+Ashley Moody,Republican,Senate,FL,SUPER MICRO COMPUTER INC,SMCI:US,21 Feb 2025,21 Jan 2025,30,Self,sell,1K–15K,N/A
+Ashley Moody,Republican,Senate,FL,Howmet Aerospace Inc,HWM:US,21 Feb 2025,21 Jan 2025,30,Self,sell,1K–15K,N/A
+Ashley Moody,Republican,Senate,FL,Micron Technology Inc,MU:US,21 Feb 2025,21 Jan 2025,30,Self,buy,50K–100K,$109.23
+Ashley Moody,Republican,Senate,FL,Applied Materials Inc,AMAT:US,21 Feb 2025,21 Jan 2025,30,Self,buy,100K–250K,$195.51
+Ashley Moody,Republican,Senate,FL,Howmet Aerospace Inc,HWM:US,21 Feb 2025,21 Jan 2025,30,Self,buy,50K–100K,$126.71
+Ron Wyden,Democrat,Senate,OR,Eli Lilly and Co,LLY:US,21 Feb 2025,21 Jan 2025,30,Spouse,buy,50K–100K,$753.98
+Dave McCormick,Republican,Senate,PA,TOWNSHIP OF LOWER MERION PENNSYLVANIA,N/A,9 Feb 2025,21 Jan 2025,18,Spouse,buy,1K–15K,N/A
+Dave McCormick,Republican,Senate,PA,NAZARETH AREA SCHOOL DISTRICT,N/A,9 Feb 2025,21 Jan 2025,18,Spouse,buy,15K–50K,N/A
+Dave McCormick,Republican,Senate,PA,COMMONWEALTH OF PENNSYLVANIA,N/A,9 Feb 2025,21 Jan 2025,18,Spouse,buy,15K–50K,N/A
+Dave McCormick,Republican,Senate,PA,NORTHEASTERN YORK COUNTY SCHOOL DISTRICT,N/A,9 Feb 2025,21 Jan 2025,18,Spouse,buy,15K–50K,N/A
+Dave McCormick,Republican,Senate,PA,CARLISLE AREA SCHOOL DISTRICT CUMBERLAND COUNTY PENNSYLVANIA,N/A,9 Feb 2025,21 Jan 2025,18,Spouse,buy,1K–15K,N/A
+Ashley Moody,Republican,Senate,FL,Applied Materials Inc,AMAT:US,21 Feb 2025,20 Jan 2025,31,Self,buy,100K–250K,$192.87
+Ashley Moody,Republican,Senate,FL,OKTA Inc,OKTA:US,21 Feb 2025,20 Jan 2025,31,Self,sell,50K–100K,$89.40
+Dave McCormick,Republican,Senate,PA,Occidental Petroleum Corp,OXY:US,9 Feb 2025,20 Jan 2025,19,Self,buy,250K–500K,N/A
+Shelley Moore Capito,Republican,Senate,WV,Phillips 66,PSX:US,13 Feb 2025,16 Jan 2025,27,Spouse,sell,1K–15K,$120.53
+Shelley Moore Capito,Republican,Senate,WV,JPMorgan Chase & Co,JPM:US,13 Feb 2025,16 Jan 2025,27,Spouse,sell,1K–15K,$259.16
+Shelley Moore Capito,Republican,Senate,WV,Microsoft Corp,MSFT:US,13 Feb 2025,16 Jan 2025,27,Spouse,sell,1K–15K,$429.03
+Shelley Moore Capito,Republican,Senate,WV,Lowe's Cos Inc,LOW:US,13 Feb 2025,16 Jan 2025,27,Spouse,sell,1K–15K,$261.06
+Shelley Moore Capito,Republican,Senate,WV,Illinois Tool Works Inc,ITW:US,13 Feb 2025,16 Jan 2025,27,Spouse,sell,1K–15K,$256.38
+Shelley Moore Capito,Republican,Senate,WV,Grainger (W.W.) Inc,GWW:US,13 Feb 2025,16 Jan 2025,27,Spouse,sell,1K–15K,$1113.60
+Shelley Moore Capito,Republican,Senate,WV,Chubb Ltd,CB:US,13 Feb 2025,16 Jan 2025,27,Spouse,sell,1K–15K,$269.48
+Shelley Moore Capito,Republican,Senate,WV,Blackrock Inc,BLK:US,13 Feb 2025,16 Jan 2025,27,Spouse,sell,1K–15K,$1004.96
+Shelley Moore Capito,Republican,Senate,WV,Apple Inc,AAPL:US,13 Feb 2025,16 Jan 2025,27,Spouse,sell,1K–15K,$229.98
+Shelley Moore Capito,Republican,Senate,WV,AFLAC Inc,AFL:US,13 Feb 2025,16 Jan 2025,27,Spouse,sell,1K–15K,$106.49
+Richard Blumenthal,Democrat,Senate,CT,NOT FADE AWAY LLC,N/A,12 Feb 2025,16 Jan 2025,24,Spouse,buy,500K–1M,N/A
+Richard Blumenthal,Democrat,Senate,CT,NOT FADE AWAY LLC,N/A,12 Feb 2025,16 Jan 2025,24,Spouse,buy,500K–1M,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,12 Feb 2025,16 Jan 2025,24,Spouse,sell,500K–1M,N/A
+Richard Blumenthal,Democrat,Senate,CT,NOT FADE AWAY LLC,N/A,12 Feb 2025,16 Jan 2025,24,Spouse,buy,250K–500K,N/A
+Richard Blumenthal,Democrat,Senate,CT,NOT FADE AWAY LLC,N/A,12 Feb 2025,16 Jan 2025,24,Spouse,buy,50K–100K,N/A
+Richard Blumenthal,Democrat,Senate,CT,NOT FADE AWAY LLC,N/A,12 Feb 2025,16 Jan 2025,24,Spouse,buy,50K–100K,N/A
+Richard Blumenthal,Democrat,Senate,CT,NOT FADE AWAY LLC,N/A,12 Feb 2025,16 Jan 2025,24,Spouse,buy,15K–50K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,12 Feb 2025,16 Jan 2025,24,Spouse,sell,15K–50K,N/A
+Richard Blumenthal,Democrat,Senate,CT,NOT FADE AWAY LLC,N/A,12 Feb 2025,16 Jan 2025,24,Spouse,buy,50K–100K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,12 Feb 2025,16 Jan 2025,24,Spouse,sell,50K–100K,N/A
+Richard Blumenthal,Democrat,Senate,CT,NOT FADE AWAY LLC,N/A,12 Feb 2025,16 Jan 2025,24,Spouse,buy,100K–250K,N/A
+Richard Blumenthal,Democrat,Senate,CT,NOT FADE AWAY LLC,N/A,12 Feb 2025,16 Jan 2025,24,Spouse,buy,15K–50K,N/A
+Dave McCormick,Republican,Senate,PA,ARES CAPITAL CORPORATION,ARCC:US,9 Feb 2025,16 Jan 2025,23,Self,buy,250K–500K,N/A
+Dave McCormick,Republican,Senate,PA,Athene Holding Ltd,ATH:US,9 Feb 2025,15 Jan 2025,24,Self,buy,250K–500K,N/A
+Dave McCormick,Republican,Senate,PA,SPORTS & EXHIBITION AUTHORITY OF PITTSBURGH AND ALLEGHENY COUNTY,N/A,9 Feb 2025,15 Jan 2025,24,Self,buy,250K–500K,N/A
+Dave McCormick,Republican,Senate,PA,RUMBLE INC,RUM:US,9 Feb 2025,15 Jan 2025,24,Self,sell,1M–5M,$12.25
+Dave McCormick,Republican,Senate,PA,COMMONWEALTH OF PENNSYLVANIA,N/A,9 Feb 2025,15 Jan 2025,24,Spouse,buy,1K–15K,N/A
+John Boozman,Republican,Senate,AR,INVESCO SHORT TERM TREAS ETF,TBLL:US,9 Feb 2025,15 Jan 2025,23,Joint,buy,1K–15K,$105.76
+John Boozman,Republican,Senate,AR,SPDR S&P 500 ETF Trust,SPY:US,9 Feb 2025,15 Jan 2025,23,Joint,sell,1K–15K,$591.64
+Dave McCormick,Republican,Senate,PA,NORTH HILLS SCHOOL DISTRICT ALLEGHENY COUNTY PENNSYLVANIA,N/A,9 Feb 2025,13 Jan 2025,26,Spouse,buy,1K–15K,N/A
+Dave McCormick,Republican,Senate,PA,TOWNSHIP OF EAST HEMPFIELD PENNSYLVANIA,N/A,9 Feb 2025,13 Jan 2025,26,Spouse,buy,50K–100K,N/A
+Dave McCormick,Republican,Senate,PA,CITY OF PITTSBURGH PENNSYLVANIA,N/A,9 Feb 2025,13 Jan 2025,26,Spouse,buy,15K–50K,N/A
+John Boozman,Republican,Senate,AR,salesforce.com Inc,CRM:US,9 Feb 2025,13 Jan 2025,25,Joint,buy,1K–15K,$323.54
+John Boozman,Republican,Senate,AR,NVIDIA Corporation,NVDA:US,9 Feb 2025,13 Jan 2025,25,Joint,buy,1K–15K,$131.76
+John Boozman,Republican,Senate,AR,Mastercard Inc,MA:US,9 Feb 2025,13 Jan 2025,25,Joint,buy,1K–15K,$509.02
+John Boozman,Republican,Senate,AR,Invesco QQQ Trust Series 1,QQQ:US,9 Feb 2025,13 Jan 2025,25,Joint,sell,1K–15K,$505.08
+John Boozman,Republican,Senate,AR,eBay Inc,EBAY:US,9 Feb 2025,13 Jan 2025,25,Joint,sell,1K–15K,$64.41
+John Boozman,Republican,Senate,AR,Cisco Systems Inc,CSCO:US,9 Feb 2025,13 Jan 2025,25,Joint,sell,1K–15K,$59.33
+Shelley Moore Capito,Republican,Senate,WV,Analog Devices Inc,ADI:US,13 Feb 2025,12 Jan 2025,31,Spouse,sell,1K–15K,$212.95
+Dave McCormick,Republican,Senate,PA,CARLISLE AREA SCHOOL DISTRICT CUMBERLAND COUNTY PENNSYLVANIA,N/A,9 Feb 2025,12 Jan 2025,27,Spouse,buy,15K–50K,N/A
+John Fetterman,Democrat,Senate,PA,Paramount Global Inc,PSKY:US,7 Feb 2025,12 Jan 2025,25,Child,buy,1K–15K,N/A
+John Fetterman,Democrat,Senate,PA,Sempra,SRE:US,7 Feb 2025,12 Jan 2025,25,Child,buy,1K–15K,N/A
+John Fetterman,Democrat,Senate,PA,Elevance Health Inc,ELV:US,7 Feb 2025,12 Jan 2025,25,Child,buy,1K–15K,N/A
+John Fetterman,Democrat,Senate,PA,CELANESE US HOLDINGS LLC,N/A,7 Feb 2025,12 Jan 2025,25,Child,buy,1K–15K,N/A
+John Fetterman,Democrat,Senate,PA,The Bank of New York Mellon Corp,BK:US,7 Feb 2025,12 Jan 2025,25,Child,buy,1K–15K,N/A
+Tommy Tuberville,Republican,Senate,AL,Tractor Supply Co,TSCO:US,14 Feb 2025,9 Jan 2025,35,Joint,sell,15K–50K,$54.59
+Tommy Tuberville,Republican,Senate,AL,Carrier Global Corp,CARR:US,14 Feb 2025,9 Jan 2025,35,Joint,sell,1K–15K,$66.51
+Tommy Tuberville,Republican,Senate,AL,Texas Instruments Inc,TXN:US,14 Feb 2025,9 Jan 2025,35,Joint,sell,15K–50K,$190.15
+Tommy Tuberville,Republican,Senate,AL,Diageo PLC,DEO:US,14 Feb 2025,9 Jan 2025,35,Joint,sell,15K–50K,$118.23
+Tommy Tuberville,Republican,Senate,AL,Microsoft Corp,MSFT:US,14 Feb 2025,9 Jan 2025,35,Joint,sell,15K–50K,$418.95
+Tommy Tuberville,Republican,Senate,AL,Apple Inc,AAPL:US,14 Feb 2025,9 Jan 2025,35,Joint,sell,15K–50K,$236.85
+Dave McCormick,Republican,Senate,PA,McDonald's Corp,MCD:US,9 Feb 2025,9 Jan 2025,30,Self,buy,250K–500K,N/A
+Dave McCormick,Republican,Senate,PA,Phillips 66,PSX:US,9 Feb 2025,9 Jan 2025,30,Self,buy,250K–500K,N/A
+Dave McCormick,Republican,Senate,PA,The Carlyle Group Inc,CG:US,9 Feb 2025,9 Jan 2025,30,Self,buy,250K–500K,N/A
+Dave McCormick,Republican,Senate,PA,PENNSYLVANIA HIGHER EDUCATIONAL FACILITIES AUTHORITY,N/A,9 Feb 2025,9 Jan 2025,30,Spouse,buy,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,3G COURSER ONSHORE FUND LP,N/A,12 Feb 2025,8 Jan 2025,32,Spouse,sell,50K–100K,N/A
+Richard Blumenthal,Democrat,Senate,CT,3G COURSER ONSHORE FUND LP,N/A,12 Feb 2025,8 Jan 2025,32,Spouse,sell,50K–100K,N/A
+Richard Blumenthal,Democrat,Senate,CT,3G COURSER ONSHORE FUND LP,N/A,12 Feb 2025,8 Jan 2025,32,Spouse,sell,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,3G COURSER ONSHORE FUND LP,N/A,12 Feb 2025,8 Jan 2025,32,Spouse,sell,15K–50K,N/A
+Dave McCormick,Republican,Senate,PA,COLONIAL SCHOOL DISTRICT MONTGOMERY COUNTY PENNSYLVANIA,N/A,9 Feb 2025,8 Jan 2025,31,Spouse,buy,50K–100K,N/A
+Dave McCormick,Republican,Senate,PA,DELAWARE RIVER PORT AUTHORITY,N/A,9 Feb 2025,8 Jan 2025,31,Spouse,buy,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH FOUR WINDS LLC,N/A,12 Feb 2025,7 Jan 2025,33,Spouse,buy,250K–500K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH FOUR WINDS LLC,N/A,12 Feb 2025,7 Jan 2025,33,Spouse,buy,500K–1M,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH FOUR WINDS LLC,N/A,12 Feb 2025,7 Jan 2025,33,Spouse,buy,100K–250K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH FOUR WINDS LLC,N/A,12 Feb 2025,7 Jan 2025,33,Spouse,buy,15K–50K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH FOUR WINDS LLC,N/A,12 Feb 2025,7 Jan 2025,33,Spouse,buy,15K–50K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH FOUR WINDS LLC,N/A,12 Feb 2025,7 Jan 2025,33,Spouse,buy,15K–50K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH FOUR WINDS LLC,N/A,12 Feb 2025,7 Jan 2025,33,Spouse,buy,15K–50K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH FOUR WINDS LLC,N/A,12 Feb 2025,7 Jan 2025,33,Spouse,buy,100K–250K,N/A
+Markwayne Mullin,Republican,Senate,OK,CITY OF KAUKAUNA,N/A,31 Jan 2025,7 Jan 2025,23,Joint,sell,1K–15K,N/A
+Markwayne Mullin,Republican,Senate,OK,MACOMB INTERMEDIATE SCHOOL DISTRICT,N/A,31 Jan 2025,7 Jan 2025,23,Joint,sell,50K–100K,N/A
+Markwayne Mullin,Republican,Senate,OK,COOK COUNTY COMMUNITY CONSOLIDATED SCHOOL DISTRICT 15,N/A,31 Jan 2025,7 Jan 2025,23,Joint,sell,15K–50K,N/A
+Markwayne Mullin,Republican,Senate,OK,CITY OF FORT LAUDERDALE,N/A,31 Jan 2025,7 Jan 2025,23,Joint,sell,50K–100K,N/A
+Markwayne Mullin,Republican,Senate,OK,NEW YORK CITY MUNICIPAL WATER FINANCE AUTHORITY,N/A,31 Jan 2025,7 Jan 2025,23,Joint,sell,15K–50K,N/A
+Markwayne Mullin,Republican,Senate,OK,CITY OF AUSTIN TEXAS,N/A,31 Jan 2025,7 Jan 2025,23,Joint,sell,50K–100K,N/A
+Markwayne Mullin,Republican,Senate,OK,CITY OF WINSTON SALEM NORTH CAROLINA,N/A,31 Jan 2025,7 Jan 2025,23,Joint,sell,15K–50K,N/A
+Markwayne Mullin,Republican,Senate,OK,STATE OF NEVADA,N/A,31 Jan 2025,7 Jan 2025,23,Joint,sell,50K–100K,N/A
+Markwayne Mullin,Republican,Senate,OK,Vanguard Mid-Cap ETF,VO:US,31 Jan 2025,7 Jan 2025,23,Joint,sell,15K–50K,$266.39
+Markwayne Mullin,Republican,Senate,OK,Abbott Laboratories,ABT:US,31 Jan 2025,7 Jan 2025,23,Joint,sell,1K–15K,$114.25
+Markwayne Mullin,Republican,Senate,OK,iShares Core MSCI EAFE ETF,IEFA:US,31 Jan 2025,7 Jan 2025,23,Joint,sell,15K–50K,$70.83
+Markwayne Mullin,Republican,Senate,OK,iShares MSCI Eurozone ETF,EZU:US,31 Jan 2025,7 Jan 2025,23,Joint,sell,15K–50K,$47.82
+Marco Rubio,Republican,Senate,FL,Cisco Systems Inc,CSCO:US,6 Feb 2025,6 Jan 2025,30,Self,sell,1K–15K,$58.93
+Marco Rubio,Republican,Senate,FL,The Coca-Cola Co,KO:US,6 Feb 2025,6 Jan 2025,30,Self,sell,1K–15K,$60.84
+Dave McCormick,Republican,Senate,PA,POCONO MOUNTAIN SCHOOL DISTRICT,N/A,5 Feb 2025,5 Jan 2025,30,Spouse,buy,1K–15K,N/A
+Sheldon Whitehouse,Democrat,Senate,RI,NVIDIA Corporation,NVDA:US,8 Jan 2025,5 Jan 2025,2,Self,sell,15K–50K,$149.43
+Shelley Moore Capito,Republican,Senate,WV,Microsoft Corp,MSFT:US,13 Feb 2025,2 Jan 2025,41,Spouse,sell,1K–15K,$423.35
+Markwayne Mullin,Republican,Senate,OK,Westinghouse Air Brake Technologies Corp,WAB:US,31 Jan 2025,1 Jan 2025,29,Spouse,buy,15K–50K,$188.97
+Markwayne Mullin,Republican,Senate,OK,Primo Water Corp,PRMW:US,31 Jan 2025,1 Jan 2025,29,Spouse,buy,15K–50K,$30.99
+Markwayne Mullin,Republican,Senate,OK,MasTec Inc,MTZ:US,31 Jan 2025,1 Jan 2025,29,Spouse,buy,15K–50K,$139.99
+Markwayne Mullin,Republican,Senate,OK,Stride Inc,LRN:US,31 Jan 2025,1 Jan 2025,29,Spouse,buy,15K–50K,$106.34
+Markwayne Mullin,Republican,Senate,OK,Iron Mountain Inc,IRM:US,31 Jan 2025,1 Jan 2025,29,Spouse,buy,15K–50K,$104.74
+Markwayne Mullin,Republican,Senate,OK,The Goldman Sachs Group Inc,GS:US,31 Jan 2025,1 Jan 2025,29,Spouse,buy,15K–50K,$574.97
+Markwayne Mullin,Republican,Senate,OK,Dell Technologies Inc,DELL:US,31 Jan 2025,1 Jan 2025,29,Spouse,buy,15K–50K,$116.53
+Markwayne Mullin,Republican,Senate,OK,CREDO TECH GROUP HOLDING LTD,N/A,31 Jan 2025,1 Jan 2025,29,Spouse,buy,15K–50K,N/A
+Markwayne Mullin,Republican,Senate,OK,Coherent Corp,COHR:US,31 Jan 2025,1 Jan 2025,29,Spouse,buy,15K–50K,$100.59
+Markwayne Mullin,Republican,Senate,OK,Applied Industrial Technologies Inc,AIT:US,31 Jan 2025,1 Jan 2025,29,Spouse,buy,15K–50K,$238.61
+Markwayne Mullin,Republican,Senate,OK,Westinghouse Air Brake Technologies Corp,WAB:US,31 Jan 2025,1 Jan 2025,29,Self,buy,15K–50K,$188.97
+Markwayne Mullin,Republican,Senate,OK,Primo Water Corp,PRMW:US,31 Jan 2025,1 Jan 2025,29,Self,buy,15K–50K,$30.99
+Markwayne Mullin,Republican,Senate,OK,MasTec Inc,MTZ:US,31 Jan 2025,1 Jan 2025,29,Self,buy,15K–50K,$139.99
+Markwayne Mullin,Republican,Senate,OK,Stride Inc,LRN:US,31 Jan 2025,1 Jan 2025,29,Self,buy,15K–50K,$106.34
+Markwayne Mullin,Republican,Senate,OK,Iron Mountain Inc,IRM:US,31 Jan 2025,1 Jan 2025,29,Self,buy,15K–50K,$104.74
+Markwayne Mullin,Republican,Senate,OK,The Goldman Sachs Group Inc,GS:US,31 Jan 2025,1 Jan 2025,29,Self,buy,15K–50K,$574.97
+Markwayne Mullin,Republican,Senate,OK,Dell Technologies Inc,DELL:US,31 Jan 2025,1 Jan 2025,29,Self,buy,15K–50K,$116.53
+Markwayne Mullin,Republican,Senate,OK,CREDO TECH GROUP HOLDING LTD,N/A,31 Jan 2025,1 Jan 2025,29,Self,buy,15K–50K,N/A
+Markwayne Mullin,Republican,Senate,OK,Coherent Corp,COHR:US,31 Jan 2025,1 Jan 2025,29,Self,buy,15K–50K,$100.59
+Markwayne Mullin,Republican,Senate,OK,Applied Industrial Technologies Inc,AIT:US,31 Jan 2025,1 Jan 2025,29,Self,buy,15K–50K,$238.61
+Bill Hagerty,Republican,Senate,TN,Aspen Insurance Holdings Ltd,AHL:US,22 Jan 2025,1 Jan 2025,20,Self,sell,15K–50K,N/A
+Dave McCormick,Republican,Senate,PA,EAST STROUDSBURG AREA SCHOOL DISTRICT,N/A,1 Sept 2025,3 Aug 2025,28,Spouse,buy,50K–100K,N/A
+Jim Banks,Republican,Senate,IN,Starbucks Corp,SBUX:US,10 Aug 2025,3 Aug 2025,6,Self,buy,1K–15K,$89.78
+John Boozman,Republican,Senate,AR,WESTWOOD QUALITY SMALLCAP FUND,WWSYX:US,12 Sept 2025,31 Jul 2025,42,Joint,buy,1K–15K,N/A
+John Boozman,Republican,Senate,AR,Goldman Sachs ActiveBeta Emerging Markets Equity ETF,GEM:US,12 Sept 2025,31 Jul 2025,42,Joint,buy,1K–15K,$37.12
+John Boozman,Republican,Senate,AR,iShares Agency Bond ETF,AGZ:US,12 Sept 2025,31 Jul 2025,42,Joint,buy,1K–15K,$109.59
+John Boozman,Republican,Senate,AR,iShares MBS ETF,MBB:US,12 Sept 2025,31 Jul 2025,42,Joint,buy,1K–15K,$93.72
+John Boozman,Republican,Senate,AR,iShares Trust iShares 20 Year Treasury Bond ETF,TLT:US,12 Sept 2025,31 Jul 2025,42,Joint,buy,1K–15K,$87.82
+John Boozman,Republican,Senate,AR,iShares 3-7 Year Treasury Bond ETF,IEI:US,12 Sept 2025,31 Jul 2025,42,Joint,buy,1K–15K,$119.01
+John Boozman,Republican,Senate,AR,iShares CMBS ETF,CMBS:US,12 Sept 2025,31 Jul 2025,42,Joint,buy,1K–15K,$48.51
+John Boozman,Republican,Senate,AR,iShares 10-20 Year Treasury Bond ETF,TLH:US,12 Sept 2025,31 Jul 2025,42,Joint,buy,1K–15K,$101.52
+John Boozman,Republican,Senate,AR,iShares 1-3 Year Treasury Bond ETF,SHY:US,12 Sept 2025,31 Jul 2025,42,Joint,buy,1K–15K,$82.66
+John Boozman,Republican,Senate,AR,iShares 7-10 Year Treasury Bond ETF,IEF:US,12 Sept 2025,31 Jul 2025,42,Joint,buy,1K–15K,$95.68
+John Boozman,Republican,Senate,AR,iShares Trust - iShares Russell 2000 ETF,IWM:US,12 Sept 2025,31 Jul 2025,42,Joint,buy,1K–15K,$214.92
+John Boozman,Republican,Senate,AR,Janus Henderson Mortgage-Backed Securities ETF,JMBS:US,12 Sept 2025,31 Jul 2025,42,Joint,buy,1K–15K,$44.91
+John Boozman,Republican,Senate,AR,NEW WORLD FUND INC,RNWGX:US,12 Sept 2025,31 Jul 2025,42,Joint,buy,1K–15K,N/A
+John Boozman,Republican,Senate,AR,Schwab US TIPS ETF,SCHP:US,12 Sept 2025,31 Jul 2025,42,Joint,buy,1K–15K,$26.67
+John Boozman,Republican,Senate,AR,Vanguard Global ex-U.S. Real Estate ETF,VNQI:US,12 Sept 2025,31 Jul 2025,42,Joint,buy,1K–15K,$45.50
+John Boozman,Republican,Senate,AR,ABRDN PHYSICAL PALLAD SH ETF,PALL:US,12 Sept 2025,31 Jul 2025,42,Joint,sell,1K–15K,$110.11
+John Boozman,Republican,Senate,AR,ABRDN PHYSICAL PALLAD SH ETF,PALL:US,12 Sept 2025,31 Jul 2025,42,Joint,sell,1K–15K,$110.11
+John Boozman,Republican,Senate,AR,First Trust North American Energy Infrastructure Fund,EMLP:US,12 Sept 2025,31 Jul 2025,42,Joint,sell,1K–15K,$38.04
+John Boozman,Republican,Senate,AR,Goldman Sachs ActiveBeta Emerging Markets Equity ETF,GEM:US,12 Sept 2025,31 Jul 2025,42,Joint,sell,1K–15K,$37.12
+John Boozman,Republican,Senate,AR,Goldman Sachs Access Investment Grade Corporate Bond ETF,GIGB:US,12 Sept 2025,31 Jul 2025,42,Joint,sell,1K–15K,$46.04
+John Boozman,Republican,Senate,AR,INVESCO SHORT TERM TREAS ETF,TBLL:US,12 Sept 2025,31 Jul 2025,42,Joint,sell,15K–50K,$105.60
+John Boozman,Republican,Senate,AR,iShares Silver Trust,SLV:US,12 Sept 2025,31 Jul 2025,42,Joint,sell,1K–15K,$33.59
+John Boozman,Republican,Senate,AR,iShares MSCI EAFE ETF,EFA:US,12 Sept 2025,31 Jul 2025,42,Joint,sell,1K–15K,$87.29
+John Boozman,Republican,Senate,AR,iShares Core S&P 500 ETF,IVV:US,12 Sept 2025,31 Jul 2025,42,Joint,sell,1K–15K,$624.65
+John Boozman,Republican,Senate,AR,SPROTT URANIUM MINERS ETF,URNM:US,12 Sept 2025,31 Jul 2025,42,Joint,sell,1K–15K,$44.80
+John Boozman,Republican,Senate,AR,VANECK EMERGING MARKETS FUND,EMRIX:US,12 Sept 2025,31 Jul 2025,42,Joint,sell,1K–15K,N/A
+John Boozman,Republican,Senate,AR,Vanguard FTSE Developed Markets ETF,VEA:US,12 Sept 2025,31 Jul 2025,42,Joint,sell,1K–15K,$56.02
+Shelley Moore Capito,Republican,Senate,WV,The Sherwin-Williams Co,SHW:US,3 Sept 2025,31 Jul 2025,33,Spouse,buy,1K–15K,$343.41
+Shelley Moore Capito,Republican,Senate,WV,Prologis Inc,PLD:US,3 Sept 2025,31 Jul 2025,33,Spouse,buy,1K–15K,$104.91
+Markwayne Mullin,Republican,Senate,OK,Unitedhealth Group Inc,UNH:US,18 Aug 2025,31 Jul 2025,17,Joint,sell,15K–50K,$237.77
+Richard Blumenthal,Democrat,Senate,CT,MH FOUR WINDS LLC,N/A,25 Aug 2025,30 Jul 2025,25,Spouse,buy,15K–50K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH FOUR WINDS LLC,N/A,25 Aug 2025,30 Jul 2025,25,Spouse,buy,50K–100K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,25 Aug 2025,30 Jul 2025,25,Spouse,buy,250K–500K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,25 Aug 2025,30 Jul 2025,25,Spouse,buy,250K–500K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,25 Aug 2025,30 Jul 2025,25,Spouse,buy,50K–100K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,25 Aug 2025,30 Jul 2025,25,Spouse,buy,100K–250K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,25 Aug 2025,30 Jul 2025,25,Spouse,buy,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,25 Aug 2025,30 Jul 2025,25,Spouse,buy,15K–50K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,25 Aug 2025,30 Jul 2025,25,Spouse,buy,50K–100K,N/A
+John Boozman,Republican,Senate,AR,Mondelez International Inc,MDLZ:US,6 Aug 2025,30 Jul 2025,6,Joint,sell,1K–15K,$64.69
+John Boozman,Republican,Senate,AR,General Dynamics Corp,GD:US,6 Aug 2025,30 Jul 2025,6,Joint,sell,1K–15K,$311.61
+John Boozman,Republican,Senate,AR,Walmart Inc,WMT:US,6 Aug 2025,30 Jul 2025,6,Joint,buy,1K–15K,$97.98
+John Boozman,Republican,Senate,AR,General Electric Co,GE:US,6 Aug 2025,30 Jul 2025,6,Joint,buy,1K–15K,$271.08
+Shelley Moore Capito,Republican,Senate,WV,Colgate-Palmolive Co,CL:US,4 Aug 2025,30 Jul 2025,4,Spouse,sell,1K–15K,$83.85
+Shelley Moore Capito,Republican,Senate,WV,PPG Industries Inc,PPG:US,4 Aug 2025,30 Jul 2025,4,Spouse,sell,1K–15K,$105.50
+Shelley Moore Capito,Republican,Senate,WV,General Dynamics Corp,GD:US,4 Aug 2025,30 Jul 2025,4,Spouse,sell,1K–15K,$311.61
+Richard Blumenthal,Democrat,Senate,CT,NOT FADE AWAY LLC,N/A,12 Sept 2025,29 Jul 2025,44,Spouse,buy,500K–1M,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,12 Sept 2025,29 Jul 2025,44,Spouse,sell,500K–1M,N/A
+Richard Blumenthal,Democrat,Senate,CT,NOT FADE AWAY LLC,N/A,12 Sept 2025,29 Jul 2025,44,Spouse,buy,15K–50K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,12 Sept 2025,29 Jul 2025,44,Spouse,sell,15K–50K,N/A
+Richard Blumenthal,Democrat,Senate,CT,NOT FADE AWAY LLC,N/A,12 Sept 2025,29 Jul 2025,44,Spouse,buy,15K–50K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,12 Sept 2025,29 Jul 2025,44,Spouse,sell,15K–50K,N/A
+Richard Blumenthal,Democrat,Senate,CT,NOT FADE AWAY LLC,N/A,12 Sept 2025,29 Jul 2025,44,Spouse,buy,100K–250K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,12 Sept 2025,29 Jul 2025,44,Spouse,sell,100K–250K,N/A
+Richard Blumenthal,Democrat,Senate,CT,NOT FADE AWAY LLC,N/A,12 Sept 2025,29 Jul 2025,44,Spouse,buy,500K–1M,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,12 Sept 2025,29 Jul 2025,44,Spouse,sell,500K–1M,N/A
+Richard Blumenthal,Democrat,Senate,CT,NOT FADE AWAY LLC,N/A,12 Sept 2025,29 Jul 2025,44,Spouse,buy,100K–250K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,12 Sept 2025,29 Jul 2025,44,Spouse,sell,100K–250K,N/A
+Richard Blumenthal,Democrat,Senate,CT,NOT FADE AWAY LLC,N/A,12 Sept 2025,29 Jul 2025,44,Spouse,buy,250K–500K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,12 Sept 2025,29 Jul 2025,44,Spouse,sell,250K–500K,N/A
+Richard Blumenthal,Democrat,Senate,CT,NOT FADE AWAY LLC,N/A,12 Sept 2025,29 Jul 2025,44,Spouse,buy,100K–250K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,12 Sept 2025,29 Jul 2025,44,Spouse,sell,100K–250K,N/A
+Richard Blumenthal,Democrat,Senate,CT,NOT FADE AWAY LLC,N/A,12 Sept 2025,29 Jul 2025,44,Spouse,buy,50K–100K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,12 Sept 2025,29 Jul 2025,44,Spouse,sell,50K–100K,N/A
+Shelley Moore Capito,Republican,Senate,WV,PPG Industries Inc,PPG:US,4 Aug 2025,29 Jul 2025,5,Spouse,sell,1K–15K,$106.25
+Dave McCormick,Republican,Senate,PA,Delta Air Lines Inc,DAL:US,1 Aug 2025,29 Jul 2025,2,Self,sell,250K–500K,N/A
+Shelley Moore Capito,Republican,Senate,WV,Meta Platforms Inc,META:US,4 Aug 2025,28 Jul 2025,6,Spouse,buy,1K–15K,$700.00
+Shelley Moore Capito,Republican,Senate,WV,Alphabet Inc,GOOGL:US,4 Aug 2025,28 Jul 2025,6,Spouse,buy,1K–15K,$195.75
+Richard Blumenthal,Democrat,Senate,CT,MH FOUR WINDS LLC,N/A,25 Aug 2025,23 Jul 2025,32,Spouse,buy,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH FOUR WINDS LLC,N/A,25 Aug 2025,23 Jul 2025,32,Spouse,buy,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,25 Aug 2025,23 Jul 2025,32,Spouse,buy,15K–50K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,25 Aug 2025,23 Jul 2025,32,Spouse,buy,15K–50K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,25 Aug 2025,23 Jul 2025,32,Spouse,buy,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,25 Aug 2025,23 Jul 2025,32,Spouse,buy,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,25 Aug 2025,23 Jul 2025,32,Spouse,buy,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,25 Aug 2025,23 Jul 2025,32,Spouse,buy,1K–15K,N/A
+John Boozman,Republican,Senate,AR,JPMorgan Chase & Co,JPM:US,6 Aug 2025,23 Jul 2025,13,Joint,sell,1K–15K,$296.55
+John Boozman,Republican,Senate,AR,Berkshire Hathaway Inc,BRK/B:US,6 Aug 2025,23 Jul 2025,13,Joint,buy,1K–15K,$480.60
+Richard Blumenthal,Democrat,Senate,CT,DAYS BETWEEN LLC,N/A,25 Aug 2025,22 Jul 2025,33,Spouse,buy,100K–250K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,25 Aug 2025,22 Jul 2025,33,Spouse,sell,50K–100K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,25 Aug 2025,22 Jul 2025,33,Spouse,sell,50K–100K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,25 Aug 2025,22 Jul 2025,33,Spouse,sell,50K–100K,N/A
+Richard Blumenthal,Democrat,Senate,CT,DAYS BETWEEN LLC,N/A,25 Aug 2025,22 Jul 2025,33,Spouse,buy,15K–50K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,25 Aug 2025,22 Jul 2025,33,Spouse,sell,15K–50K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,25 Aug 2025,22 Jul 2025,33,Spouse,sell,15K–50K,N/A
+Richard Blumenthal,Democrat,Senate,CT,DAYS BETWEEN LLC,N/A,25 Aug 2025,22 Jul 2025,33,Spouse,buy,100K–250K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,25 Aug 2025,22 Jul 2025,33,Spouse,sell,250K–500K,N/A
+Dave McCormick,Republican,Senate,PA,COUNTY OF ADAMS,N/A,1 Aug 2025,21 Jul 2025,10,Spouse,buy,15K–50K,N/A
+Dave McCormick,Republican,Senate,PA,CENTENNIAL SCHOOL DISTRICT,N/A,1 Aug 2025,21 Jul 2025,10,Spouse,buy,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH FOUR WINDS LLC,N/A,25 Aug 2025,20 Jul 2025,35,Spouse,buy,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH FOUR WINDS LLC,N/A,25 Aug 2025,20 Jul 2025,35,Spouse,buy,15K–50K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,25 Aug 2025,20 Jul 2025,35,Spouse,buy,50K–100K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,25 Aug 2025,20 Jul 2025,35,Spouse,buy,100K–250K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,25 Aug 2025,20 Jul 2025,35,Spouse,buy,15K–50K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,25 Aug 2025,20 Jul 2025,35,Spouse,buy,15K–50K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,25 Aug 2025,20 Jul 2025,35,Spouse,buy,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,25 Aug 2025,20 Jul 2025,35,Spouse,buy,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,25 Aug 2025,20 Jul 2025,35,Spouse,buy,15K–50K,N/A
+Angus King,Other,Senate,ME,Advanced Micro Devices Inc,AMD:US,18 Aug 2025,20 Jul 2025,28,Spouse,buy,1K–15K,$157.00
+Angus King,Other,Senate,ME,Alphabet Inc,GOOGL:US,18 Aug 2025,20 Jul 2025,28,Spouse,buy,1K–15K,$190.10
+Angus King,Other,Senate,ME,Applied Materials Inc,AMAT:US,18 Aug 2025,20 Jul 2025,28,Spouse,buy,1K–15K,$192.61
+Angus King,Other,Senate,ME,Arista Networks Inc,ANET:US,18 Aug 2025,20 Jul 2025,28,Spouse,buy,1K–15K,$111.61
+Angus King,Other,Senate,ME,AUTODESK Inc,ADSK:US,18 Aug 2025,20 Jul 2025,28,Spouse,buy,1K–15K,$295.16
+Angus King,Other,Senate,ME,Bank of America Corp,BAC:US,18 Aug 2025,20 Jul 2025,28,Spouse,buy,1K–15K,$47.48
+Angus King,Other,Senate,ME,Blackstone Group Inc,BX:US,18 Aug 2025,20 Jul 2025,28,Spouse,buy,1K–15K,$166.69
+Angus King,Other,Senate,ME,Exxon Mobil Corp,XOM:US,18 Aug 2025,20 Jul 2025,28,Spouse,buy,1K–15K,$108.05
+Angus King,Other,Senate,ME,JPMorgan Chase & Co,JPM:US,18 Aug 2025,20 Jul 2025,28,Spouse,buy,1K–15K,$290.97
+Angus King,Other,Senate,ME,Kirby Corp,KEX:US,18 Aug 2025,20 Jul 2025,28,Spouse,buy,1K–15K,$115.83
+Angus King,Other,Senate,ME,Lowe's Cos Inc,LOW:US,18 Aug 2025,20 Jul 2025,28,Spouse,buy,1K–15K,$220.91
+Angus King,Other,Senate,ME,Marvell Technology Inc,MRVL:US,18 Aug 2025,20 Jul 2025,28,Spouse,buy,1K–15K,$73.06
+Angus King,Other,Senate,ME,Meta Platforms Inc,META:US,18 Aug 2025,20 Jul 2025,28,Spouse,buy,1K–15K,$712.97
+Angus King,Other,Senate,ME,Microsoft Corp,MSFT:US,18 Aug 2025,20 Jul 2025,28,Spouse,buy,1K–15K,$510.06
+Angus King,Other,Senate,ME,Netflix Inc,NFLX:US,18 Aug 2025,20 Jul 2025,28,Spouse,buy,1K–15K,$1233.27
+Angus King,Other,Senate,ME,NVIDIA Corporation,NVDA:US,18 Aug 2025,20 Jul 2025,28,Spouse,buy,1K–15K,$171.38
+Angus King,Other,Senate,ME,ON HOLDING AG,ONON:US,18 Aug 2025,20 Jul 2025,28,Spouse,buy,1K–15K,$53.21
+Angus King,Other,Senate,ME,PayPal Holdings Inc,PYPL:US,18 Aug 2025,20 Jul 2025,28,Spouse,buy,1K–15K,$74.82
+Angus King,Other,Senate,ME,Quanta Services Inc,PWR:US,18 Aug 2025,20 Jul 2025,28,Spouse,buy,1K–15K,$398.66
+Angus King,Other,Senate,ME,Uber Technologies Inc,UBER:US,18 Aug 2025,20 Jul 2025,28,Spouse,sell,1K–15K,$91.16
+Angus King,Other,Senate,ME,Uber Technologies Inc,UBER:US,18 Aug 2025,20 Jul 2025,28,Spouse,buy,1K–15K,$91.16
+Angus King,Other,Senate,ME,Vertiv Holdings Co,VRT:US,18 Aug 2025,20 Jul 2025,28,Spouse,buy,1K–15K,$126.21
+Dave McCormick,Republican,Senate,PA,PALMER TOWNSHIP NORTHAMPTON COUNTY PENNSYLVANIA,N/A,1 Aug 2025,20 Jul 2025,11,Spouse,buy,1K–15K,N/A
+Dave McCormick,Republican,Senate,PA,COMMONWEALTH OF PENNSYLVANIA,N/A,1 Aug 2025,20 Jul 2025,11,Spouse,buy,15K–50K,N/A
+Dave McCormick,Republican,Senate,PA,HOLLIDAYSBURG AREA SCHOOL DISTRICT,N/A,1 Aug 2025,20 Jul 2025,11,Spouse,buy,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH FOUR WINDS LLC,N/A,25 Aug 2025,17 Jul 2025,38,Spouse,buy,15K–50K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH FOUR WINDS LLC,N/A,25 Aug 2025,17 Jul 2025,38,Spouse,buy,100K–250K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH FOUR WINDS LLC,N/A,25 Aug 2025,17 Jul 2025,38,Spouse,buy,500K–1M,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,25 Aug 2025,17 Jul 2025,38,Spouse,sell,100K–250K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH FOUR WINDS LLC,N/A,25 Aug 2025,17 Jul 2025,38,Spouse,buy,500K–1M,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH FOUR WINDS LLC,N/A,25 Aug 2025,17 Jul 2025,38,Spouse,buy,100K–250K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,25 Aug 2025,17 Jul 2025,38,Spouse,sell,15K–50K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH FOUR WINDS LLC,N/A,25 Aug 2025,17 Jul 2025,38,Spouse,buy,250K–500K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH FOUR WINDS LLC,N/A,25 Aug 2025,17 Jul 2025,38,Spouse,buy,15K–50K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,25 Aug 2025,17 Jul 2025,38,Spouse,sell,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH FOUR WINDS LLC,N/A,25 Aug 2025,17 Jul 2025,38,Spouse,buy,50K–100K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,25 Aug 2025,17 Jul 2025,38,Spouse,sell,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH FOUR WINDS LLC,N/A,25 Aug 2025,17 Jul 2025,38,Spouse,buy,100K–250K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,25 Aug 2025,17 Jul 2025,38,Spouse,sell,100K–250K,N/A
+Shelley Moore Capito,Republican,Senate,WV,Broadcom Inc,AVGO:US,4 Aug 2025,17 Jul 2025,17,Spouse,sell,1K–15K,$283.34
+Shelley Moore Capito,Republican,Senate,WV,JPMorgan Chase & Co,JPM:US,4 Aug 2025,17 Jul 2025,17,Spouse,sell,1K–15K,$291.27
+Shelley Moore Capito,Republican,Senate,WV,Microsoft Corp,MSFT:US,4 Aug 2025,17 Jul 2025,17,Spouse,sell,1K–15K,$510.05
+Shelley Moore Capito,Republican,Senate,WV,Apple Inc,AAPL:US,4 Aug 2025,17 Jul 2025,17,Spouse,sell,1K–15K,$211.18
+Shelley Moore Capito,Republican,Senate,WV,AFLAC Inc,AFL:US,4 Aug 2025,17 Jul 2025,17,Spouse,sell,1K–15K,$101.83
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,25 Aug 2025,16 Jul 2025,39,Spouse,sell,500K–1M,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,25 Aug 2025,16 Jul 2025,39,Spouse,sell,100K–250K,N/A
+Rick Scott,Republican,Senate,FL,UTAH TRANSIT AUTHORITY,N/A,13 Aug 2025,16 Jul 2025,27,Self,buy,100K–250K,N/A
+Shelley Moore Capito,Republican,Senate,WV,Chubb Ltd,CB:US,4 Aug 2025,16 Jul 2025,18,Spouse,sell,1K–15K,$275.46
+Dave McCormick,Republican,Senate,PA,SENECA VALLEY SCHOOL DISTRICT BUTLER COUNTY PENNSYLVANIA,N/A,1 Aug 2025,16 Jul 2025,15,Spouse,buy,100K–250K,N/A
+Dave McCormick,Republican,Senate,PA,COMMONWEALTH OF PENNSYLVANIA,N/A,1 Aug 2025,16 Jul 2025,15,Spouse,buy,15K–50K,N/A
+Dave McCormick,Republican,Senate,PA,COUNTY OF CHESTER,N/A,1 Aug 2025,16 Jul 2025,15,Spouse,buy,1K–15K,N/A
+Angus King,Other,Senate,ME,Unitedhealth Group Inc,UNH:US,18 Aug 2025,14 Jul 2025,34,Spouse,sell,1K–15K,$291.71
+Richard Blumenthal,Democrat,Senate,CT,KIRKOSWALD GLOBAL MACRO FUND LP,N/A,13 Aug 2025,14 Jul 2025,29,Spouse,sell,50K–100K,N/A
+Richard Blumenthal,Democrat,Senate,CT,KIRKOSWALD GLOBAL MACRO FUND LP,N/A,13 Aug 2025,14 Jul 2025,29,Spouse,sell,15K–50K,N/A
+Richard Blumenthal,Democrat,Senate,CT,KIRKOSWALD GLOBAL MACRO FUND LP,N/A,13 Aug 2025,14 Jul 2025,29,Spouse,sell,100K–250K,N/A
+Dave McCormick,Republican,Senate,PA,UNIVERSITY OF PITTSBURGH,N/A,1 Aug 2025,14 Jul 2025,17,Spouse,buy,100K–250K,N/A
+Angus King,Other,Senate,ME,MAINE TURNPIKE AUTHORITY,N/A,18 Aug 2025,13 Jul 2025,35,Spouse,sell,15K–50K,N/A
+Angus King,Other,Senate,ME,MAINE TURNPIKE AUTHORITY,N/A,18 Aug 2025,13 Jul 2025,35,Spouse,sell,15K–50K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,13 Aug 2025,13 Jul 2025,30,Spouse,sell,100K–250K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,13 Aug 2025,13 Jul 2025,30,Spouse,sell,100K–250K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,13 Aug 2025,13 Jul 2025,30,Spouse,sell,50K–100K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,13 Aug 2025,13 Jul 2025,30,Spouse,sell,100K–250K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,13 Aug 2025,13 Jul 2025,30,Spouse,sell,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,13 Aug 2025,13 Jul 2025,30,Spouse,sell,50K–100K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,13 Aug 2025,13 Jul 2025,30,Spouse,sell,500K–1M,N/A
+Richard Blumenthal,Democrat,Senate,CT,NOT FADE AWAY LLC,N/A,13 Aug 2025,9 Jul 2025,34,Spouse,buy,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,NOT FADE AWAY LLC,N/A,13 Aug 2025,9 Jul 2025,34,Spouse,buy,1K–15K,N/A
+John Boozman,Republican,Senate,AR,iShares iBoxx High Yield Corporate Bond ETF,HYG:US,6 Aug 2025,7 Jul 2025,29,Joint,sell,1K–15K,$79.99
+John Boozman,Republican,Senate,AR,Goldman Sachs Access Investment Grade Corporate Bond ETF,GIGB:US,6 Aug 2025,7 Jul 2025,29,Joint,buy,1K–15K,$45.48
+Sheldon Whitehouse,Democrat,Senate,RI,NVIDIA Corporation,NVDA:US,4 Aug 2025,6 Jul 2025,28,Spouse,sell,15K–50K,$158.24
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,13 Aug 2025,2 Jul 2025,41,Spouse,buy,15K–50K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,13 Aug 2025,2 Jul 2025,41,Spouse,buy,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,13 Aug 2025,2 Jul 2025,41,Spouse,buy,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,13 Aug 2025,2 Jul 2025,41,Spouse,sell,100K–250K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,13 Aug 2025,2 Jul 2025,41,Spouse,buy,50K–100K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,13 Aug 2025,2 Jul 2025,41,Spouse,buy,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,13 Aug 2025,2 Jul 2025,41,Spouse,sell,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,13 Aug 2025,2 Jul 2025,41,Spouse,buy,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,13 Aug 2025,2 Jul 2025,41,Spouse,sell,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,13 Aug 2025,2 Jul 2025,41,Spouse,buy,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,13 Aug 2025,2 Jul 2025,41,Spouse,buy,15K–50K,N/A
+Sheldon Whitehouse,Democrat,Senate,RI,Analog Devices Inc,ADI:US,4 Aug 2025,2 Jul 2025,32,Self,sell,15K–50K,$245.68
+Lindsey Graham,Republican,Senate,SC,US TREASURY BILLS,N/A,14 Jul 2025,2 Jul 2025,11,Self,sell,50K–100K,N/A
+Dave McCormick,Republican,Senate,PA,UNIVERSITY OF PITTSBURGH,N/A,1 Aug 2025,1 Jul 2025,30,Spouse,buy,1K–15K,N/A
+Dave McCormick,Republican,Senate,PA,NORTHAMPTON BORO PENNSYLVANIA,N/A,1 Aug 2025,1 Jul 2025,30,Spouse,buy,15K–50K,N/A
+Dave McCormick,Republican,Senate,PA,PENNSYLVANIA TURNPIKE COMMISSION,N/A,1 Aug 2025,1 Jul 2025,30,Spouse,buy,1K–15K,N/A
+John Boozman,Republican,Senate,AR,Micron Technology Inc,MU:US,6 Aug 2025,30 Jun 2025,36,Joint,sell,1K–15K,$120.89
+Shelley Moore Capito,Republican,Senate,WV,American Express Co,AXP:US,4 Aug 2025,30 Jun 2025,34,Spouse,buy,15K–50K,$322.53
+Lindsey Graham,Republican,Senate,SC,BONDBLOXX B O Y T D US T ETF,XONE:US,14 Jul 2025,29 Jun 2025,14,Self,buy,15K–50K,$49.63
+Lindsey Graham,Republican,Senate,SC,INVESCO BULLETSHARES 2031 CORPORATE BOND ETF,BSCV:US,14 Jul 2025,29 Jun 2025,14,Self,buy,15K–50K,N/A
+Lindsey Graham,Republican,Senate,SC,US TREASURY BILLS,N/A,14 Jul 2025,29 Jun 2025,14,Self,buy,50K–100K,N/A
+Mitch McConnell,Republican,Senate,KY,LUMINAR TECHNOLOGIES INC,LAZR:US,7 Jul 2025,25 Jun 2025,11,Spouse,sell,15K–50K,$2.95
+John Fetterman,Democrat,Senate,PA,Baker Hughes Inc,BHI:US,15 Jul 2025,24 Jun 2025,20,Child,buy,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,21 Jul 2025,22 Jun 2025,25,Spouse,sell,100K–250K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,21 Jul 2025,22 Jun 2025,25,Spouse,sell,15K–50K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,21 Jul 2025,22 Jun 2025,25,Spouse,sell,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,21 Jul 2025,22 Jun 2025,25,Spouse,sell,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,21 Jul 2025,22 Jun 2025,25,Spouse,sell,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,21 Jul 2025,22 Jun 2025,25,Spouse,sell,15K–50K,N/A
+Shelley Moore Capito,Republican,Senate,WV,Unitedhealth Group Inc,UNH:US,4 Jul 2025,22 Jun 2025,11,Spouse,sell,1K–15K,$300.68
+Dave McCormick,Republican,Senate,PA,PHILADELPHIA PARKING AUTHORITY,N/A,2 Jul 2025,22 Jun 2025,9,Self,buy,100K–250K,N/A
+Dave McCormick,Republican,Senate,PA,SCHOOL DISTRICT OF HATBORO HORSHAM PENNSYLVANIA,N/A,2 Jul 2025,22 Jun 2025,9,Self,buy,250K–500K,N/A
+Markwayne Mullin,Republican,Senate,OK,STATE OF FLORIDA DEPARTMENT OF MANAGEMENT SERVICES,N/A,16 Jul 2025,17 Jun 2025,28,Joint,buy,50K–100K,N/A
+Shelley Moore Capito,Republican,Senate,WV,Analog Devices Inc,ADI:US,4 Jul 2025,17 Jun 2025,16,Spouse,sell,1K–15K,$229.65
+Shelley Moore Capito,Republican,Senate,WV,Wells Fargo & Co,WFC:US,4 Jul 2025,17 Jun 2025,16,Spouse,sell,1K–15K,$74.74
+Shelley Moore Capito,Republican,Senate,WV,Microsoft Corp,MSFT:US,4 Jul 2025,17 Jun 2025,16,Spouse,sell,1K–15K,$480.24
+Shelley Moore Capito,Republican,Senate,WV,Exxon Mobil Corp,XOM:US,4 Jul 2025,17 Jun 2025,16,Spouse,sell,1K–15K,$113.19
+Shelley Moore Capito,Republican,Senate,WV,Citigroup Inc,C:US,4 Jul 2025,17 Jun 2025,16,Spouse,sell,1K–15K,$78.35
+John Fetterman,Democrat,Senate,PA,JPMorgan Chase & Co,JPM:US,15 Jul 2025,16 Jun 2025,28,Child,buy,1K–15K,$269.52
+Markwayne Mullin,Republican,Senate,OK,NEW YORK CITY MUNICIPAL WATER FINANCE AUTHORITY,N/A,16 Jul 2025,15 Jun 2025,30,Joint,sell,50K–100K,N/A
+Dave McCormick,Republican,Senate,PA,DEPARTMENT OF STATE PENNSYLVANIA,N/A,2 Jul 2025,15 Jun 2025,16,Spouse,sell,15K–50K,N/A
+Jim Banks,Republican,Senate,IN,Roblox Corp,RBLX:US,26 Jun 2025,15 Jun 2025,10,Joint,sell,1K–15K,$100.44
+John Hickenlooper,Democrat,Senate,CO,Chipotle Mexican Grill Inc,CMG:US,7 Jul 2025,11 Jun 2025,25,Spouse,sell,100K–250K,$50.89
+John Boozman,Republican,Senate,AR,Unitedhealth Group Inc,UNH:US,9 Jul 2025,10 Jun 2025,28,Joint,sell,1K–15K,$310.56
+John Boozman,Republican,Senate,AR,Micron Technology Inc,MU:US,9 Jul 2025,10 Jun 2025,28,Joint,sell,1K–15K,$116.03
+John Boozman,Republican,Senate,AR,INVESCO SHORT TERM TREAS ETF,TBLL:US,9 Jul 2025,10 Jun 2025,28,Joint,buy,1K–15K,$105.69
+John Boozman,Republican,Senate,AR,Broadcom Inc,AVGO:US,9 Jul 2025,10 Jun 2025,28,Joint,buy,1K–15K,$252.91
+Richard Blumenthal,Democrat,Senate,CT,AZZAS 2154 SA,N/A,3 Jul 2025,10 Jun 2025,22,Spouse,buy,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,INTER & CO INC,INTR:US,3 Jul 2025,10 Jun 2025,22,Spouse,buy,1K–15K,$7.23
+Richard Blumenthal,Democrat,Senate,CT,ORIZON VALORIZACAO DE RESIDU,N/A,3 Jul 2025,10 Jun 2025,22,Spouse,buy,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MARCOPOLO SA,N/A,3 Jul 2025,10 Jun 2025,22,Spouse,buy,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,WEG SA,N/A,3 Jul 2025,10 Jun 2025,22,Spouse,buy,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,3G FUND VI LP,N/A,3 Jul 2025,10 Jun 2025,22,Spouse,buy,1M–5M,N/A
+Richard Blumenthal,Democrat,Senate,CT,3G FUND VI LP,N/A,3 Jul 2025,10 Jun 2025,22,Spouse,buy,50K–100K,N/A
+Richard Blumenthal,Democrat,Senate,CT,3G FUND VI LP,N/A,3 Jul 2025,10 Jun 2025,22,Spouse,buy,15K–50K,N/A
+Richard Blumenthal,Democrat,Senate,CT,3G FUND VI LP,N/A,3 Jul 2025,10 Jun 2025,22,Spouse,buy,15K–50K,N/A
+Richard Blumenthal,Democrat,Senate,CT,3G FUND VI LP,N/A,3 Jul 2025,10 Jun 2025,22,Spouse,buy,1K–15K,N/A
+Dave McCormick,Republican,Senate,PA,CITY OF PHILADELPHIA PENNSYLVANIA,N/A,2 Jul 2025,10 Jun 2025,21,Spouse,buy,100K–250K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,3 Jul 2025,9 Jun 2025,23,Spouse,sell,1M–5M,N/A
+Dave McCormick,Republican,Senate,PA,DELAWARE COUNTY PENNSYLVANIA,N/A,2 Jul 2025,5 Jun 2025,26,Spouse,buy,15K–50K,N/A
+Dave McCormick,Republican,Senate,PA,UPPER MERION AREA SCHOOL DISTRICT MONTGOMERY COUNTY PENNSYLVANIA,N/A,2 Jul 2025,5 Jun 2025,26,Spouse,buy,15K–50K,N/A
+Dave McCormick,Republican,Senate,PA,TOWNSHIP OF EAST HEMPFIELD PENNSYLVANIA,N/A,2 Jul 2025,5 Jun 2025,26,Spouse,buy,1K–15K,N/A
+Dave McCormick,Republican,Senate,PA,UNIVERSITY OF PITTSBURGH,N/A,2 Jul 2025,4 Jun 2025,27,Spouse,buy,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,NOT FADE AWAY LLC,N/A,3 Jul 2025,3 Jun 2025,29,Spouse,buy,250K–500K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,3 Jul 2025,3 Jun 2025,29,Spouse,sell,100K–250K,N/A
+Richard Blumenthal,Democrat,Senate,CT,NOT FADE AWAY LLC,N/A,3 Jul 2025,3 Jun 2025,29,Spouse,buy,15K–50K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,3 Jul 2025,3 Jun 2025,29,Spouse,sell,15K–50K,N/A
+Richard Blumenthal,Democrat,Senate,CT,NOT FADE AWAY LLC,N/A,3 Jul 2025,3 Jun 2025,29,Spouse,buy,250K–500K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,3 Jul 2025,3 Jun 2025,29,Spouse,sell,500K–1M,N/A
+Richard Blumenthal,Democrat,Senate,CT,NOT FADE AWAY LLC,N/A,3 Jul 2025,3 Jun 2025,29,Spouse,buy,50K–100K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,3 Jul 2025,3 Jun 2025,29,Spouse,sell,100K–250K,N/A
+Richard Blumenthal,Democrat,Senate,CT,NOT FADE AWAY LLC,N/A,3 Jul 2025,3 Jun 2025,29,Spouse,buy,15K–50K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,3 Jul 2025,3 Jun 2025,29,Spouse,sell,50K–100K,N/A
+Richard Blumenthal,Democrat,Senate,CT,NOT FADE AWAY LLC,N/A,3 Jul 2025,3 Jun 2025,29,Spouse,buy,50K–100K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,3 Jul 2025,3 Jun 2025,29,Spouse,sell,100K–250K,N/A
+Richard Blumenthal,Democrat,Senate,CT,NOT FADE AWAY LLC,N/A,3 Jul 2025,3 Jun 2025,29,Spouse,buy,50K–100K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,3 Jul 2025,3 Jun 2025,29,Spouse,sell,100K–250K,N/A
+Richard Blumenthal,Democrat,Senate,CT,NOT FADE AWAY LLC,N/A,3 Jul 2025,3 Jun 2025,29,Spouse,buy,100K–250K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,3 Jul 2025,3 Jun 2025,29,Spouse,sell,15K–50K,N/A
+Dave McCormick,Republican,Senate,PA,BOROUGH OF HANOVER YORK COUNTY PENNSYLVANIA,N/A,2 Jul 2025,3 Jun 2025,28,Spouse,buy,1K–15K,N/A
+Dave McCormick,Republican,Senate,PA,PENNSYLVANIA HIGHER EDUCATIONAL FACILITIES AUTHORITY,N/A,2 Jul 2025,3 Jun 2025,28,Spouse,buy,1K–15K,N/A
+Rick Scott,Republican,Senate,FL,OKLAHOMA WATER RESOURCES BOARD,N/A,1 Jul 2025,3 Jun 2025,27,Self,buy,100K–250K,N/A
+Rick Scott,Republican,Senate,FL,OKLAHOMA WATER RESOURCES BOARD,N/A,1 Jul 2025,3 Jun 2025,27,Self,buy,500K–1M,N/A
+Rick Scott,Republican,Senate,FL,OKLAHOMA WATER RESOURCES BOARD,N/A,1 Jul 2025,3 Jun 2025,27,Spouse,buy,250K–500K,N/A
+Ron Wyden,Democrat,Senate,OR,Pfizer Inc,PFE:US,2 Jul 2025,2 Jun 2025,29,Spouse,sell,1K–15K,$23.35
+Dave McCormick,Republican,Senate,PA,CITY OF PITTSBURGH PENNSYLVANIA,N/A,2 Jul 2025,1 Jun 2025,30,Self,buy,250K–500K,N/A
+Mitch McConnell,Republican,Senate,KY,Wells Fargo & Co,WFC:US,19 Jun 2025,31 May 2025,18,Spouse,buy,1K–15K,N/A
+John Boozman,Republican,Senate,AR,RTX Corp,RTX:US,9 Jul 2025,29 May 2025,40,Joint,buy,1K–15K,$136.48
+John Boozman,Republican,Senate,AR,Meta Platforms Inc,META:US,9 Jul 2025,29 May 2025,40,Joint,buy,1K–15K,$647.49
+John Boozman,Republican,Senate,AR,Fortune Brands Innovations Inc,FBIN:US,14 Jun 2025,29 May 2025,15,Joint,sell,1K–15K,$50.40
+Dave McCormick,Republican,Senate,PA,PENNSYLVANIA TURNPIKE COMMISSION,N/A,4 Jun 2025,28 May 2025,6,Spouse,sell,1K–15K,N/A
+Dave McCormick,Republican,Senate,PA,PENNSYLVANIA STATE UNIVERSITY,N/A,4 Jun 2025,22 May 2025,12,Self,buy,250K–500K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,24 Jun 2025,20 May 2025,30,Spouse,sell,50K–100K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,24 Jun 2025,20 May 2025,30,Spouse,sell,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,24 Jun 2025,20 May 2025,30,Spouse,sell,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,24 Jun 2025,20 May 2025,30,Spouse,sell,1K–15K,N/A
+John Boozman,Republican,Senate,AR,The Home Depot Inc,HD:US,9 Jul 2025,19 May 2025,50,Joint,buy,1K–15K,$377.05
+John Boozman,Republican,Senate,AR,Atmos Energy Corp,ATO:US,9 Jul 2025,19 May 2025,50,Joint,buy,1K–15K,$159.10
+John Boozman,Republican,Senate,AR,Alphabet Inc,GOOGL:US,9 Jul 2025,19 May 2025,50,Joint,buy,1K–15K,$163.98
+Richard Blumenthal,Democrat,Senate,CT,NOT FADE AWAY LLC,N/A,24 Jun 2025,19 May 2025,31,Spouse,buy,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,NOT FADE AWAY LLC,N/A,24 Jun 2025,19 May 2025,31,Spouse,buy,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,NOT FADE AWAY LLC,N/A,24 Jun 2025,19 May 2025,31,Spouse,buy,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,NOT FADE AWAY LLC,N/A,24 Jun 2025,19 May 2025,31,Spouse,buy,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,NOT FADE AWAY LLC,N/A,24 Jun 2025,19 May 2025,31,Spouse,buy,1K–15K,N/A
+John Boozman,Republican,Senate,AR,NRG Energy Inc,NRG:US,14 Jun 2025,19 May 2025,25,Joint,sell,1K–15K,$159.68
+John Boozman,Republican,Senate,AR,Lowe's Cos Inc,LOW:US,14 Jun 2025,19 May 2025,25,Joint,sell,1K–15K,$231.25
+John Boozman,Republican,Senate,AR,General Dynamics Corp,GD:US,14 Jun 2025,19 May 2025,25,Joint,sell,1K–15K,$281.57
+John Boozman,Republican,Senate,AR,DTE Energy Co,DTE:US,14 Jun 2025,19 May 2025,25,Joint,sell,1K–15K,$138.39
+John Hickenlooper,Democrat,Senate,CO,Liberty Broadband Corp,LBRDA:US,13 Jun 2025,18 May 2025,25,Spouse,buy,250K–500K,$99.08
+John Boozman,Republican,Senate,AR,Meta Platforms Inc,META:US,9 Jul 2025,15 May 2025,54,Joint,buy,1K–15K,$640.34
+John Boozman,Republican,Senate,AR,The Home Depot Inc,HD:US,9 Jul 2025,15 May 2025,54,Joint,buy,1K–15K,$380.78
+John Boozman,Republican,Senate,AR,Amazon.com Inc,AMZN:US,9 Jul 2025,15 May 2025,54,Joint,buy,1K–15K,$205.59
+John Boozman,Republican,Senate,AR,INVESCO SHORT TERM TREAS ETF,TBLL:US,14 Jun 2025,15 May 2025,29,Joint,sell,1K–15K,$105.72
+Dave McCormick,Republican,Senate,PA,PENNSYLVANIA STATE UNIVERSITY,N/A,4 Jun 2025,15 May 2025,19,Spouse,buy,1K–15K,N/A
+John Fetterman,Democrat,Senate,PA,Alphabet Inc,GOOGL:US,9 Jun 2025,14 May 2025,25,Child,buy,1K–15K,$165.40
+Dave McCormick,Republican,Senate,PA,COMMONWEALTH OF PENNSYLVANIA,N/A,4 Jun 2025,14 May 2025,20,Spouse,buy,1K–15K,N/A
+John Boozman,Republican,Senate,AR,NVIDIA Corporation,NVDA:US,9 Jul 2025,12 May 2025,57,Joint,buy,1K–15K,$129.93
+John Boozman,Republican,Senate,AR,Broadcom Inc,AVGO:US,9 Jul 2025,12 May 2025,57,Joint,buy,1K–15K,$232.42
+John Boozman,Republican,Senate,AR,Valero Energy Corp,VLO:US,14 Jun 2025,12 May 2025,32,Joint,sell,1K–15K,$135.11
+Markwayne Mullin,Republican,Senate,OK,Adobe Inc,ADBE:US,11 Jun 2025,12 May 2025,29,Joint,buy,15K–50K,$397.40
+Markwayne Mullin,Republican,Senate,OK,Applied Materials Inc,AMAT:US,11 Jun 2025,12 May 2025,29,Joint,buy,15K–50K,$173.03
+Markwayne Mullin,Republican,Senate,OK,CSX Corp,CSX:US,11 Jun 2025,12 May 2025,29,Joint,buy,15K–50K,$30.54
+Markwayne Mullin,Republican,Senate,OK,Chevron Corp,CVX:US,11 Jun 2025,12 May 2025,29,Joint,buy,50K–100K,$142.35
+Markwayne Mullin,Republican,Senate,OK,ConocoPhillips,COP:US,11 Jun 2025,12 May 2025,29,Joint,buy,15K–50K,$94.17
+Markwayne Mullin,Republican,Senate,OK,LPL Financial Holdings Inc,LPLA:US,11 Jun 2025,12 May 2025,29,Joint,buy,15K–50K,$382.99
+Markwayne Mullin,Republican,Senate,OK,L3Harris Technologies Inc,LHX:US,11 Jun 2025,12 May 2025,29,Joint,buy,15K–50K,$218.37
+Markwayne Mullin,Republican,Senate,OK,Lam Research Corp,LRCX:US,11 Jun 2025,12 May 2025,29,Joint,buy,15K–50K,$85.25
+Markwayne Mullin,Republican,Senate,OK,SPDR S&P 500 ETF Trust,SPY:US,11 Jun 2025,12 May 2025,29,Joint,sell,500K–1M,$586.84
+Markwayne Mullin,Republican,Senate,OK,Texas Instruments Inc,TXN:US,11 Jun 2025,12 May 2025,29,Joint,buy,15K–50K,$188.20
+Markwayne Mullin,Republican,Senate,OK,Thermo Fisher Scientific Inc,TMO:US,11 Jun 2025,12 May 2025,29,Joint,buy,15K–50K,$428.95
+Markwayne Mullin,Republican,Senate,OK,Valero Energy Corp,VLO:US,11 Jun 2025,12 May 2025,29,Joint,buy,50K–100K,$135.11
+Markwayne Mullin,Republican,Senate,OK,Zoetis Inc,ZTS:US,11 Jun 2025,12 May 2025,29,Joint,buy,50K–100K,$160.41
+Dave McCormick,Republican,Senate,PA,PENNSYLVANIA STATE UNIVERSITY,N/A,4 Jun 2025,8 May 2025,26,Self,buy,100K–250K,N/A
+Dave McCormick,Republican,Senate,PA,ELIZABETHTOWN AREA SCHOOL DISTRICT,N/A,4 Jun 2025,8 May 2025,26,Spouse,buy,1K–15K,N/A
+John Hickenlooper,Democrat,Senate,CO,Liberty Broadband Corp,LBRDA:US,26 May 2025,8 May 2025,17,Spouse,sell,250K–500K,$92.97
+John Hickenlooper,Democrat,Senate,CO,Liberty Broadband Corp,LBRDA:US,26 May 2025,8 May 2025,17,Spouse,buy,250K–500K,$92.97
+John Hickenlooper,Democrat,Senate,CO,Liberty Broadband Corp,LBRDA:US,26 May 2025,8 May 2025,17,Spouse,sell,100K–250K,$92.97
+John Hickenlooper,Democrat,Senate,CO,Liberty Broadband Corp,LBRDA:US,26 May 2025,8 May 2025,17,Spouse,buy,100K–250K,$92.97
+John Hickenlooper,Democrat,Senate,CO,Formula One Group - The Liberty Media Group,FWONK:US,26 May 2025,8 May 2025,17,Spouse,sell,15K–50K,$95.34
+John Hickenlooper,Democrat,Senate,CO,Formula One Group - The Liberty Media Group,FWONK:US,26 May 2025,8 May 2025,17,Spouse,sell,250K–500K,$95.34
+John Hickenlooper,Democrat,Senate,CO,Formula One Group - The Liberty Media Group,FWONK:US,26 May 2025,8 May 2025,17,Spouse,buy,100K–250K,$95.34
+Jerry Moran,Republican,Senate,KS,Alphabet Inc,GOOGL:US,18 Jun 2025,7 May 2025,41,Spouse,buy,1K–15K,$155.75
+Jerry Moran,Republican,Senate,KS,Alphabet Inc,GOOGL:US,18 Jun 2025,7 May 2025,41,Spouse,buy,1K–15K,$155.75
+Jerry Moran,Republican,Senate,KS,Alphabet Inc,GOOGL:US,18 Jun 2025,7 May 2025,41,Self,buy,1K–15K,$155.75
+Jerry Moran,Republican,Senate,KS,Alphabet Inc,GOOGL:US,18 Jun 2025,7 May 2025,41,Self,buy,1K–15K,$155.75
+Shelley Moore Capito,Republican,Senate,WV,Alphabet Inc,GOOGL:US,13 Jun 2025,7 May 2025,36,Spouse,buy,1K–15K,$154.28
+Dave McCormick,Republican,Senate,PA,PENNSYLVANIA STATE UNIVERSITY,N/A,4 Jun 2025,7 May 2025,27,Spouse,buy,50K–100K,N/A
+Dave McCormick,Republican,Senate,PA,PENNSYLVANIA TURNPIKE COMMISSION,N/A,4 Jun 2025,7 May 2025,27,Spouse,buy,1K–15K,N/A
+Dave McCormick,Republican,Senate,PA,TOWNSHIP OF LOWER MERION PENNSYLVANIA,N/A,4 Jun 2025,6 May 2025,28,Spouse,buy,1K–15K,N/A
+Dave McCormick,Republican,Senate,PA,iShares Core S&P Small-Cap ETF,IJR:US,4 Jun 2025,5 May 2025,29,Self,sell,1K–15K,$101.65
+Dave McCormick,Republican,Senate,PA,NORTHAMPTON BORO PENNSYLVANIA,N/A,4 Jun 2025,5 May 2025,29,Spouse,buy,50K–100K,N/A
+Dave McCormick,Republican,Senate,PA,COMMONWEALTH OF PENNSYLVANIA,N/A,4 Jun 2025,5 May 2025,29,Spouse,buy,15K–50K,N/A
+Jon Husted,Republican,Senate,OH,BOXABL INC,N/A,3 Jun 2025,5 May 2025,28,Spouse,buy,1K–15K,N/A
+John Fetterman,Democrat,Senate,PA,Hasbro Inc,HAS:US,9 Jun 2025,4 May 2025,35,Child,buy,1K–15K,N/A
+Dave McCormick,Republican,Senate,PA,COUNTY OF CENTRE PENNSYLVANIA,N/A,4 Jun 2025,4 May 2025,30,Spouse,buy,15K–50K,N/A
+Dave McCormick,Republican,Senate,PA,COMMONWEALTH OF PENNSYLVANIA,N/A,4 Jun 2025,4 May 2025,30,Spouse,buy,15K–50K,N/A
+Katie Britt,Republican,Senate,AL,Amazon.com Inc,AMZN:US,26 Jan 2026,29 Apr 2025,271,Spouse,buy,1K–15K,$184.42
+Katie Britt,Republican,Senate,AL,Apple Inc,AAPL:US,26 Jan 2026,29 Apr 2025,271,Spouse,buy,1K–15K,$212.50
+Katie Britt,Republican,Senate,AL,Unitedhealth Group Inc,UNH:US,26 Jan 2026,29 Apr 2025,271,Spouse,sell,1K–15K,$411.44
+Katie Britt,Republican,Senate,AL,NVIDIA Corporation,NVDA:US,26 Jan 2026,29 Apr 2025,271,Spouse,buy,1K–15K,$108.92
+Katie Britt,Republican,Senate,AL,Exxon Mobil Corp,XOM:US,26 Jan 2026,29 Apr 2025,271,Spouse,sell,1K–15K,$105.63
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,29 May 2025,28 Apr 2025,29,Spouse,sell,100K–250K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,29 May 2025,28 Apr 2025,29,Spouse,buy,250K–500K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,29 May 2025,28 Apr 2025,29,Spouse,sell,100K–250K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,29 May 2025,28 Apr 2025,29,Spouse,buy,100K–250K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,29 May 2025,28 Apr 2025,29,Spouse,sell,100K–250K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,29 May 2025,28 Apr 2025,29,Spouse,buy,100K–250K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,29 May 2025,28 Apr 2025,29,Spouse,sell,50K–100K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,29 May 2025,28 Apr 2025,29,Spouse,buy,50K–100K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,29 May 2025,28 Apr 2025,29,Spouse,buy,15K–50K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,29 May 2025,28 Apr 2025,29,Spouse,buy,15K–50K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,29 May 2025,28 Apr 2025,29,Spouse,sell,100K–250K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,29 May 2025,28 Apr 2025,29,Spouse,buy,100K–250K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,29 May 2025,28 Apr 2025,29,Spouse,sell,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,29 May 2025,28 Apr 2025,29,Spouse,buy,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,29 May 2025,28 Apr 2025,29,Spouse,sell,100K–250K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,29 May 2025,28 Apr 2025,29,Spouse,buy,250K–500K,N/A
+Sheldon Whitehouse,Democrat,Senate,RI,The Estee Lauder Cos Inc,EL:US,13 May 2025,28 Apr 2025,14,Self,sell,1K–15K,$59.59
+Shelley Moore Capito,Republican,Senate,WV,Alphabet Inc,GOOGL:US,7 May 2025,28 Apr 2025,8,Spouse,buy,1K–15K,$160.16
+Richard Blumenthal,Democrat,Senate,CT,YIHENG CAPITAL PARTNERS LP,N/A,29 May 2025,27 Apr 2025,30,Spouse,sell,100K–250K,N/A
+Richard Blumenthal,Democrat,Senate,CT,YIHENG CAPITAL PARTNERS LP,N/A,29 May 2025,27 Apr 2025,30,Spouse,sell,250K–500K,N/A
+John Hickenlooper,Democrat,Senate,CO,Sirius XM Holdings Inc,SIRI:US,26 May 2025,24 Apr 2025,31,Spouse,sell,50K–100K,$21.67
+John Fetterman,Democrat,Senate,PA,Nokia Corp,NOK:US,15 May 2025,22 Apr 2025,22,Child,sell,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,29 May 2025,21 Apr 2025,36,Spouse,buy,100K–250K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,29 May 2025,21 Apr 2025,36,Spouse,sell,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,29 May 2025,21 Apr 2025,36,Spouse,buy,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,29 May 2025,21 Apr 2025,36,Spouse,sell,50K–100K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,29 May 2025,21 Apr 2025,36,Spouse,buy,50K–100K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,29 May 2025,21 Apr 2025,36,Spouse,buy,15K–50K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,29 May 2025,21 Apr 2025,36,Spouse,buy,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,29 May 2025,21 Apr 2025,36,Spouse,buy,15K–50K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,29 May 2025,21 Apr 2025,36,Spouse,sell,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,29 May 2025,21 Apr 2025,36,Spouse,buy,15K–50K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,29 May 2025,21 Apr 2025,36,Spouse,sell,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,29 May 2025,21 Apr 2025,36,Spouse,buy,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,29 May 2025,21 Apr 2025,36,Spouse,sell,100K–250K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,29 May 2025,21 Apr 2025,36,Spouse,buy,250K–500K,N/A
+John Fetterman,Democrat,Senate,PA,Viatris Inc,VTRS:US,15 May 2025,21 Apr 2025,23,Child,sell,1K–15K,N/A
+John Fetterman,Democrat,Senate,PA,Kinder Morgan Inc,KMI:US,15 May 2025,21 Apr 2025,23,Child,sell,1K–15K,N/A
+John Fetterman,Democrat,Senate,PA,FLORIDA POWER & LIGHT CO,N/A,15 May 2025,21 Apr 2025,23,Child,sell,1K–15K,N/A
+John Boozman,Republican,Senate,AR,Microsoft Corp,MSFT:US,14 May 2025,21 Apr 2025,22,Joint,buy,1K–15K,$366.82
+John Boozman,Republican,Senate,AR,salesforce.com Inc,CRM:US,14 May 2025,21 Apr 2025,22,Joint,sell,1K–15K,$243.39
+Dave McCormick,Republican,Senate,PA,CITY OF PITTSBURGH PENNSYLVANIA,N/A,30 Apr 2025,21 Apr 2025,8,Self,buy,250K–500K,N/A
+John Neely Kennedy,Republican,Senate,LA,Annaly Capital Management Inc,NLY:US,8 May 2025,20 Apr 2025,17,Self,buy,1K–15K,$17.59
+Richard Blumenthal,Democrat,Senate,CT,NOT FADE AWAY LLC,N/A,29 May 2025,15 Apr 2025,42,Spouse,buy,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,NOT FADE AWAY LLC,N/A,29 May 2025,15 Apr 2025,42,Spouse,buy,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,NOT FADE AWAY LLC,N/A,29 May 2025,15 Apr 2025,42,Spouse,buy,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,NOT FADE AWAY LLC,N/A,29 May 2025,15 Apr 2025,42,Spouse,buy,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,NOT FADE AWAY LLC,N/A,29 May 2025,15 Apr 2025,42,Spouse,buy,1K–15K,N/A
+John Boozman,Republican,Senate,AR,Unitedhealth Group Inc,UNH:US,14 May 2025,15 Apr 2025,28,Joint,buy,1K–15K,$585.04
+John Boozman,Republican,Senate,AR,Oracle Corp,ORCL:US,14 May 2025,15 Apr 2025,28,Joint,buy,1K–15K,$129.76
+John Boozman,Republican,Senate,AR,Microsoft Corp,MSFT:US,14 May 2025,15 Apr 2025,28,Joint,buy,1K–15K,$371.61
+John Boozman,Republican,Senate,AR,Lam Research Corp,LRCX:US,14 May 2025,15 Apr 2025,28,Joint,sell,1K–15K,$65.14
+John Boozman,Republican,Senate,AR,Gilead Sciences Inc,GILD:US,14 May 2025,15 Apr 2025,28,Joint,sell,1K–15K,$104.88
+John Boozman,Republican,Senate,AR,Applied Materials Inc,AMAT:US,14 May 2025,15 Apr 2025,28,Joint,sell,1K–15K,$138.19
+Dave McCormick,Republican,Senate,PA,NORTHEASTERN YORK COUNTY SCHOOL DISTRICT,N/A,30 Apr 2025,15 Apr 2025,14,Spouse,buy,15K–50K,N/A
+Dave McCormick,Republican,Senate,PA,UNIVERSITY OF PENNSYLVANIA,N/A,30 Apr 2025,15 Apr 2025,14,Spouse,buy,15K–50K,N/A
+Dave McCormick,Republican,Senate,PA,SCHOOL DISTRICT OF PHILADELPHIA,N/A,30 Apr 2025,15 Apr 2025,14,Self,buy,500K–1M,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,29 May 2025,14 Apr 2025,43,Spouse,sell,100K–250K,N/A
+Tommy Tuberville,Republican,Senate,AL,Bristol-Myers Squibb Co,BMY:US,15 May 2025,14 Apr 2025,30,Self,sell,1K–15K,$50.00
+Tommy Tuberville,Republican,Senate,AL,PayPal Holdings Inc,PYPL:US,15 May 2025,14 Apr 2025,30,Self,sell,15K–50K,$62.00
+Tommy Tuberville,Republican,Senate,AL,ISHARES BROAD USD INV GRD BD,N/A,15 May 2025,14 Apr 2025,30,Self,buy,50K–100K,N/A
+Tommy Tuberville,Republican,Senate,AL,JPMorgan Chase & Co,JPM:US,15 May 2025,14 Apr 2025,30,Joint,sell,15K–50K,$233.13
+Tommy Tuberville,Republican,Senate,AL,Alphabet Inc,GOOGL:US,15 May 2025,14 Apr 2025,30,Joint,sell,15K–50K,$156.31
+Tommy Tuberville,Republican,Senate,AL,Amgen Inc,AMGN:US,15 May 2025,14 Apr 2025,30,Joint,sell,15K–50K,$295.30
+Tommy Tuberville,Republican,Senate,AL,Apple Inc,AAPL:US,15 May 2025,14 Apr 2025,30,Joint,sell,15K–50K,$202.14
+Tommy Tuberville,Republican,Senate,AL,Archer-Daniels-Midland Co,ADM:US,15 May 2025,14 Apr 2025,30,Joint,sell,15K–50K,$46.07
+Tommy Tuberville,Republican,Senate,AL,CSX Corp,CSX:US,15 May 2025,14 Apr 2025,30,Joint,sell,15K–50K,$27.90
+Tommy Tuberville,Republican,Senate,AL,Constellation Brands Inc,STZ:US,15 May 2025,14 Apr 2025,30,Joint,sell,15K–50K,$183.86
+Tommy Tuberville,Republican,Senate,AL,Duke Energy Corp,DUK:US,15 May 2025,14 Apr 2025,30,Joint,sell,15K–50K,$120.49
+Tommy Tuberville,Republican,Senate,AL,The Goldman Sachs Group Inc,GS:US,15 May 2025,14 Apr 2025,30,Joint,sell,15K–50K,$507.89
+Tommy Tuberville,Republican,Senate,AL,Eli Lilly and Co,LLY:US,15 May 2025,14 Apr 2025,30,Joint,sell,15K–50K,$757.18
+Tommy Tuberville,Republican,Senate,AL,Mastercard Inc,MA:US,15 May 2025,14 Apr 2025,30,Joint,sell,15K–50K,$517.38
+Tommy Tuberville,Republican,Senate,AL,Microsoft Corp,MSFT:US,15 May 2025,14 Apr 2025,30,Joint,sell,15K–50K,$385.73
+Tommy Tuberville,Republican,Senate,AL,QUALCOMM Inc,QCOM:US,15 May 2025,14 Apr 2025,30,Joint,sell,15K–50K,$138.60
+John Boozman,Republican,Senate,AR,Meta Platforms Inc,META:US,14 May 2025,14 Apr 2025,29,Joint,buy,1K–15K,$521.52
+John Boozman,Republican,Senate,AR,Bank of America Corp,BAC:US,14 May 2025,14 Apr 2025,29,Joint,sell,1K–15K,$37.99
+Dave McCormick,Republican,Senate,PA,NAZARETH AREA SCHOOL DISTRICT,N/A,30 Apr 2025,14 Apr 2025,15,Spouse,buy,1K–15K,N/A
+Katie Britt,Republican,Senate,AL,Exxon Mobil Corp,XOM:US,26 Jan 2026,13 Apr 2025,287,Spouse,buy,1K–15K,$103.39
+Katie Britt,Republican,Senate,AL,JPMorgan Chase & Co,JPM:US,26 Jan 2026,13 Apr 2025,287,Spouse,buy,1K–15K,$234.72
+Katie Britt,Republican,Senate,AL,Alphabet Inc,GOOGL:US,26 Jan 2026,13 Apr 2025,287,Spouse,buy,1K–15K,$161.47
+Katie Britt,Republican,Senate,AL,EOG Resources Inc,EOG:US,26 Jan 2026,13 Apr 2025,287,Spouse,buy,1K–15K,$107.64
+Katie Britt,Republican,Senate,AL,Apple Inc,AAPL:US,26 Jan 2026,13 Apr 2025,287,Spouse,buy,1K–15K,$202.52
+Katie Britt,Republican,Senate,AL,Amazon.com Inc,AMZN:US,26 Jan 2026,13 Apr 2025,287,Spouse,buy,1K–15K,$182.12
+Katie Britt,Republican,Senate,AL,Walmart Inc,WMT:US,26 Jan 2026,13 Apr 2025,287,Spouse,buy,1K–15K,$94.73
+Katie Britt,Republican,Senate,AL,Visa Inc,V:US,26 Jan 2026,13 Apr 2025,287,Spouse,buy,1K–15K,$335.18
+Katie Britt,Republican,Senate,AL,Microsoft Corp,MSFT:US,26 Jan 2026,13 Apr 2025,287,Spouse,buy,1K–15K,$387.81
+Katie Britt,Republican,Senate,AL,Unitedhealth Group Inc,UNH:US,26 Jan 2026,13 Apr 2025,287,Spouse,buy,1K–15K,$587.06
+Katie Britt,Republican,Senate,AL,NVIDIA Corporation,NVDA:US,26 Jan 2026,13 Apr 2025,287,Spouse,buy,1K–15K,$110.71
+Sheldon Whitehouse,Democrat,Senate,RI,NVIDIA Corporation,NVDA:US,13 May 2025,13 Apr 2025,29,Spouse,sell,15K–50K,$110.71
+Sheldon Whitehouse,Democrat,Senate,RI,Apple Inc,AAPL:US,13 May 2025,13 Apr 2025,29,Self,sell,15K–50K,$202.52
+Sheldon Whitehouse,Democrat,Senate,RI,Starbucks Corp,SBUX:US,13 May 2025,13 Apr 2025,29,Self,sell,15K–50K,$85.49
+Sheldon Whitehouse,Democrat,Senate,RI,Starbucks Corp,SBUX:US,13 May 2025,10 Apr 2025,32,Spouse,sell,1K–15K,$85.43
+Sheldon Whitehouse,Democrat,Senate,RI,Starbucks Corp,SBUX:US,13 May 2025,10 Apr 2025,32,Self,sell,1K–15K,$85.43
+Shelley Moore Capito,Republican,Senate,WV,Target Corp,TGT:US,7 May 2025,10 Apr 2025,26,Spouse,sell,1K–15K,$92.78
+Shelley Moore Capito,Republican,Senate,WV,Nike Inc,NKE:US,7 May 2025,9 Apr 2025,27,Spouse,sell,1K–15K,$54.40
+John Boozman,Republican,Senate,AR,iShares iBoxx High Yield Corporate Bond ETF,HYG:US,14 May 2025,8 Apr 2025,35,Joint,buy,1K–15K,$77.78
+John Boozman,Republican,Senate,AR,iShares 1-3 Year Treasury Bond ETF,SHY:US,14 May 2025,8 Apr 2025,35,Joint,sell,1K–15K,$82.59
+Dave McCormick,Republican,Senate,PA,BITWISE BITCOIN ETF,BITB:US,30 Apr 2025,8 Apr 2025,21,Self,buy,15K–50K,$44.77
+John Boozman,Republican,Senate,AR,Colgate-Palmolive Co,CL:US,14 May 2025,7 Apr 2025,36,Joint,buy,1K–15K,$88.60
+John Boozman,Republican,Senate,AR,FIRST TR GLOBAL TACTICAL CMD,FTGC:US,14 May 2025,7 Apr 2025,36,Joint,buy,1K–15K,$23.09
+John Boozman,Republican,Senate,AR,Broadcom Inc,AVGO:US,14 May 2025,7 Apr 2025,36,Joint,buy,1K–15K,$156.03
+John Boozman,Republican,Senate,AR,JPMorgan Chase & Co,JPM:US,14 May 2025,7 Apr 2025,36,Joint,sell,1K–15K,$216.87
+John Boozman,Republican,Senate,AR,iShares S&P 500 Growth ETF,IVW:US,14 May 2025,7 Apr 2025,36,Joint,sell,1K–15K,$82.96
+Markwayne Mullin,Republican,Senate,OK,ConocoPhillips,COP:US,12 May 2025,7 Apr 2025,34,Joint,sell,15K–50K,$82.66
+Markwayne Mullin,Republican,Senate,OK,Thermo Fisher Scientific Inc,TMO:US,12 May 2025,7 Apr 2025,34,Joint,sell,50K–100K,$419.31
+Markwayne Mullin,Republican,Senate,OK,Texas Instruments Inc,TXN:US,12 May 2025,7 Apr 2025,34,Joint,sell,15K–50K,$146.01
+Markwayne Mullin,Republican,Senate,OK,Valero Energy Corp,VLO:US,12 May 2025,7 Apr 2025,34,Joint,sell,50K–100K,$105.18
+Markwayne Mullin,Republican,Senate,OK,Zoetis Inc,ZTS:US,12 May 2025,7 Apr 2025,34,Joint,sell,15K–50K,$144.41
+Markwayne Mullin,Republican,Senate,OK,Chevron Corp,CVX:US,12 May 2025,7 Apr 2025,34,Joint,sell,15K–50K,$136.93
+Markwayne Mullin,Republican,Senate,OK,Lam Research Corp,LRCX:US,12 May 2025,7 Apr 2025,34,Joint,sell,50K–100K,$60.25
+Markwayne Mullin,Republican,Senate,OK,Adobe Inc,ADBE:US,12 May 2025,7 Apr 2025,34,Joint,sell,15K–50K,$340.00
+Markwayne Mullin,Republican,Senate,OK,Applied Materials Inc,AMAT:US,12 May 2025,7 Apr 2025,34,Joint,sell,50K–100K,$128.96
+Markwayne Mullin,Republican,Senate,OK,CSX Corp,CSX:US,12 May 2025,7 Apr 2025,34,Joint,sell,15K–50K,$26.69
+Richard Blumenthal,Democrat,Senate,CT,3G COURSER ONSHORE FUND LP,N/A,6 May 2025,7 Apr 2025,28,Spouse,sell,100K–250K,N/A
+Richard Blumenthal,Democrat,Senate,CT,3G COURSER ONSHORE FUND LP,N/A,6 May 2025,7 Apr 2025,28,Spouse,sell,100K–250K,N/A
+Richard Blumenthal,Democrat,Senate,CT,3G COURSER ONSHORE FUND LP,N/A,6 May 2025,7 Apr 2025,28,Spouse,sell,15K–50K,N/A
+Richard Blumenthal,Democrat,Senate,CT,3G COURSER ONSHORE FUND LP,N/A,6 May 2025,7 Apr 2025,28,Spouse,sell,50K–100K,N/A
+Dave McCormick,Republican,Senate,PA,COMMONWEALTH OF PENNSYLVANIA,N/A,30 Apr 2025,7 Apr 2025,22,Spouse,buy,1K–15K,N/A
+Dave McCormick,Republican,Senate,PA,COMMONWEALTH OF PENNSYLVANIA,N/A,30 Apr 2025,7 Apr 2025,22,Spouse,buy,15K–50K,N/A
+Dave McCormick,Republican,Senate,PA,EASTON AREA SCHOOL DISTRICT NORTHAMPTON AND BUCKS COUNTIES PENNSYLVANIA,N/A,30 Apr 2025,7 Apr 2025,22,Spouse,buy,15K–50K,N/A
+Dave McCormick,Republican,Senate,PA,DELAWARE RIVER PORT AUTHORITY,N/A,30 Apr 2025,7 Apr 2025,22,Spouse,buy,1K–15K,N/A
+Dave McCormick,Republican,Senate,PA,CITY OF PITTSBURGH PENNSYLVANIA,N/A,30 Apr 2025,7 Apr 2025,22,Spouse,buy,1K–15K,N/A
+Dave McCormick,Republican,Senate,PA,WEST VIEW WATER AUTHORITY,N/A,30 Apr 2025,7 Apr 2025,22,Spouse,buy,1K–15K,N/A
+Dave McCormick,Republican,Senate,PA,COMMONWEALTH OF PENNSYLVANIA,N/A,30 Apr 2025,7 Apr 2025,22,Spouse,buy,1K–15K,N/A
+Dave McCormick,Republican,Senate,PA,COMMONWEALTH OF PENNSYLVANIA,N/A,30 Apr 2025,6 Apr 2025,23,Spouse,buy,1K–15K,N/A
+Dave McCormick,Republican,Senate,PA,CHELTENHAM SCHOOL DISTRICT,N/A,30 Apr 2025,6 Apr 2025,23,Spouse,buy,15K–50K,N/A
+Dave McCormick,Republican,Senate,PA,BITWISE BITCOIN ETF,BITB:US,30 Apr 2025,6 Apr 2025,23,Self,buy,15K–50K,$42.43
+Ashley Moody,Republican,Senate,FL,Energy Transfer LP,ET:US,13 May 2025,3 Apr 2025,39,Self,buy,15K–50K,$16.16
+Ashley Moody,Republican,Senate,FL,JPMorgan Chase & Co,JPM:US,13 May 2025,3 Apr 2025,39,Self,buy,15K–50K,$210.28
+Ashley Moody,Republican,Senate,FL,ARES CAPITAL CORPORATION,ARCC:US,13 May 2025,3 Apr 2025,39,Self,buy,15K–50K,$19.97
+Ashley Moody,Republican,Senate,FL,Howmet Aerospace Inc,HWM:US,13 May 2025,3 Apr 2025,39,Self,buy,15K–50K,$112.33
+Richard Blumenthal,Democrat,Senate,CT,MH FOUR WINDS LLC,N/A,6 May 2025,3 Apr 2025,32,Spouse,buy,500K–1M,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,6 May 2025,3 Apr 2025,32,Spouse,buy,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH FOUR WINDS LLC,N/A,6 May 2025,3 Apr 2025,32,Spouse,buy,500K–1M,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,6 May 2025,3 Apr 2025,32,Spouse,buy,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,6 May 2025,3 Apr 2025,32,Spouse,sell,500K–1M,N/A
+Richard Blumenthal,Democrat,Senate,CT,MUUS CONVERGENCE FUND II LP,N/A,6 May 2025,3 Apr 2025,32,Spouse,sell,50K–100K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH FOUR WINDS LLC,N/A,6 May 2025,3 Apr 2025,32,Spouse,buy,15K–50K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH FOUR WINDS LLC,N/A,6 May 2025,3 Apr 2025,32,Spouse,buy,100K–250K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH FOUR WINDS LLC,N/A,6 May 2025,3 Apr 2025,32,Spouse,buy,100K–250K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,6 May 2025,3 Apr 2025,32,Spouse,buy,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,6 May 2025,3 Apr 2025,32,Spouse,sell,50K–100K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH FOUR WINDS LLC,N/A,6 May 2025,3 Apr 2025,32,Spouse,buy,250K–500K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH BUILT TO LAST LLC,N/A,6 May 2025,3 Apr 2025,32,Spouse,buy,1K–15K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH FOUR WINDS LLC,N/A,6 May 2025,3 Apr 2025,32,Spouse,buy,50K–100K,N/A
+Richard Blumenthal,Democrat,Senate,CT,ELCM2 LLC,N/A,6 May 2025,3 Apr 2025,32,Spouse,sell,50K–100K,N/A
+Richard Blumenthal,Democrat,Senate,CT,MH FOUR WINDS LLC,N/A,6 May 2025,3 Apr 2025,32,Spouse,buy,100K–250K,N/A
