@@ -4,21 +4,22 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.when;
+
 class MatchTest {
 
     @Test
-    void play() {
-    }
-
-    @Test
     void getWinner() {
+
     }
 
     @Test
-    void getMVP() {
+    void isTieTrue() {
+
     }
 
     @Test
-    void isTie() {
+    void isTieFalse() {
     }
 }
