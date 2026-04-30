@@ -51,6 +51,10 @@ public class Season {
 
         final Team winner = match.getWinner();
 
+        if (!standings.containsKey(winner)) {
+            return;
+        }
+
         standings.put(winner, standings.get(winner) + 1);
     }
 

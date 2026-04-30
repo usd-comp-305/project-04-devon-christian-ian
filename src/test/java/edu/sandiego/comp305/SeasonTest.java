@@ -138,4 +138,26 @@ class SeasonTest {
         assertEquals(0, season.getStandings().get(secondTeam));
     }
 
+    @Test
+    void updateStandingNoChangeForWinnerNotInSeason() {
+        final List<Team> teams = new ArrayList<>();
+
+        final Team firstTeam = new Team("First");
+        final Team secondTeam = new Team("Second");
+        final Team thirdTeam = new Team("Third");
+        teams.add(firstTeam);
+        teams.add(secondTeam);
+
+        final Season season = new Season(teams);
+        final Match match = mock(Match.class);
+
+        when(match.isTie()).thenReturn(false);
+        when(match.getWinner()).thenReturn(thirdTeam);
+
+        season.updateStandings(match);
+
+        assertEquals(0, season.getStandings().get(firstTeam));
+        assertEquals(0, season.getStandings().get(secondTeam));
+    }
+
 }
