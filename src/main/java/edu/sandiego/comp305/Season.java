@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- *
+ *A season of scheduled matchups between teams
  */
 public class Season {
 
@@ -31,7 +31,7 @@ public class Season {
     }
 
     /**
-     *
+     *Generates the season schedule
      */
     public void generateSchedule() {
         final List<Match> matches = new ArrayList<>();
@@ -41,8 +41,9 @@ public class Season {
     }
 
     /**
+     *Runs each schedule week using the provided scoring strategy
      *
-     * @param strategy
+     * @param strategy the scoring strategy used to simulate each week
      */
     public void runSeason(final ScoringStrategy strategy) {
         for (final Week week : weeks) {
@@ -51,8 +52,9 @@ public class Season {
     }
 
     /**
+     *Updates standing based on the winner of a match
      *
-     * @param match
+     * @param match the completed match
      */
     public void updateStandings(final Match match) {
         if (match.isTie()) {
@@ -69,6 +71,7 @@ public class Season {
     }
 
     /**
+     *Gets a copy of the current standings
      *
      * @return the standings
      */
@@ -77,8 +80,9 @@ public class Season {
     }
 
     /**
+     *Gets the team with the most wins
      *
-     * @return
+     * @return the champion team
      */
     public Team getChampion() {
         if (teams.isEmpty()) {
@@ -98,8 +102,9 @@ public class Season {
     }
 
     /**
+     *Gets a copy of the scheduled weeks
      *
-     * @return
+     * @return the scheduled weeks
      */
     public List<Week> getWeeks() {
         return new ArrayList<>(weeks);
