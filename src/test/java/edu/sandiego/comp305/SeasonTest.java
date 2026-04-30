@@ -17,7 +17,6 @@ class SeasonTest {
 
         final Team firstTeam = new Team("First");
         final Team secondTeam = new Team("Second");
-
         teams.add(firstTeam);
         teams.add(secondTeam);
 
@@ -40,5 +39,20 @@ class SeasonTest {
         assertSame(firstTeam, season.getChampion());
     }
 
+    @Test
+    void getChampionReturnsWinningTeam() {
+        final List<Team> teams = new ArrayList<>();
+
+        final Team firstTeam = new Team("First");
+        final Team secondTeam = new Team("Second");
+        teams.add(firstTeam);
+        teams.add(secondTeam);
+
+        final Season season = new Season(teams);
+        season.getStandings().put(firstTeam, 1);
+        season.getStandings().put(secondTeam, 2);
+
+        assertSame(secondTeam, season.getChampion());
+    }
 
 }

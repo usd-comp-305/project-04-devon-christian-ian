@@ -57,6 +57,15 @@ public class Season {
      * @return
      */
     public Team getChampion() {
-        return teams.get(0);
+        Team champion = teams.get(0);
+
+        for (Team team : teams) {
+            if (standings.get(team) >
+                    standings.get(champion)) {
+                champion = team;
+            }
+        }
+
+        return champion;
     }
 }
