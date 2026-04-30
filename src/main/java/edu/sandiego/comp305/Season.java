@@ -10,12 +10,14 @@ import java.util.Map;
 public class Season {
 
     private final Map<Team, Integer> standings;
+    private List<Team> teams;
     /**
-     *
-     * @param teams
+     *Creates a season with all teams starting at zero
+     * @param teams the teams ing the season
      */
     public Season(final List<Team> teams) {
         standings = new HashMap<>();
+        this.teams = teams;
 
         for (Team team : teams) {
             standings.put(team,0);
@@ -55,6 +57,6 @@ public class Season {
      * @return
      */
     public Team getChampion() {
-        return null;
+        return teams.get(0);
     }
 }
