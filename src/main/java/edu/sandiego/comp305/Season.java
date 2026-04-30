@@ -45,6 +45,9 @@ public class Season {
      * @param strategy
      */
     public void runSeason(final ScoringStrategy strategy) {
+        for (final Week week : weeks) {
+            week.simulateWeek(strategy);
+        }
     }
 
     /**

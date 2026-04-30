@@ -176,4 +176,22 @@ class SeasonTest {
         assertEquals(1, season.getWeeks().size());
     }
 
+    @Test
+    void runSeasonGeneratedWeeks() {
+        final List<Team> teams = new ArrayList<>();
+
+        final Team firstTeam = new Team("First");
+        final Team secondTeam = new Team("Second");
+        teams.add(firstTeam);
+        teams.add(secondTeam);
+
+        final Season season = new Season(teams);
+        final ScoringStrategy strategy = mock(ScoringStrategy.class);
+
+        season.generateSchedule();
+        season.runSeason(strategy);
+
+        assertEquals(1, season.getWeeks().size());
+    }
+
 }
