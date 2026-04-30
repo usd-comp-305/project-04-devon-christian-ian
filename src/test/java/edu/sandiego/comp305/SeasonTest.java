@@ -9,6 +9,8 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertSame;
 import static org.junit.jupiter.api.Assertions.assertNull;
 
+import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.when;
 
 class SeasonTest {
 
@@ -50,8 +52,10 @@ class SeasonTest {
         teams.add(secondTeam);
 
         final Season season = new Season(teams);
-        season.getStandings().put(firstTeam, 1);
-        season.getStandings().put(secondTeam, 2);
+        final Match match = mock(Match.class);
+
+        when(match.getWinner()).thenReturn(secondTeam);
+        season.updateStandings(match);
 
         assertSame(secondTeam, season.getChampion());
     }
@@ -77,6 +81,40 @@ class SeasonTest {
         final Season season = new Season(teams);
 
         assertNull(season.getChampion());
+    }
+
+    @Test
+    void getChampionReturnsFirstTeamWhenTied() {
+        final List<Team> teams = new ArrayList<>();
+
+        final Team firstTeam = new Team("First");
+        final Team secondTeam = new Team("Second");
+        teams.add(firstTeam);
+        teams.add(secondTeam);
+
+        final Season season = new Season(teams);
+
+        assertSame(firstTeam, season.getChampion());
+    }
+
+    @Test
+    void updateStandingAddsOne() {
+        final List<Team> teams = new ArrayList<>();
+
+        final Team firstTeam = new Team("First");
+        final Team secondTeam = new Team("Second");
+        teams.add(firstTeam);
+        teams.add(secondTeam);
+
+        final Season season = new Season(teams);
+        final Match match = mock(Match.class);
+
+        when(match.getWinner()).thenReturn(firstTeam);
+
+        season.updateStandings(match);
+
+        assertEquals(1, season.getStandings().get(firstTeam));
+        assertEquals(0, season.getStandings().get(secondTeam));
     }
 
 }

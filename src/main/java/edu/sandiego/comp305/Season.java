@@ -11,7 +11,9 @@ import java.util.Map;
 public class Season {
 
     private final Map<Team, Integer> standings;
+
     private final List<Team> teams;
+
     /**
      *Creates a season with all teams starting at zero
      * @param teams the teams ing the season
@@ -21,7 +23,7 @@ public class Season {
         this.teams = new ArrayList<>(teams);
 
         for (final Team team : teams) {
-            standings.put(team,0);
+            standings.put(team, 0);
         }
     }
 
@@ -43,6 +45,9 @@ public class Season {
      * @param match
      */
     public void updateStandings(final Match match) {
+        final Team winner = match.getWinner();
+
+        standings.put(winner, standings.get(winner) + 1);
     }
 
     /**
@@ -50,7 +55,7 @@ public class Season {
      * @return the standings
      */
     public Map<Team, Integer> getStandings() {
-        return standings;
+        return new HashMap<>(standings);
     }
 
     /**
