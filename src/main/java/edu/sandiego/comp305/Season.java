@@ -9,11 +9,17 @@ import java.util.Map;
  */
 public class Season {
 
+    private final Map<Team, Integer> standings;
     /**
      *
      * @param teams
      */
     public Season(final List<Team> teams) {
+        standings = new HashMap<>();
+
+        for (Team team : teams) {
+            standings.put(team,0);
+        }
     }
 
     /**
@@ -38,10 +44,10 @@ public class Season {
 
     /**
      *
-     * @return
+     * @return the standings
      */
     public Map<Team, Integer> getStandings() {
-        return new HashMap<>();
+        return standings;
     }
 
     /**
