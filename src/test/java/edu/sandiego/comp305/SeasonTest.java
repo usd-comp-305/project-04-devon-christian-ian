@@ -55,4 +55,19 @@ class SeasonTest {
         assertSame(secondTeam, season.getChampion());
     }
 
+    @Test
+    void seasonDoesNotChangeTeamList() {
+        final List<Team> teams = new ArrayList<>();
+
+        final Team firstTeam = new Team("First");
+        final Team secondTeam = new Team("Second");
+        teams.add(firstTeam);
+
+        final Season season = new Season(teams);
+        teams.add(secondTeam);
+
+        assertEquals(1, season.getStandings().size());
+        assertSame(firstTeam, season.getChampion());
+    }
+
 }

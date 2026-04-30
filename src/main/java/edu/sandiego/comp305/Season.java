@@ -2,6 +2,7 @@ package edu.sandiego.comp305;
 
 import java.util.HashMap;
 import java.util.List;
+import java.util.ArrayList;
 import java.util.Map;
 
 /**
@@ -10,16 +11,16 @@ import java.util.Map;
 public class Season {
 
     private final Map<Team, Integer> standings;
-    private List<Team> teams;
+    private final List<Team> teams;
     /**
      *Creates a season with all teams starting at zero
      * @param teams the teams ing the season
      */
     public Season(final List<Team> teams) {
         standings = new HashMap<>();
-        this.teams = teams;
+        this.teams = new ArrayList<>(teams);
 
-        for (Team team : teams) {
+        for (final Team team : teams) {
             standings.put(team,0);
         }
     }
@@ -59,7 +60,7 @@ public class Season {
     public Team getChampion() {
         Team champion = teams.get(0);
 
-        for (Team team : teams) {
+        for (final Team team : teams) {
             if (standings.get(team) >
                     standings.get(champion)) {
                 champion = team;
