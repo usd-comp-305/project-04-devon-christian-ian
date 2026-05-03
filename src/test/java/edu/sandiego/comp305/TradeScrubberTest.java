@@ -6,6 +6,8 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.List;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 class TradeScrubberTest {
 
     private static final String TEST_TRADE_CSV = """
@@ -21,17 +23,22 @@ class TradeScrubberTest {
         return tempPath;
     }
 
-    // Build a trade
-    // create politician if none
-    // add to current politician if one present
-    // add trade to politicians tradehistory
-
     @Test
-    void parsesLinesProcessesCSV() throws Exception {
+    void parseLinesReadsRows() throws Exception {
         Path testPath = writeTestCSV();
         TradeScrubber scrubber = new TradeScrubber();
 
+        var method = TradeScrubber.class.getDeclaredMethod("parseCSVLine", String.class);
+        method.setAccessible(true);
 
+        @SuppressWarnings("unchecked")
+        List<String[]> rows = (List<String[]>) method.invoke(scrubber, testPath.toString());
+
+        assertEquals(3, rows.size());
+        assertEquals("John Doe", rows.get(0)[0]);
+        assertEquals("AAPL", rows.get(0)[5]);
+        assertEquals("Jane Smith", rows.get(2)[0]);
+        assertEquals(13, rows.get(0).length);
     }
 
 
