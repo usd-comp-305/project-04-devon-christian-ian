@@ -2,10 +2,10 @@ package edu.sandiego.comp305;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
+import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.*;
 
 /**
  *
@@ -24,7 +24,7 @@ public class TradeScrubber {
      * @param path The CSV file to access
      * @return A list of String arrays, one for each row
      */
-    public List<Trade> buildTradeHistoryFromCSV(String path) {
+    public List<Trade> buildTradesFromCSV(String path) {
         List<String[]> csvRows = extractCsvRows(path);
         return buildTrades(csvRows);
     }
@@ -62,9 +62,42 @@ public class TradeScrubber {
     }
 
     private List<Trade> buildTrades(List<String[]> csvRows) {
+        List<Trade> trades = new ArrayList<>();
 
-        return List.of();
+        for (String[] column : csvRows) {
+            LocalDate date = LocalDate.parse(column[7].trim(), DATE_FMT);
+            String ticker = column[5].trim();
+            double price = parsePrice(column[12]);
+            double estimatedAmount = estimateAmount(column[11]);
+            TradeType type = parseType(column[10]);
+
+            trades.add(new Trade(date, ticker, price, estimatedAmount, type));
+        }
+        return trades;
     }
+
+private TradeType parseType(String type) {
+    return type.trim().equalsIgnoreCase("buy") ? TradeType.BUY : TradeType.SELL;
+}
+
+private double parsePrice(String priceString) {
+    if (priceString == null || priceString.isBlank() || priceString.equalsIgnoreCase("N/A"))
+        return 0.0;
+    return Double.parseDouble(priceString.replace("$","").trim());
+}
+private double estimateAmount(String range) {
+    if (range == null || !range.contains("-"))
+        return 0.0;
+
+    String[] amountParts = range.split("-");
+    double low = Double.parseDouble(amountParts[0].replace("K", "").trim()) * 1000;
+    double high = Double.parseDouble(amountParts[1].replace("K", "").trim()) * 1000;
+
+    return (low + high) / 2.0;
+}
+
+
+
 
 
 }

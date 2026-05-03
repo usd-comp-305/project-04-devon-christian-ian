@@ -41,6 +41,28 @@ class TradeScrubberTest {
         assertEquals(13, rows.get(0).length);
     }
 
+    // build trades easier way to test?
+
+
+    @Test
+    void buildTradesFromCSVCorrectSize() throws Exception {
+        Path testPath = writeTestCSV();
+        TradeScrubber testScrubber = new TradeScrubber();
+
+        List<Trade> outputList = testScrubber.buildTradesFromCSV(testPath.toString());
+
+        assertEquals(3, outputList.size());
+    }
+
+    @Test
+    void buildTradesFromCSVCorrectTicker() throws Exception {
+        Path testPath = writeTestCSV();
+        TradeScrubber testScrubber = new TradeScrubber();
+
+        List<Trade> outputList = testScrubber.buildTradesFromCSV(testPath.toString());
+
+        assertEquals("AAPL", outputList.getFirst().getTicker());
+    }
 
 
 
