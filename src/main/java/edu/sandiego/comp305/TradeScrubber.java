@@ -17,12 +17,10 @@ public class TradeScrubber {
             DateTimeFormatter.ofPattern("d MMM yyyy");
 
     /**
-     * Opens the CSV
-     * Skips header row, ignores blank lines
-     * Splits each remaining line into columns
+     * Splits CSV lines into columns, and columns into Trade objects
      *
      * @param path The CSV file to access
-     * @return A list of String arrays, one for each row
+     * @return A list of Trades for TradeHistory to build into Politician profiles
      */
     public List<Trade> buildTradesFromCSV(String path) {
         List<String[]> csvRows = extractCsvRows(path);
@@ -31,8 +29,7 @@ public class TradeScrubber {
 
 
     /**
-     * Opens the CSV file, skips header row, ignores blank lines
-     * Splits each remaining line into columns
+     * Reads CSV, skips header, ignores blank lines, splits lines into columns
      *
      * @param csvPath The CSV file to access
      * @return A list of String arrays, one for each row
@@ -57,14 +54,28 @@ public class TradeScrubber {
         return csvRows;
     }
 
+    /**
+     * CSV splitter, using a regex to handle quoted commas
+     * @param line The CSV row to handle
+     * @return String array of CSV columns for buildTrades
+     */
     private String[] parseCSVLine(String line) {
         return line.split(",(?=(?:[^\"]*\"[^\"]*\")*[^\"]*$)");
     }
 
+    /**
+     * Converts each CSV row into a Trade object
+     * @param csvRows The array of strings to convert, from extractCSVRows()
+     * @return List of all trades in the CSV
+     */
     private List<Trade> buildTrades(List<String[]> csvRows) {
         List<Trade> trades = new ArrayList<>();
 
         for (String[] column : csvRows) {
+
+            // check that might be necessary for debugging
+            if (column.length < 13) continue;
+
             LocalDate date = LocalDate.parse(column[7].trim(), DATE_FMT);
             String ticker = column[5].trim();
             double price = parsePrice(column[12]);
@@ -76,28 +87,53 @@ public class TradeScrubber {
         return trades;
     }
 
-private TradeType parseType(String type) {
-    return type.trim().equalsIgnoreCase("buy") ? TradeType.BUY : TradeType.SELL;
-}
+    /**
+     * Converts buy/sell into the TradeType enum
+     * @param type the column entry
+     * @return enum matching the string entry
+     */
+    private TradeType parseType(String type) {
+        return type.trim().equalsIgnoreCase("buy") ? TradeType.BUY : TradeType.SELL;
+    }
 
-private double parsePrice(String priceString) {
-    if (priceString == null || priceString.isBlank() || priceString.equalsIgnoreCase("N/A"))
-        return 0.0;
-    return Double.parseDouble(priceString.replace("$","").trim());
-}
-private double estimateAmount(String range) {
-    if (range == null || !range.contains("-"))
-        return 0.0;
+    /**
+     * Parses the String price entry into useable double
+     * @param priceString the column entry
+     * @return The double required for trade calculations
+     */
+    private double parsePrice(String priceString) {
+        if (priceString == null || priceString.isBlank() || priceString.equalsIgnoreCase("N/A"))
+            return 0.0;
+        return Double.parseDouble(priceString.replace("$","")
+                        .replace(",", "")
+                        .trim());
+    }
 
-    String[] amountParts = range.split("-");
-    double low = Double.parseDouble(amountParts[0].replace("K", "").trim()) * 1000;
-    double high = Double.parseDouble(amountParts[1].replace("K", "").trim()) * 1000;
+    /**
+     * Parses the trade range entry
+     * @param range The initial string entry for the column
+     * @return The converted double, needed for TradeHistory
+     */
+    private double estimateAmount(String range) {
+        if (range == null || range.isBlank())
+            return 0.0;
 
-    return (low + high) / 2.0;
-}
+        // Normalize en dash to hyphen
+        range = range.replace("–", "-");
 
+        if (!range.contains("-"))
+            return 0.0;
 
+        String[] parts = range.split("-");
+        if (parts.length != 2)
+            return 0.0;
 
-
-
+        try {
+            double low = Double.parseDouble(parts[0].replace("K", "").trim()) * 1000;
+            double high = Double.parseDouble(parts[1].replace("K", "").trim()) * 1000;
+            return (low + high) / 2.0;
+        } catch (NumberFormatException e) {
+            return 0.0;
+        }
+    }
 }

@@ -4,6 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.time.LocalDate;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -24,24 +25,48 @@ class TradeScrubberTest {
     }
 
     @Test
-    void parseLinesReadsRows() throws Exception {
+    void buildTradesFromCSVParsesPricesCorrectly() throws Exception {
         Path testPath = writeTestCSV();
         TradeScrubber scrubber = new TradeScrubber();
 
-        var method = TradeScrubber.class.getDeclaredMethod("parseCSVLine", String.class);
-        method.setAccessible(true);
+        List<Trade> trades = scrubber.buildTradesFromCSV(testPath.toString());
 
-        @SuppressWarnings("unchecked")
-        List<String[]> rows = (List<String[]>) method.invoke(scrubber, testPath.toString());
-
-        assertEquals(3, rows.size());
-        assertEquals("John Doe", rows.get(0)[0]);
-        assertEquals("AAPL", rows.get(0)[5]);
-        assertEquals("Jane Smith", rows.get(2)[0]);
-        assertEquals(13, rows.get(0).length);
+        assertEquals(150.00, trades.getFirst().getPrice());
     }
 
-    // build trades easier way to test?
+    @Test
+    void buildTradesFromCSVParsesDatesCorrectly() throws Exception {
+        Path testPath = writeTestCSV();
+        TradeScrubber scrubber = new TradeScrubber();
+
+        List<Trade> trades = scrubber.buildTradesFromCSV(testPath.toString());
+
+        assertEquals(LocalDate.of(2025, 1, 1), trades.getFirst().getDate());
+    }
+
+    @Test
+    void buildTradesFromCSVParsesTradeTypesCorrectly() throws Exception {
+        Path testPath = writeTestCSV();
+        TradeScrubber scrubber = new TradeScrubber();
+
+        List<Trade> trades = scrubber.buildTradesFromCSV(testPath.toString());
+
+        assertEquals(TradeType.BUY, trades.getFirst().getType());
+    }
+
+    @Test
+    void buildTradesFromCSVParsesSizeRangesCorrectly() throws Exception {
+        Path testPath = writeTestCSV();
+        TradeScrubber scrubber = new TradeScrubber();
+
+        List<Trade> trades = scrubber.buildTradesFromCSV(testPath.toString());
+
+        assertEquals(8000.0, trades.get(0).getEstimatedAmount());     // midpoint of 1K–15K
+        assertEquals(32500.0, trades.get(1).getEstimatedAmount());    // midpoint of 15K–50K
+        assertEquals(75000.0, trades.get(2).getEstimatedAmount());    // midpoint of 50K–100K
+    }
+
+
 
 
     @Test
