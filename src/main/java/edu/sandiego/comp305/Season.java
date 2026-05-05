@@ -34,7 +34,7 @@ public class Season {
      *Generates the season schedule
      */
     public void generateSchedule() {
-        if (teams.size() <2) {
+        if (teams.size() <2 || !weeks.isEmpty()) {
             return;
         }
         final List<Match> matches = new ArrayList<>();

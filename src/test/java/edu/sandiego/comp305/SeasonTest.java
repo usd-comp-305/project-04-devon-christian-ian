@@ -208,6 +208,38 @@ class SeasonTest {
         assertEquals(0, season.getWeeks().size());
     }
 
-    
+    @Test
+    void generateScheduleTwoTeams() {
+        final List<Team> teams = new ArrayList<>();
+
+        final Team firstTeam = new Team("First");
+        final Team secondTeam = new Team("Second");
+        teams.add(firstTeam);
+        teams.add(secondTeam);
+
+        final Season season = new Season(teams);
+
+        season.generateSchedule();
+
+        assertEquals(1, season.getWeeks().size());
+    }
+
+    @Test
+    void generateScheduleNoDuplicateTeams() {
+        final List<Team> teams = new ArrayList<>();
+
+        final Team firstTeam = new Team("First");
+        final Team secondTeam = new Team("Second");
+        teams.add(firstTeam);
+        teams.add(secondTeam);
+
+        final Season season = new Season(teams);
+
+        season.generateSchedule();
+        season.generateSchedule();
+
+        assertEquals(1, season.getWeeks().size());
+    }
+
 
 }
