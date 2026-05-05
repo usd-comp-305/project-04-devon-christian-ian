@@ -34,6 +34,9 @@ public class Season {
      *Generates the season schedule
      */
     public void generateSchedule() {
+        if (teams.size() <2) {
+            return;
+        }
         final List<Match> matches = new ArrayList<>();
         matches.add(new Match(teams.get(0), teams.get(1)));
 
