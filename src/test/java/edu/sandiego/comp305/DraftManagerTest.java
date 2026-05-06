@@ -96,4 +96,34 @@ class DraftManagerTest {
 
         assertEquals(0, team.getRoster().size());
     }
+
+    @Test
+    void pickPlayer_samePoliticianTwice_onlyAddsOnce() {
+        Politician politician = mock(Politician.class);
+
+        Team firstTeam = new Team("Team One");
+        Team secondTeam = new Team("Team Two");
+
+        List<Politician> players = new ArrayList<>();
+        players.add(politician);
+
+        List<Team> teams = new ArrayList<>();
+        teams.add(firstTeam);
+        teams.add(secondTeam);
+
+        ScoringStrategy strategy = mock(ScoringStrategy.class);
+
+        DraftManager draftManager = new DraftManager(
+                players,
+                teams,
+                1,
+                strategy
+        );
+
+        draftManager.pickPlayer(firstTeam, politician);
+        draftManager.pickPlayer(secondTeam, politician);
+
+        assertEquals(1, firstTeam.getRoster().size());
+        assertEquals(0, secondTeam.getRoster().size());
+    }
 }

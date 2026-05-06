@@ -11,38 +11,15 @@ import java.util.Scanner;
 public class DraftManager {
 
     /**
-     * Number of weekly data buckets in one calendar year of trade data.
+     * Number of scoring weeks in the simulated season.
      */
-    private static final int DATA_WEEKS_IN_YEAR = 52;
+    private static final int SEASON_WEEKS = 52;
 
-    /**
-     * Pool of politicians eligible to be drafted.
-     */
     private final List<Politician> availablePlayers;
-
-    /**
-     * Teams participating in the draft.
-     */
     private final List<Team> teams;
-
-    /**
-     * Order in which teams pick players.
-     */
     private final List<Team> draftOrder;
-
-    /**
-     * Maximum number of politicians per team.
-     */
     private final int rosterLimit;
-
-    /**
-     * Strategy used to calculate draft-board scores.
-     */
     private final ScoringStrategy scoringStrategy;
-
-    /**
-     * Reads user input during the draft.
-     */
     private final Scanner scanner;
 
     /**
@@ -51,7 +28,7 @@ public class DraftManager {
      * @param players available politicians
      * @param teams teams participating in the draft
      * @param rosterLimit maximum politicians per team
-     * @param scoringStrategy scoring strategy used to show yearly profit score
+     * @param scoringStrategy scoring strategy used for preview statistics
      */
     public DraftManager(
             final List<Politician> players,
@@ -173,37 +150,64 @@ public class DraftManager {
      */
     private void printDraftBoard(final String filter) {
         System.out.println("\nAvailable Politicians:");
+        System.out.println("ID | Name | Party | State | Trades | Avg Weekly Profit");
 
         for (Politician politician : availablePlayers) {
             if (matchesFilter(politician, filter)) {
-                double yearlyProfitScore = calculateYearlyProfitScore(politician);
+                int numberOfTrades = getNumberOfTrades(politician);
+                double averageWeeklyProfit = calculateAverageWeeklyProfit(politician);
 
                 System.out.println(
                         politician.getIdNumber()
-                                + ". "
+                                + " | "
                                 + politician.getName()
                                 + " | "
                                 + politician.getParty()
-                                + " | Yearly Profit Score: "
-                                + yearlyProfitScore);
+                                + " | "
+                                + politician.getState()
+                                + " | "
+                                + numberOfTrades
+                                + " | "
+                                + String.format("%.2f", averageWeeklyProfit));
             }
         }
     }
 
     /**
-     * Calculates a politician's total score across one year of trade data.
+     * Gets the number of trades in a politician's trade history.
+     *
+     * @param politician politician being checked
+     * @return number of trades
+     */
+    private int getNumberOfTrades(final Politician politician) {
+        if (politician == null || politician.getTradeHistory() == null) {
+            return 0;
+        }
+
+        return politician.getTradeHistory().getTrades().size();
+    }
+
+    /**
+     * Calculates average weekly profit as a draft preview statistic.
+     *
+     * Actual match scoring still happens week-by-week later in Match,
+     * Week, and Season.
      *
      * @param politician politician being scored
-     * @return total yearly profit score
+     * @return average weekly profit across the season
      */
-    private double calculateYearlyProfitScore(final Politician politician) {
+    private double calculateAverageWeeklyProfit(final Politician politician) {
+        if (politician == null) {
+            return 0.0;
+        }
+
         double totalScore = 0.0;
 
-        for (int week = 1; week <= DATA_WEEKS_IN_YEAR; week++) {
+        for (int week = 1; week <= SEASON_WEEKS; week++) {
             totalScore += scoringStrategy.calculateScore(politician, week);
         }
 
-        return totalScore;
+        return totalScore / SEASON_WEEKS;
     }
 
     /**
