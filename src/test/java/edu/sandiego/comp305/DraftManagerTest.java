@@ -25,14 +25,7 @@ class DraftManagerTest {
         List<Team> teams = new ArrayList<>();
         teams.add(team);
 
-        ScoringStrategy strategy = mock(ScoringStrategy.class);
-
-        DraftManager draftManager = new DraftManager(
-                players,
-                teams,
-                1,
-                strategy
-        );
+        DraftManager draftManager = new DraftManager(players, teams, 1);
 
         draftManager.pickPlayer(team, politician);
 
@@ -54,14 +47,7 @@ class DraftManagerTest {
         List<Team> teams = new ArrayList<>();
         teams.add(team);
 
-        ScoringStrategy strategy = mock(ScoringStrategy.class);
-
-        DraftManager draftManager = new DraftManager(
-                players,
-                teams,
-                1,
-                strategy
-        );
+        DraftManager draftManager = new DraftManager(players, teams, 1);
 
         draftManager.pickPlayer(team, first);
         draftManager.pickPlayer(team, second);
@@ -83,14 +69,7 @@ class DraftManagerTest {
         List<Team> teams = new ArrayList<>();
         teams.add(team);
 
-        ScoringStrategy strategy = mock(ScoringStrategy.class);
-
-        DraftManager draftManager = new DraftManager(
-                players,
-                teams,
-                2,
-                strategy
-        );
+        DraftManager draftManager = new DraftManager(players, teams, 2);
 
         draftManager.pickPlayer(team, unavailable);
 
@@ -111,14 +90,7 @@ class DraftManagerTest {
         teams.add(firstTeam);
         teams.add(secondTeam);
 
-        ScoringStrategy strategy = mock(ScoringStrategy.class);
-
-        DraftManager draftManager = new DraftManager(
-                players,
-                teams,
-                1,
-                strategy
-        );
+        DraftManager draftManager = new DraftManager(players, teams, 1);
 
         draftManager.pickPlayer(firstTeam, politician);
         draftManager.pickPlayer(secondTeam, politician);

@@ -10,16 +10,10 @@ import java.util.Scanner;
  */
 public class DraftManager {
 
-    /**
-     * Number of scoring weeks in the simulated season.
-     */
-    private static final int SEASON_WEEKS = 52;
-
     private final List<Politician> availablePlayers;
     private final List<Team> teams;
     private final List<Team> draftOrder;
     private final int rosterLimit;
-    private final ScoringStrategy scoringStrategy;
     private final Scanner scanner;
 
     /**
@@ -28,19 +22,12 @@ public class DraftManager {
      * @param players available politicians
      * @param teams teams participating in the draft
      * @param rosterLimit maximum politicians per team
-     * @param scoringStrategy scoring strategy used for preview statistics
      */
-    public DraftManager(
-            final List<Politician> players,
-            final List<Team> teams,
-            final int rosterLimit,
-            final ScoringStrategy scoringStrategy) {
-
+    public DraftManager(final List<Politician> players, final List<Team> teams, final int rosterLimit) {
         this.availablePlayers = new ArrayList<>(players);
         this.teams = new ArrayList<>(teams);
         this.draftOrder = new ArrayList<>(teams);
         this.rosterLimit = rosterLimit;
-        this.scoringStrategy = scoringStrategy;
         this.scanner = new Scanner(System.in);
     }
 
@@ -86,22 +73,16 @@ public class DraftManager {
      * @param team team drafting the politician
      * @param politician politician being drafted
      */
-    public void pickPlayer(
-            final Team team,
-            final Politician politician) {
-
+    public void pickPlayer(final Team team, final Politician politician) {
         if (team == null || politician == null) {
             return;
         }
-
         if (team.getRoster().size() >= rosterLimit) {
             return;
         }
-
         if (!availablePlayers.contains(politician)) {
             return;
         }
-
         team.addPolitician(politician);
         availablePlayers.remove(politician);
     }
@@ -150,64 +131,18 @@ public class DraftManager {
      */
     private void printDraftBoard(final String filter) {
         System.out.println("\nAvailable Politicians:");
-        System.out.println("ID | Name | Party | State | Trades | Avg Weekly Profit");
+        System.out.println("ID | Name | Party");
 
         for (Politician politician : availablePlayers) {
             if (matchesFilter(politician, filter)) {
-                int numberOfTrades = getNumberOfTrades(politician);
-                double averageWeeklyProfit = calculateAverageWeeklyProfit(politician);
-
                 System.out.println(
                         politician.getIdNumber()
                                 + " | "
                                 + politician.getName()
                                 + " | "
-                                + politician.getParty()
-                                + " | "
-                                + politician.getState()
-                                + " | "
-                                + numberOfTrades
-                                + " | "
-                                + String.format("%.2f", averageWeeklyProfit));
+                                + politician.getParty());
             }
         }
-    }
-
-    /**
-     * Gets the number of trades in a politician's trade history.
-     *
-     * @param politician politician being checked
-     * @return number of trades
-     */
-    private int getNumberOfTrades(final Politician politician) {
-        if (politician == null || politician.getTradeHistory() == null) {
-            return 0;
-        }
-
-        return politician.getTradeHistory().getTrades().size();
-    }
-
-    /**
-     * Calculates average weekly profit as a draft preview statistic.
-     *
-     * Actual match scoring still happens week-by-week later in Match,
-     * Week, and Season.
-     *
-     * @param politician politician being scored
-     * @return average weekly profit across the season
-     */
-    private double calculateAverageWeeklyProfit(final Politician politician) {
-        if (politician == null) {
-            return 0.0;
-        }
-
-        double totalScore = 0.0;
-
-        for (int week = 1; week <= SEASON_WEEKS; week++) {
-            totalScore += scoringStrategy.calculateScore(politician, week);
-        }
-
-        return totalScore / SEASON_WEEKS;
     }
 
     /**
@@ -217,9 +152,7 @@ public class DraftManager {
      * @param filter selected filter
      * @return true if the politician matches the filter
      */
-    private boolean matchesFilter(
-            final Politician politician,
-            final String filter) {
+    private boolean matchesFilter(final Politician politician, final String filter) {
 
         if (filter.equals("ALL")) {
             return true;
