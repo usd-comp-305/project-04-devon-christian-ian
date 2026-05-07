@@ -9,6 +9,9 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
+/**
+ * Tests for PortfolioProfitStrategy.
+ */
 class PortfolioProfitStrategyTest {
 
     @Test
@@ -49,22 +52,25 @@ class PortfolioProfitStrategyTest {
     }
 
     @Test
-    void calculateScore_validPolitician_sumsWeeklyTradeScores() {
+    void calculateScore_validPolitician_sumsBuyAndSellTradeScores() {
         Politician politician = mock(Politician.class);
         TradeHistory tradeHistory = mock(TradeHistory.class);
 
-        Trade firstTrade = mock(Trade.class);
-        Trade secondTrade = mock(Trade.class);
+        Trade buyTrade = mock(Trade.class);
+        Trade sellTrade = mock(Trade.class);
 
         List<Trade> weeklyTrades = new ArrayList<>();
-        weeklyTrades.add(firstTrade);
-        weeklyTrades.add(secondTrade);
+        weeklyTrades.add(buyTrade);
+        weeklyTrades.add(sellTrade);
 
         when(politician.getTradeHistory()).thenReturn(tradeHistory);
         when(tradeHistory.getWeeklyTrades(5)).thenReturn(weeklyTrades);
 
-        when(firstTrade.calculateEstimatedProfit(0.0)).thenReturn(-1000.0);
-        when(secondTrade.calculateEstimatedProfit(0.0)).thenReturn(2500.0);
+        when(buyTrade.getType()).thenReturn(TradeType.BUY);
+        when(buyTrade.getEstimatedAmount()).thenReturn(1000.0);
+
+        when(sellTrade.getType()).thenReturn(TradeType.SELL);
+        when(sellTrade.getEstimatedAmount()).thenReturn(2500.0);
 
         PortfolioProfitStrategy strategy = new PortfolioProfitStrategy();
 
