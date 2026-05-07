@@ -5,8 +5,8 @@ import java.util.List;
 /**
  * Simplified portfolio-style scoring strategy.
  *
- * This strategy uses the existing Trade.calculateEstimatedProfit method
- * to calculate each trade's contribution to a politician's weekly score.
+ * Buy trades contribute negative score.
+ * Sell trades contribute positive score.
  */
 public class PortfolioProfitStrategy implements ScoringStrategy {
 
@@ -19,6 +19,7 @@ public class PortfolioProfitStrategy implements ScoringStrategy {
      */
     @Override
     public double calculateScore(final Politician politician, final int week) {
+
         if (politician == null || politician.getTradeHistory() == null) {
             return 0.0;
         }
@@ -28,9 +29,31 @@ public class PortfolioProfitStrategy implements ScoringStrategy {
         List<Trade> weeklyTrades = politician.getTradeHistory().getWeeklyTrades(week);
 
         for (Trade trade : weeklyTrades) {
-            totalScore += trade.calculateEstimatedProfit(0.0);
+            totalScore += calculateTradeScore(trade);
         }
 
         return totalScore;
+    }
+
+    /**
+     * Calculates one trade's contribution to the weekly score.
+     *
+     * @param trade trade being scored
+     * @return trade score contribution
+     */
+    private double calculateTradeScore(final Trade trade) {
+        if (trade == null) {
+            return 0.0;
+        }
+
+        if (trade.getType() == TradeType.BUY) {
+            return -trade.getEstimatedAmount();
+        }
+
+        if (trade.getType() == TradeType.SELL) {
+            return trade.getEstimatedAmount();
+        }
+
+        return 0.0;
     }
 }
