@@ -11,17 +11,31 @@ import java.time.LocalDate;
  * @param ticker The stock ticker symbol
  * @param price The price per share at the time of the trade
  * @param estimatedAmount The midpoint of the reported size range
- * @param type Whether the trade was a Buy or Sell, store as an enum
+ * @param type Whether the trade was a Buy or Sell, stored as an enum
  */
 public record Trade(LocalDate date,
                     String ticker,
                     double price,
                     double estimatedAmount,
                     TradeType type) {
-    public LocalDate getDate() { return date; }
-    public String getTicker() { return ticker; }
-    public double getPrice() { return price; }
-    public double getEstimatedAmount() { return estimatedAmount; }
-    public TradeType getType() { return type; }
-}
 
+    public LocalDate getDate() {
+        return date;
+    }
+
+    public String getTicker() {
+        return ticker;
+    }
+
+    public double getPrice() {
+        return price;
+    }
+
+    public double getEstimatedAmount() {
+        return estimatedAmount;
+    }
+
+    public TradeType getType() {
+        return type;
+    }
+}

@@ -10,9 +10,9 @@ import static org.mockito.Mockito.*;
 
 class TradeHistoryTest {
 
-    private Trade mockTrade(int month) {
-        Trade trade = mock(Trade.class);
-        LocalDate date = mock(LocalDate.class);
+    private Trade mockTrade(final int month) {
+        final Trade trade = mock(Trade.class);
+        final LocalDate date = mock(LocalDate.class);
 
         when(date.getMonthValue()).thenReturn(month);
         when(trade.getDate()).thenReturn(date);
@@ -22,32 +22,42 @@ class TradeHistoryTest {
 
     @Test
     void tradesPlacedInCorrectWeek() {
-        Trade janTestTrade = mockTrade(1);
-        Trade febTestTrade = mockTrade(2);
+        final Trade janTestTrade = mockTrade(1);
+        final Trade febTestTrade = mockTrade(2);
 
-        TradeHistory testHistory = new TradeHistory(List.of(janTestTrade,febTestTrade));
+        final TradeHistory testHistory =
+                new TradeHistory(List.of(janTestTrade, febTestTrade));
 
         assertEquals(List.of(febTestTrade), testHistory.getWeeklyTrades(2));
     }
 
     @Test
     void emptyListReturnedForInvalidWeek() {
-        Trade janTestTrade = mockTrade(1);
+        final Trade janTestTrade = mockTrade(1);
 
-        TradeHistory testHistory = new TradeHistory(List.of(janTestTrade));
+        final TradeHistory testHistory =
+                new TradeHistory(List.of(janTestTrade));
 
         assertTrue(testHistory.getWeeklyTrades(0).isEmpty());
     }
 
     @Test
     void getTradesReturnsMultipleTrades() {
-        Trade testTradeJan = mockTrade(1);
-        Trade testTradeFeb = mockTrade(2);
-        Trade testTradeMar = mockTrade(3);
+        final Trade testTradeJan = mockTrade(1);
+        final Trade testTradeFeb = mockTrade(2);
+        final Trade testTradeMar = mockTrade(3);
 
-        TradeHistory testHistory = new TradeHistory(List.of(testTradeJan, testTradeFeb, testTradeMar));
-        List<Trade> collectedTrades = testHistory.getTrades();
+        final TradeHistory testHistory =
+                new TradeHistory(
+                        List.of(testTradeJan, testTradeFeb, testTradeMar)
+                );
 
-        assertTrue(collectedTrades.containsAll(List.of(testTradeJan, testTradeFeb, testTradeMar)));
+        final List<Trade> collectedTrades = testHistory.getTrades();
+
+        assertTrue(
+                collectedTrades.containsAll(
+                        List.of(testTradeJan, testTradeFeb, testTradeMar)
+                )
+        );
     }
 }
