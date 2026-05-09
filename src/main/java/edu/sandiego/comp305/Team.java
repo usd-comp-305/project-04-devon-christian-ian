@@ -8,12 +8,18 @@ import java.util.List;
  */
 public class Team {
 
+    private final String name;
+
+    private final List<Politician> roster;
+
     /**
      * Creates a team.
      *
      * @param name the team name
      */
     public Team(final String name) {
+        this.name = name;
+        this.roster = new ArrayList<>();
     }
 
     /**
@@ -22,6 +28,9 @@ public class Team {
      * @param politician the politician
      */
     public void addPolitician(final Politician politician) {
+        if (politician != null) {
+            roster.add(politician);
+        }
     }
 
     /**
@@ -30,7 +39,7 @@ public class Team {
      * @return roster
      */
     public List<Politician> getRoster() {
-        return new ArrayList<>();
+        return new ArrayList<>(roster);
     }
 
     /**
@@ -43,7 +52,13 @@ public class Team {
     public double calculateWeeklyScore(
             final ScoringStrategy strategy,
             final int week) {
-        return 0.0;
+        double totalScore = 0.0;
+
+        for (final Politician politician : roster) {
+            totalScore += strategy.calculateScore(politician, week);
+        }
+
+        return totalScore;
     }
 
     /**
@@ -56,7 +71,23 @@ public class Team {
     public Politician getMVP(
             final ScoringStrategy strategy,
             final int week) {
-        return null;
+        if (roster.isEmpty()) {
+            return null;
+        }
+
+        Politician bestPolitician = roster.get(0);
+        double bestScore = strategy.calculateScore(bestPolitician, week);
+
+        for (final Politician politician : roster) {
+            final double score = strategy.calculateScore(politician, week);
+
+            if (score > bestScore) {
+                bestScore = score;
+                bestPolitician = politician;
+            }
+        }
+
+        return bestPolitician;
     }
 
     /**
@@ -65,6 +96,8 @@ public class Team {
      * @return name
      */
     public String getName() {
-        return null;
+        return name;
     }
 }
+
+
