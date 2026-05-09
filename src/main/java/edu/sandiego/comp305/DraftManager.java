@@ -43,16 +43,10 @@ public class DraftManager {
      */
     public void runSnakeDraft() {
         generateDraftOrder();
-
         int round = 1;
 
         while (!allTeamsFull()) {
-            List<Team> currentOrder = new ArrayList<>(draftOrder);
-
-            if (round % 2 == 0) {
-                Collections.reverse(currentOrder);
-            }
-
+            List<Team> currentOrder = getDraftOrderForRound(round);
             System.out.println("\n--- Draft Round " + round + " ---");
 
             for (Team team : currentOrder) {
@@ -77,14 +71,33 @@ public class DraftManager {
         if (team == null || politician == null) {
             return;
         }
+
         if (team.getRoster().size() >= rosterLimit) {
             return;
         }
+
         if (!availablePlayers.contains(politician)) {
             return;
         }
+
         team.addPolitician(politician);
         availablePlayers.remove(politician);
+    }
+
+    /**
+     * Gets the draft order for a specific round.
+     *
+     * @param round current draft round
+     * @return draft order for the round
+     */
+    private List<Team> getDraftOrderForRound(final int round) {
+        List<Team> currentOrder = new ArrayList<>(draftOrder);
+
+        if (round % 2 == 0) {
+            Collections.reverse(currentOrder);
+        }
+
+        return currentOrder;
     }
 
     /**
@@ -96,32 +109,78 @@ public class DraftManager {
         boolean drafted = false;
 
         while (!drafted) {
-            System.out.println("\n" + team.getName() + "'s pick");
-            System.out.print("View politicians by party (ALL, DEM, REP): ");
+            printTurnHeader(team);
 
-            String filter = scanner.nextLine().trim().toUpperCase();
-
+            String filter = readPartyFilter();
             printDraftBoard(filter);
 
-            System.out.print("Enter politician ID to draft: ");
+            Integer selectedId = readPoliticianId();
 
-            try {
-                int id = Integer.parseInt(scanner.nextLine());
-                Politician selected = findAvailablePoliticianById(id);
-
-                if (selected == null) {
-                    System.out.println("Invalid pick. That politician is not available.");
-                } else if (!matchesFilter(selected, filter)) {
-                    System.out.println("That politician does not match the selected party filter.");
-                } else {
-                    pickPlayer(team, selected);
-                    System.out.println(team.getName() + " drafted " + selected.getName());
-                    drafted = true;
-                }
-            } catch (NumberFormatException exception) {
-                System.out.println("Invalid input. Please enter a valid politician ID.");
+            if (selectedId != null) {
+                drafted = tryDraftPolitician(team, selectedId, filter);
             }
         }
+    }
+
+    /**
+     * Prints the header for one team's turn.
+     *
+     * @param team team making the pick
+     */
+    private void printTurnHeader(final Team team) {
+        System.out.println("\n" + team.getName() + "'s pick");
+    }
+
+    /**
+     * Reads the user's party filter.
+     *
+     * @return selected party filter
+     */
+    private String readPartyFilter() {
+        System.out.print("View politicians by party (ALL, DEM, REP): ");
+        return scanner.nextLine().trim().toUpperCase();
+    }
+
+    /**
+     * Reads the politician ID entered by the user.
+     *
+     * @return politician ID, or null if invalid input
+     */
+    private Integer readPoliticianId() {
+        System.out.print("Enter politician ID to draft: ");
+
+        try {
+            return Integer.parseInt(scanner.nextLine());
+        } catch (NumberFormatException exception) {
+            System.out.println("Invalid input. Please enter a valid politician ID.");
+            return null;
+        }
+    }
+
+    /**
+     * Attempts to draft the selected politician.
+     *
+     * @param team team making the pick
+     * @param id selected politician ID
+     * @param filter selected party filter
+     * @return true if the pick was successful
+     */
+    private boolean tryDraftPolitician(final Team team, final int id, final String filter) {
+        Politician selected = findAvailablePoliticianById(id);
+        
+        if (selected == null) {
+            System.out.println("Invalid pick. That politician is not available.");
+            return false;
+        }
+
+        if (!matchesFilter(selected, filter)) {
+            System.out.println("That politician does not match the selected party filter.");
+            return false;
+        }
+
+        pickPlayer(team, selected);
+        System.out.println(team.getName() + " drafted " + selected.getName());
+        return true;
     }
 
     /**
@@ -152,8 +211,7 @@ public class DraftManager {
      * @param filter selected filter
      * @return true if the politician matches the filter
      */
-    private boolean matchesFilter(final Politician politician, final String filter) {
-
+    private boolean matchesFilter(final Politician politician,final String filter) {
         if (filter.equals("ALL")) {
             return true;
         }
