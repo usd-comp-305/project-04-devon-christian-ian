@@ -18,6 +18,7 @@ dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter:5.9.0'
     testImplementation 'org.mockito:mockito-core:5.0.0'
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+    testImplementation 'org.mockito:mockito-core:5.23.0'
 }
 
 checkstyle {
@@ -33,6 +34,7 @@ spotbugs {
 
 test {
     useJUnitPlatform()
+    jvmArgs "-XX:+EnableDynamicAgentLoading"
 }
 
 application {
