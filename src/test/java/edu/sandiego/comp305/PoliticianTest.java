@@ -12,9 +12,9 @@ class PoliticianTest {
 
     @Test
     void constructor_setsName() {
-        TradeHistory tradeHistory = mock(TradeHistory.class);
+        final TradeHistory tradeHistory = mock(TradeHistory.class);
 
-        Politician politician = new Politician(
+        final Politician politician = new Politician(
                 "Nancy Pelosi",
                 1,
                 "DEM",
@@ -26,9 +26,9 @@ class PoliticianTest {
 
     @Test
     void constructor_setsIdNumber() {
-        TradeHistory tradeHistory = mock(TradeHistory.class);
+        final TradeHistory tradeHistory = mock(TradeHistory.class);
 
-        Politician politician = new Politician(
+        final Politician politician = new Politician(
                 "Nancy Pelosi",
                 1,
                 "DEM",
@@ -40,9 +40,9 @@ class PoliticianTest {
 
     @Test
     void constructor_setsParty() {
-        TradeHistory tradeHistory = mock(TradeHistory.class);
+        final TradeHistory tradeHistory = mock(TradeHistory.class);
 
-        Politician politician = new Politician(
+        final Politician politician = new Politician(
                 "Nancy Pelosi",
                 1,
                 "DEM",
@@ -54,9 +54,9 @@ class PoliticianTest {
 
     @Test
     void constructor_setsTradeHistory() {
-        TradeHistory tradeHistory = mock(TradeHistory.class);
+        final TradeHistory tradeHistory = mock(TradeHistory.class);
 
-        Politician politician = new Politician(
+        final Politician politician = new Politician(
                 "Nancy Pelosi",
                 1,
                 "DEM",
@@ -66,3 +66,6 @@ class PoliticianTest {
         assertEquals(tradeHistory, politician.getTradeHistory());
     }
 }
+
+
+
