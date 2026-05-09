@@ -5,12 +5,20 @@ package edu.sandiego.comp305;
  */
 public class Match {
 
+    private final Team playerOneTeam;
+    private final Team playerTwoTeam;
+
+    private double playerOneScore;
+    private double playerTwoScore;
+
     /**
      *
-     * @param home
-     * @param away
+     * @param playerOneTeam
+     * @param playerTwoTeam
      */
-    public Match(final Team home, final Team away) {
+    public Match(final Team playerOneTeam, final Team playerTwoTeam) {
+        this.playerOneTeam = playerOneTeam;
+        this.playerTwoTeam = playerTwoTeam;
     }
 
     /**
@@ -19,6 +27,8 @@ public class Match {
      * @param week
      */
     public void play(final ScoringStrategy strategy, final int week) {
+        playerOneScore = playerOneTeam.calculateWeeklyScore(strategy, week);
+        playerTwoScore = playerTwoTeam.calculateWeeklyScore(strategy, week);
     }
 
     /**
@@ -26,7 +36,10 @@ public class Match {
      * @return
      */
     public Team getWinner() {
-        return null;
+        if (playerOneScore > playerTwoScore) {
+            return playerOneTeam;
+        }
+        return playerTwoTeam;
     }
 
     /**
