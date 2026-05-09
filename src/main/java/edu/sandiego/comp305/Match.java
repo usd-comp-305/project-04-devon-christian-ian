@@ -36,6 +36,10 @@ public class Match {
      * @return
      */
     public Team getWinner() {
+        if (isTie()) {
+            return null;
+        }
+
         if (playerOneScore > playerTwoScore) {
             return playerOneTeam;
         }
