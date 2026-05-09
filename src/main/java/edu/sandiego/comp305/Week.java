@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- *
+ * One scheduled week in a season
  */
 public class Week {
 
@@ -13,8 +13,11 @@ public class Week {
     private final List<Match> matches;
 
     /**
+     * Creates a week with scheduled matches
      *
-     * @param weekNumber
+     * @param weekNumber the week in the season
+     *
+     * @param matches the matches scheduled for this week
      */
     public Week(final int weekNumber, final List<Match> matches) {
         this.weekNumber = weekNumber;
@@ -22,8 +25,9 @@ public class Week {
     }
 
     /**
+     * Simulates every match scheduled for this week
      *
-     * @param strategy
+     * @param strategy the scoring strategy used for each match
      */
     public void simulateWeek(final ScoringStrategy strategy) {
         for (final Match match : matches) {
@@ -32,8 +36,9 @@ public class Week {
     }
 
     /**
+     * Gets a copy of the matches scheduled for this week
      *
-     * @return
+     * @return th schedule matches
      */
     public List<Match> getMatches() {
         return new ArrayList<>(matches);
