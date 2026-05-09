@@ -19,15 +19,20 @@ public class PortfolioProfitStrategy implements ScoringStrategy {
      * @return weekly score
      */
     @Override
-    public double calculateScore(final Politician politician, final int week) {
-        if (politician == null || politician.getTradeHistory() == null) {
+    public double calculateScore(
+            final Politician politician,
+            final int week) {
+        if (politician == null
+                || politician.getTradeHistory() == null) {
             return 0.0;
         }
 
         double totalScore = 0.0;
-        final List<Trade> weeklyTrades = politician.getTradeHistory().getWeeklyTrades(week);
+        final TradeHistory tradeHistory = politician.getTradeHistory();
+        final List<Trade> weeklyTrades =
+                tradeHistory.getWeeklyTrades(week);
 
-        for (Trade trade : weeklyTrades) {
+        for (final Trade trade : weeklyTrades) {
             totalScore += calculateTradeScore(trade);
         }
 
@@ -41,13 +46,16 @@ public class PortfolioProfitStrategy implements ScoringStrategy {
      * @return trade score contribution
      */
     private double calculateTradeScore(final Trade trade) {
-        if (trade == null || trade.getPrice() <= 0.0) {
+        if (trade == null
+                || trade.getPrice() <= 0.0) {
             return 0.0;
         }
 
-        final double estimatedShares = trade.getEstimatedAmount() / trade.getPrice();
+        final double estimatedShares =
+                trade.getEstimatedAmount() / trade.getPrice();
 
-        final double score = estimatedShares * trade.getPrice();
+        final double score =
+                estimatedShares * trade.getPrice();
 
         if (trade.getType() == TradeType.BUY) {
             return -score;
@@ -60,3 +68,6 @@ public class PortfolioProfitStrategy implements ScoringStrategy {
         return 0.0;
     }
 }
+
+
+

@@ -16,50 +16,53 @@ class PortfolioProfitStrategyTest {
 
     @Test
     void calculateScore_nullPolitician_returnsZero() {
-        PortfolioProfitStrategy strategy = new PortfolioProfitStrategy();
+        final PortfolioProfitStrategy strategy =
+                new PortfolioProfitStrategy();
 
-        double result = strategy.calculateScore(null, 1);
+        final double result = strategy.calculateScore(null, 1);
 
         assertEquals(0.0, result);
     }
 
     @Test
     void calculateScore_nullTradeHistory_returnsZero() {
-        Politician politician = mock(Politician.class);
+        final Politician politician = mock(Politician.class);
 
         when(politician.getTradeHistory()).thenReturn(null);
 
-        PortfolioProfitStrategy strategy = new PortfolioProfitStrategy();
+        final PortfolioProfitStrategy strategy =
+                new PortfolioProfitStrategy();
 
-        double result = strategy.calculateScore(politician, 1);
+        final double result = strategy.calculateScore(politician, 1);
 
         assertEquals(0.0, result);
     }
 
     @Test
     void calculateScore_noWeeklyTrades_returnsZero() {
-        Politician politician = mock(Politician.class);
-        TradeHistory tradeHistory = mock(TradeHistory.class);
+        final Politician politician = mock(Politician.class);
+        final TradeHistory tradeHistory = mock(TradeHistory.class);
 
         when(politician.getTradeHistory()).thenReturn(tradeHistory);
         when(tradeHistory.getWeeklyTrades(5)).thenReturn(new ArrayList<>());
 
-        PortfolioProfitStrategy strategy = new PortfolioProfitStrategy();
+        final PortfolioProfitStrategy strategy =
+                new PortfolioProfitStrategy();
 
-        double result = strategy.calculateScore(politician, 5);
+        final double result = strategy.calculateScore(politician, 5);
 
         assertEquals(0.0, result);
     }
 
     @Test
     void calculateScore_validPolitician_sumsBuyAndSellTradeScores() {
-        Politician politician = mock(Politician.class);
-        TradeHistory tradeHistory = mock(TradeHistory.class);
+        final Politician politician = mock(Politician.class);
+        final TradeHistory tradeHistory = mock(TradeHistory.class);
 
-        Trade buyTrade = mock(Trade.class);
-        Trade sellTrade = mock(Trade.class);
+        final Trade buyTrade = mock(Trade.class);
+        final Trade sellTrade = mock(Trade.class);
 
-        List<Trade> weeklyTrades = new ArrayList<>();
+        final List<Trade> weeklyTrades = new ArrayList<>();
         weeklyTrades.add(buyTrade);
         weeklyTrades.add(sellTrade);
 
@@ -68,14 +71,19 @@ class PortfolioProfitStrategyTest {
 
         when(buyTrade.getType()).thenReturn(TradeType.BUY);
         when(buyTrade.getEstimatedAmount()).thenReturn(1000.0);
+        when(buyTrade.getPrice()).thenReturn(100.0);
 
         when(sellTrade.getType()).thenReturn(TradeType.SELL);
         when(sellTrade.getEstimatedAmount()).thenReturn(2500.0);
+        when(sellTrade.getPrice()).thenReturn(50.0);
 
-        PortfolioProfitStrategy strategy = new PortfolioProfitStrategy();
+        final PortfolioProfitStrategy strategy =
+                new PortfolioProfitStrategy();
 
-        double result = strategy.calculateScore(politician, 5);
+        final double result = strategy.calculateScore(politician, 5);
 
         assertEquals(1500.0, result);
     }
 }
+
+
