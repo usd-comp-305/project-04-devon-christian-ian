@@ -55,6 +55,7 @@ public class Match {
      * @return
      */
     public boolean isTie() {
-        return false;
+        return (playerOneScore == playerTwoScore);
     }
+
 }
