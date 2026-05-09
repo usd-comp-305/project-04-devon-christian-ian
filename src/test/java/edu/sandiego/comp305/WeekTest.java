@@ -19,4 +19,17 @@ class WeekTest {
         assertEquals(1, week.getMatches().size());
         assertTrue(week.getMatches().contains(match));
     }
+
+    @Test
+    void getMatchesEncapsulationCheck() {
+        final Team firstTeam = new Team("First");
+        final Team secondTeam = new Team("Second");
+        final Match match = new Match(firstTeam, secondTeam);
+
+        final Week week = new Week(1, List.of(match));
+        week.getMatches().clear();
+
+        assertEquals(1, week.getMatches().size());
+        assertTrue(week.getMatches().contains(match));
+    }
 }
