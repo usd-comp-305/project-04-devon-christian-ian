@@ -6,9 +6,11 @@ package edu.sandiego.comp305;
 public class Match {
 
     private final Team playerOneTeam;
+
     private final Team playerTwoTeam;
 
     private double playerOneScore;
+
     private double playerTwoScore;
 
     /**
