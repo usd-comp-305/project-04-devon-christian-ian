@@ -20,39 +20,34 @@ public class PortfolioProfitStrategy implements ScoringStrategy {
      */
     @Override
     public double calculateScore(final Politician politician, final int week) {
-
         if (politician == null || politician.getTradeHistory() == null) {
             return 0.0;
         }
 
         double totalScore = 0.0;
+        final List<Trade> weeklyTrades = politician.getTradeHistory().getWeeklyTrades(week);
 
-        List<Trade> weeklyTrades = politician.getTradeHistory().getWeeklyTrades(week);
         for (Trade trade : weeklyTrades) {
             totalScore += calculateTradeScore(trade);
         }
+
         return totalScore;
     }
 
     /**
      * Calculates one trade's contribution to the weekly score.
      *
-     * Estimated amount represents the approximate dollar size
-     * of the trade. Price is used to estimate how many shares
-     * were involved in the transaction.
-     *
      * @param trade trade being scored
      * @return trade score contribution
      */
     private double calculateTradeScore(final Trade trade) {
-
         if (trade == null || trade.getPrice() <= 0.0) {
             return 0.0;
         }
 
-        double estimatedShares = trade.getEstimatedAmount() / trade.getPrice();
+        final double estimatedShares = trade.getEstimatedAmount() / trade.getPrice();
 
-        double score = estimatedShares * trade.getPrice();
+        final double score = estimatedShares * trade.getPrice();
 
         if (trade.getType() == TradeType.BUY) {
             return -score;
