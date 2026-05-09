@@ -8,6 +8,8 @@ import java.util.List;
  */
 public class Week {
 
+    private final int weekNumber;
+
     private final List<Match> matches;
 
     /**
@@ -15,7 +17,8 @@ public class Week {
      * @param weekNumber
      */
     public Week(final int weekNumber, final List<Match> matches) {
-        this.matches = new ArrayList<>();
+        this.weekNumber = weekNumber;
+        this.matches = new ArrayList<>(matches);
     }
 
     /**
@@ -23,6 +26,9 @@ public class Week {
      * @param strategy
      */
     public void simulateWeek(final ScoringStrategy strategy) {
+        for (final Match match : matches) {
+            match.play(strategy, weekNumber);
+        }
     }
 
     /**
@@ -30,7 +36,7 @@ public class Week {
      * @return
      */
     public List<Match> getMatches() {
-        return new ArrayList<Match>(matches);
+        return new ArrayList<>(matches);
     }
 
 }
