@@ -15,17 +15,17 @@ class DraftManagerTest {
 
     @Test
     void pickPlayer_validPick_addsPoliticianToTeam() {
-        Politician politician = mock(Politician.class);
+        final Politician politician = mock(Politician.class);
+        final Team team = new Team("Team One");
 
-        Team team = new Team("Team One");
-
-        List<Politician> players = new ArrayList<>();
+        final List<Politician> players = new ArrayList<>();
         players.add(politician);
 
-        List<Team> teams = new ArrayList<>();
+        final List<Team> teams = new ArrayList<>();
         teams.add(team);
 
-        DraftManager draftManager = new DraftManager(players, teams, 1);
+        final DraftManager draftManager =
+                new DraftManager(players, teams, 1);
 
         draftManager.pickPlayer(team, politician);
 
@@ -35,19 +35,19 @@ class DraftManagerTest {
 
     @Test
     void pickPlayer_fullRoster_doesNotAddSecondPlayer() {
-        Politician first = mock(Politician.class);
-        Politician second = mock(Politician.class);
+        final Politician first = mock(Politician.class);
+        final Politician second = mock(Politician.class);
+        final Team team = new Team("Team One");
 
-        Team team = new Team("Team One");
-
-        List<Politician> players = new ArrayList<>();
+        final List<Politician> players = new ArrayList<>();
         players.add(first);
         players.add(second);
 
-        List<Team> teams = new ArrayList<>();
+        final List<Team> teams = new ArrayList<>();
         teams.add(team);
 
-        DraftManager draftManager = new DraftManager(players, teams, 1);
+        final DraftManager draftManager =
+                new DraftManager(players, teams, 1);
 
         draftManager.pickPlayer(team, first);
         draftManager.pickPlayer(team, second);
@@ -58,18 +58,18 @@ class DraftManagerTest {
 
     @Test
     void pickPlayer_unavailablePlayer_notAdded() {
-        Politician available = mock(Politician.class);
-        Politician unavailable = mock(Politician.class);
+        final Politician available = mock(Politician.class);
+        final Politician unavailable = mock(Politician.class);
+        final Team team = new Team("Team One");
 
-        Team team = new Team("Team One");
-
-        List<Politician> players = new ArrayList<>();
+        final List<Politician> players = new ArrayList<>();
         players.add(available);
 
-        List<Team> teams = new ArrayList<>();
+        final List<Team> teams = new ArrayList<>();
         teams.add(team);
 
-        DraftManager draftManager = new DraftManager(players, teams, 2);
+        final DraftManager draftManager =
+                new DraftManager(players, teams, 2);
 
         draftManager.pickPlayer(team, unavailable);
 
@@ -78,19 +78,20 @@ class DraftManagerTest {
 
     @Test
     void pickPlayer_samePoliticianTwice_onlyAddsOnce() {
-        Politician politician = mock(Politician.class);
+        final Politician politician = mock(Politician.class);
 
-        Team firstTeam = new Team("Team One");
-        Team secondTeam = new Team("Team Two");
+        final Team firstTeam = new Team("Team One");
+        final Team secondTeam = new Team("Team Two");
 
-        List<Politician> players = new ArrayList<>();
+        final List<Politician> players = new ArrayList<>();
         players.add(politician);
 
-        List<Team> teams = new ArrayList<>();
+        final List<Team> teams = new ArrayList<>();
         teams.add(firstTeam);
         teams.add(secondTeam);
 
-        DraftManager draftManager = new DraftManager(players, teams, 1);
+        final DraftManager draftManager =
+                new DraftManager(players, teams, 1);
 
         draftManager.pickPlayer(firstTeam, politician);
         draftManager.pickPlayer(secondTeam, politician);
@@ -99,3 +100,6 @@ class DraftManagerTest {
         assertEquals(0, secondTeam.getRoster().size());
     }
 }
+
+
+

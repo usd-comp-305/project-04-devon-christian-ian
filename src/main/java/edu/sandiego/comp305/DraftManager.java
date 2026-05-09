@@ -1,5 +1,6 @@
 package edu.sandiego.comp305;
 
+import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -11,9 +12,13 @@ import java.util.Scanner;
 public class DraftManager {
 
     private final List<Politician> availablePlayers;
+
     private final List<Team> teams;
+
     private final List<Team> draftOrder;
+
     private final int rosterLimit;
+
     private final Scanner scanner;
 
     /**
@@ -23,12 +28,15 @@ public class DraftManager {
      * @param teams teams participating in the draft
      * @param rosterLimit maximum politicians per team
      */
-    public DraftManager(final List<Politician> players, final List<Team> teams, final int rosterLimit) {
+    public DraftManager(
+            final List<Politician> players,
+            final List<Team> teams,
+            final int rosterLimit) {
         this.availablePlayers = new ArrayList<>(players);
         this.teams = new ArrayList<>(teams);
         this.draftOrder = new ArrayList<>(teams);
         this.rosterLimit = rosterLimit;
-        this.scanner = new Scanner(System.in);
+        this.scanner = new Scanner(System.in, StandardCharsets.UTF_8);
     }
 
     /**
@@ -46,10 +54,10 @@ public class DraftManager {
         int round = 1;
 
         while (!allTeamsFull()) {
-            List<Team> currentOrder = getDraftOrderForRound(round);
+            final List<Team> currentOrder = getDraftOrderForRound(round);
             System.out.println("\n--- Draft Round " + round + " ---");
 
-            for (Team team : currentOrder) {
+            for (final Team team : currentOrder) {
                 if (team.getRoster().size() < rosterLimit) {
                     runTurn(team);
                 }
@@ -91,7 +99,7 @@ public class DraftManager {
      * @return draft order for the round
      */
     private List<Team> getDraftOrderForRound(final int round) {
-        List<Team> currentOrder = new ArrayList<>(draftOrder);
+        final List<Team> currentOrder = new ArrayList<>(draftOrder);
 
         if (round % 2 == 0) {
             Collections.reverse(currentOrder);
@@ -111,10 +119,10 @@ public class DraftManager {
         while (!drafted) {
             printTurnHeader(team);
 
-            String filter = readPartyFilter();
+            final String filter = readPartyFilter();
             printDraftBoard(filter);
 
-            Integer selectedId = readPoliticianId();
+            final Integer selectedId = readPoliticianId();
 
             if (selectedId != null) {
                 drafted = tryDraftPolitician(team, selectedId, filter);
@@ -152,7 +160,8 @@ public class DraftManager {
         try {
             return Integer.parseInt(scanner.nextLine());
         } catch (NumberFormatException exception) {
-            System.out.println("Invalid input. Please enter a valid politician ID.");
+            System.out.println(
+                    "Invalid input. Please enter a valid politician ID.");
             return null;
         }
     }
@@ -165,16 +174,21 @@ public class DraftManager {
      * @param filter selected party filter
      * @return true if the pick was successful
      */
-    private boolean tryDraftPolitician(final Team team, final int id, final String filter) {
-        Politician selected = findAvailablePoliticianById(id);
-        
+    private boolean tryDraftPolitician(
+            final Team team,
+            final int id,
+            final String filter) {
+        final Politician selected = findAvailablePoliticianById(id);
+
         if (selected == null) {
-            System.out.println("Invalid pick. That politician is not available.");
+            System.out.println(
+                    "Invalid pick. That politician is not available.");
             return false;
         }
 
         if (!matchesFilter(selected, filter)) {
-            System.out.println("That politician does not match the selected party filter.");
+            System.out.println(
+                    "That politician does not match the selected filter.");
             return false;
         }
 
@@ -192,7 +206,7 @@ public class DraftManager {
         System.out.println("\nAvailable Politicians:");
         System.out.println("ID | Name | Party");
 
-        for (Politician politician : availablePlayers) {
+        for (final Politician politician : availablePlayers) {
             if (matchesFilter(politician, filter)) {
                 System.out.println(
                         politician.getIdNumber()
@@ -211,7 +225,9 @@ public class DraftManager {
      * @param filter selected filter
      * @return true if the politician matches the filter
      */
-    private boolean matchesFilter(final Politician politician,final String filter) {
+    private boolean matchesFilter(
+            final Politician politician,
+            final String filter) {
         if (filter.equals("ALL")) {
             return true;
         }
@@ -226,7 +242,7 @@ public class DraftManager {
      * @return matching politician, or null if unavailable
      */
     private Politician findAvailablePoliticianById(final int id) {
-        for (Politician politician : availablePlayers) {
+        for (final Politician politician : availablePlayers) {
             if (politician.getIdNumber() == id) {
                 return politician;
             }
@@ -241,7 +257,7 @@ public class DraftManager {
      * @return true if every team is full
      */
     private boolean allTeamsFull() {
-        for (Team team : teams) {
+        for (final Team team : teams) {
             if (team.getRoster().size() < rosterLimit) {
                 return false;
             }
@@ -250,3 +266,8 @@ public class DraftManager {
         return true;
     }
 }
+
+
+
+
+
