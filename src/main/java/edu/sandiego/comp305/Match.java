@@ -40,15 +40,15 @@ public class Match {
      *
      * @return the winning team, or null if tie
      */
-    public Team getWinner() {
+    public MatchResults getWinner() {
         if (isTie()) {
-            return null;
+            return MatchResults.TIE;
         }
 
         if (playerOneScore > playerTwoScore) {
-            return playerOneTeam;
+            return MatchResults.PLAYER_ONE;
         }
-        return playerTwoTeam;
+        return MatchResults.PLAYER_TWO;
     }
 
     /**
