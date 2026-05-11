@@ -20,8 +20,8 @@ public class Match {
      * @param playerTwoTeam player two's team
      */
     public Match(final Team playerOneTeam, final Team playerTwoTeam) {
-        this.playerOneTeam = playerOneTeam;
-        this.playerTwoTeam = playerTwoTeam;
+        this.playerOneTeam = new Team(playerOneTeam);
+        this.playerTwoTeam = new Team (playerTwoTeam);
     }
 
     /**
