@@ -1,3 +1,4 @@
+
 package edu.sandiego.comp305;
 
 import java.util.ArrayList;
@@ -9,8 +10,11 @@ import java.util.List;
 public class Team {
 
     private final String name;
+
     private final List<Politician> roster;
+
     private Politician mvp;
+
     private Politician bust;
 
     /**
@@ -39,10 +43,10 @@ public class Team {
     /**
      * Gets the team roster.
      *
-     * @return roster
+     * @return roster copy
      */
     public List<Politician> getRoster() {
-        return roster;
+        return new ArrayList<>(roster);
     }
 
     /**
@@ -52,11 +56,15 @@ public class Team {
      * @param week week being scored
      * @return total weekly score
      */
-    public double calculateWeeklyScore(final ScoringStrategy strategy, final int week) {
+    public double calculateWeeklyScore(
+            final ScoringStrategy strategy,
+            final int week) {
         double totalScore = 0.0;
-        for (Politician politician : roster) {
+
+        for (final Politician politician : roster) {
             totalScore += strategy.calculateScore(politician, week);
         }
+
         return totalScore;
     }
 
@@ -67,19 +75,26 @@ public class Team {
      * @param week week being scored
      * @return highest-scoring politician
      */
-    public Politician getMVP(final ScoringStrategy strategy, final int week) {
+    public Politician getMVP(
+            final ScoringStrategy strategy,
+            final int week) {
         if (roster.isEmpty()) {
             return null;
         }
+
         Politician bestPolitician = roster.get(0);
         double bestScore = strategy.calculateScore(bestPolitician, week);
-        for (Politician politician : roster) {
-            double score = strategy.calculateScore(politician, week);
+
+        for (final Politician politician : roster) {
+            final double score =
+                    strategy.calculateScore(politician, week);
+
             if (score > bestScore) {
                 bestScore = score;
                 bestPolitician = politician;
             }
         }
+
         this.mvp = bestPolitician;
         return mvp;
     }
@@ -91,7 +106,9 @@ public class Team {
      * @param week week being scored
      * @return lowest-scoring politician
      */
-    public Politician getBust(final ScoringStrategy strategy, final int week) {
+    public Politician getBust(
+            final ScoringStrategy strategy,
+            final int week) {
         if (roster.isEmpty()) {
             return null;
         }
@@ -99,8 +116,9 @@ public class Team {
         Politician worstPolitician = roster.get(0);
         double worstScore = strategy.calculateScore(worstPolitician, week);
 
-        for (Politician politician : roster) {
-            double score = strategy.calculateScore(politician, week);
+        for (final Politician politician : roster) {
+            final double score =
+                    strategy.calculateScore(politician, week);
 
             if (score < worstScore) {
                 worstScore = score;
@@ -121,3 +139,6 @@ public class Team {
         return name;
     }
 }
+
+
+
