@@ -1,5 +1,7 @@
 package edu.sandiego.comp305;
 
+import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -48,17 +50,54 @@ public class PoliticianFactory {
      */
     private Map<String, List<Trade>> groupTradesByName(
             final List<Trade> allTrades) {
-        return null;
+
+        final Map<String, List<Trade>> groupedTrades = new HashMap<>();
+
+        for (Trade indTrade : allTrades) {
+            final String name = indTrade.politicianName();
+
+            if (!groupedTrades.containsKey(name)) {
+                groupedTrades.put(name, new ArrayList<>());
+            }
+
+            groupedTrades.get(name).add(indTrade);
+        }
+
+        return groupedTrades;
     }
 
     /**
-     * Builds Politician objects from grouped trades.
+     * Builds Politician objects from grouped trades
+     * by adding their TradeHistory
      *
      * @param groupedTrades map of politician name to their trades
      * @return list of Politician objects
      */
     private List<Politician> buildEachPolitician(
             final Map<String, List<Trade>> groupedTrades) {
-        return null;
+
+        final List<Politician> politicianList = new ArrayList<>();
+        int idToBeAssigned = 1;
+
+        for (Map.Entry<String, List<Trade>> entry : groupedTrades.entrySet()) {
+            final String name = entry.getKey();
+            final List<Trade> namedTrades = entry.getValue();
+
+            final TradeHistory history = new TradeHistory(namedTrades);
+
+            final String party = namedTrades.get(0).party();
+
+            final Politician constructedPolitician = new Politician(
+                    name,
+                    idToBeAssigned,
+                    party,
+                    history
+            );
+
+            politicianList.add(constructedPolitician);
+            idToBeAssigned++;
+        }
+
+        return politicianList;
     }
 }

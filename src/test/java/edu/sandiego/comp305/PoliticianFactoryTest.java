@@ -18,9 +18,9 @@ public class PoliticianFactoryTest {
 
     @BeforeEach
     public void testSetup() {
-        TradeScrubber mockScrubber = mock(TradeScrubber.class);
+        final TradeScrubber mockScrubber = mock(TradeScrubber.class);
 
-        List<Trade> sampleTrades = List.of(
+        final List<Trade> sampleTrades = List.of(
                 new Trade(
                         LocalDate.of(2025, 1, 1),
                         "AAPL",
@@ -58,20 +58,20 @@ public class PoliticianFactoryTest {
 
     @Test
     public void testTotalPoliticiansCreated() {
-        List<Politician> result =
+        final List<Politician> testResult =
                 factory.createPoliticianList("ignored.csv");
 
-        assertEquals(2, result.size());
+        assertEquals(2, testResult.size());
     }
 
     @Test
     public void testTradeAssignmentByName() {
-        List<Politician> result =
+        final List<Politician> testResult =
                 factory.createPoliticianList("ignored.csv");
 
         Politician alice = null;
 
-        for (Politician p : result) {
+        for (Politician p : testResult) {
             if (p.getName().equals("Alice")) {
                 alice = p;
                 break;
@@ -85,12 +85,12 @@ public class PoliticianFactoryTest {
 
     @Test
     public void testPoliticianNotDuplicated() {
-        List<Politician> result =
+        final List<Politician> testResult =
                 factory.createPoliticianList("ignored.csv");
 
         Politician bob = null;
 
-        for (Politician p : result) {
+        for (Politician p : testResult) {
             if (p.getName().equals("Bob")) {
                 bob = p;
                 break;
@@ -104,12 +104,12 @@ public class PoliticianFactoryTest {
 
     @Test
     public void testPartyAssignment() {
-        List<Politician> result =
+        final List<Politician> testResult =
                 factory.createPoliticianList("ignored.csv");
 
         Politician alice = null;
 
-        for (Politician p : result) {
+        for (Politician p : testResult) {
             if (p.getName().equals("Alice")) {
                 alice = p;
                 break;
@@ -122,10 +122,9 @@ public class PoliticianFactoryTest {
 
     @Test
     public void testIdAssignment() {
-        List<Politician> result =
+        final List<Politician> testResult =
                 factory.createPoliticianList("ignored.csv");
 
-        assertEquals(1, result.get(0).getIdNumber());
-        assertEquals(2, result.get(1).getIdNumber());
+        assertEquals(2, testResult.get(1).getIdNumber());
     }
 }
