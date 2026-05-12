@@ -12,12 +12,16 @@ import java.time.LocalDate;
  * @param price The price per share at the time of the trade
  * @param estimatedAmount The midpoint of the reported size range
  * @param type Whether the trade was a Buy or Sell, stored as an enum
+ * @param politicianName Name of the politician who made the trade
+ * @param party Political party of the politician
  */
 public record Trade(LocalDate date,
                     String ticker,
                     double price,
                     double estimatedAmount,
-                    TradeType type) {
+                    TradeType type,
+                    String politicianName,
+                    String party) {
 
     public LocalDate getDate() {
         return date;
@@ -37,5 +41,13 @@ public record Trade(LocalDate date,
 
     public TradeType getType() {
         return type;
+    }
+
+    public String getPoliticianName() {
+        return politicianName;
+    }
+
+    public String getParty() {
+        return party;
     }
 }
