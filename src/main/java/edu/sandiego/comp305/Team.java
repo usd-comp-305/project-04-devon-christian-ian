@@ -30,6 +30,18 @@ public class Team {
     }
 
     /**
+     * Creates a team.
+     *
+     * @param altName the team name
+     */
+    public Team(final Team altName) {
+        this.name = altName.name;
+        this.roster = new ArrayList<>(altName.roster);
+        this.mvp = altName.mvp;
+        this.bust = altName.bust;
+    }
+
+    /**
      * Adds a politician to the roster.
      *
      * @param politician politician being added
