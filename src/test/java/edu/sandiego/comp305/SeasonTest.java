@@ -54,7 +54,7 @@ class SeasonTest {
         final Season season = new Season(teams);
         final Match match = mock(Match.class);
 
-        when(match.getWinner()).thenReturn(MatchResults.PLAYER_ONE);
+        when(match.getWinner()).thenReturn(MatchResults.PLAYER_TWO);
         season.updateStandings(match);
 
         assertSame(secondTeam, season.getChampion());
@@ -129,8 +129,7 @@ class SeasonTest {
         final Season season = new Season(teams);
         final Match match = mock(Match.class);
 
-        when(match.isTie()).thenReturn(true);
-        when(match.getWinner()).thenReturn(null);
+        when(match.getWinner()).thenReturn(MatchResults.TIE);
 
         season.updateStandings(match);
 
