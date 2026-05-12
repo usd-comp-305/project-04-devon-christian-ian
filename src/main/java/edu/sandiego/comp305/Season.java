@@ -60,14 +60,18 @@ public class Season {
      * @param match the completed match
      */
     public void updateStandings(final Match match) {
-        if (match.isTie()) {
+        final MatchResults results = match.getWinner();
+
+        if (results == MatchResults.TIE) {
             return;
         }
 
-        final Team winner = match.getWinner();
+        final Team winner;
 
-        if (!standings.containsKey(winner)) {
-            return;
+        if (results == MatchResults.PLAYER_ONE) {
+            winner = teams.get(0);
+        } else {
+            winner = teams.get(1);
         }
 
         standings.put(winner, standings.get(winner) + 1);
