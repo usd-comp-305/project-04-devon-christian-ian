@@ -87,6 +87,9 @@ public class TradeScrubber {
                 continue;
             }
 
+            final String politicianName = column[0].trim();
+            final String party = column[1].trim();
+
             final LocalDate date =
                     LocalDate.parse(column[7].trim(), DATE_FMT);
 
@@ -95,7 +98,14 @@ public class TradeScrubber {
             final double estimatedAmount = estimateAmount(column[11]);
             final TradeType type = parseType(column[10]);
 
-            trades.add(new Trade(date, ticker, price, estimatedAmount, type));
+            trades.add(new Trade(
+                    date,
+                    ticker,
+                    price,
+                    estimatedAmount,
+                    type,
+                    politicianName,
+                    party));
         }
 
         return trades;
