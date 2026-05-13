@@ -53,8 +53,8 @@ public final class Simulator {
         // Run season
         season.runSeason(strategy);
 
-        // Print champion
-        printResults(season);
+        // Print results
+        FinalResults.print(season);
     }
 
     /**
