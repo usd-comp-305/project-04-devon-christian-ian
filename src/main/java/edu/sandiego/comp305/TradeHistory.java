@@ -39,7 +39,7 @@ public class TradeHistory {
             return new ArrayList<>();
         }
 
-        return weeklyTrades.get(weekNumber);
+        return new ArrayList<>(weeklyTrades.get(weekNumber));
     }
 
     /**

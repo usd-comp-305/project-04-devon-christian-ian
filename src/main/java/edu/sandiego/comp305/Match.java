@@ -14,13 +14,13 @@ public class Match {
     private double playerTwoScore;
 
     /**
-     * Creates one matchup between the two teams
+     * Represents one matchup between the two teams
      *
      * @param playerOneTeam player one's team
      * @param playerTwoTeam player two's team
      */
     public Match(final Team playerOneTeam, final Team playerTwoTeam) {
-        this.playerOneTeam = new Team(playerOneTeam);
+        this.playerOneTeam = new Team (playerOneTeam);
         this.playerTwoTeam = new Team (playerTwoTeam);
     }
 
@@ -36,9 +36,9 @@ public class Match {
     }
 
     /**
-     * Gets the winning team
+     * Gets the match results
      *
-     * @return the winning team, or null if tie
+     * @return the match result
      */
     public MatchResults getWinner() {
         if (isTie()) {
@@ -52,8 +52,9 @@ public class Match {
     }
 
     /**
-     * not yet implemented
-     * @return
+     * Gets the match MVP
+     *
+     * @return the match MVP, or null if not yet calculated
      */
     public Politician getMVP() {
         return null;
