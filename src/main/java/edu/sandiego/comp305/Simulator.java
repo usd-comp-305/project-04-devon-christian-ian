@@ -7,6 +7,11 @@ import java.util.List;
  */
 public final class Simulator {
 
+    /**
+     *
+     */
+    private Simulator(){
+    }
 
     private static final String CSV_PATH =
             "src/main/resources/capitol_trades_final.csv";
