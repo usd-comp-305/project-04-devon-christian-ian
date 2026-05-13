@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Converts CSV rows into Trade objects
+ * Converts CSV rows into Trade objects.
  */
 public class TradeScrubber {
 
@@ -19,7 +19,7 @@ public class TradeScrubber {
             DateTimeFormatter.ofPattern("d MMM yyyy");
 
     /**
-     * Splits CSV lines into columns, and columns into Trade objects
+     * Splits CSV lines into columns, and columns into Trade objects.
      *
      * @param path The CSV file to access
      * @return A list of Trades for TradeHistory,
@@ -30,9 +30,8 @@ public class TradeScrubber {
         return buildTrades(csvRows);
     }
 
-
     /**
-     * Reads CSV, skips header, ignores blank lines, splits lines into columns
+     * Reads CSV, skips header, ignores blank lines, splits lines into columns.
      *
      * @param csvPath The CSV file to access
      * @return A list of String arrays, one for each row
@@ -62,7 +61,7 @@ public class TradeScrubber {
     }
 
     /**
-     * CSV splitter, using a regex to handle quoted commas
+     * CSV splitter, using a regex to handle quoted commas.
      *
      * @param line The CSV row to handle
      * @return String array of CSV columns for buildTrades
@@ -72,7 +71,7 @@ public class TradeScrubber {
     }
 
     /**
-     * Converts each CSV row into a Trade object
+     * Converts each CSV row into a Trade object.
      *
      * @param csvRows The array of strings to convert, from extractCSVRows()
      * @return List of all trades in the CSV
@@ -111,7 +110,7 @@ public class TradeScrubber {
     }
 
     /**
-     * Helper method to handle additional date formats
+     * Helper method to handle additional date formats.
      *
      * @param dateString the column entry for the date
      * @return LocalDate version to normalize all formats
@@ -119,11 +118,12 @@ public class TradeScrubber {
     private LocalDate parseDate(final String dateString) {
         final String normalizedDate = dateString.trim()
                 .replace("Sept", "Sep");
+
         return LocalDate.parse(normalizedDate, DATE_FMT);
     }
 
     /**
-     * Converts buy/sell into the TradeType enum
+     * Converts buy/sell into the TradeType enum. 
      *
      * @param type the column entry
      * @return enum matching the string entry
@@ -132,6 +132,7 @@ public class TradeScrubber {
         if (type.trim().equalsIgnoreCase("buy")) {
             return TradeType.BUY;
         }
+
         return TradeType.SELL;
     }
 
@@ -147,6 +148,7 @@ public class TradeScrubber {
                 || priceString.equalsIgnoreCase("N/A")) {
             return 0.0;
         }
+
         return Double.parseDouble(
                 priceString.replace("$", "")
                         .replace(",", "")

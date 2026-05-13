@@ -67,6 +67,3 @@ public class PortfolioProfitStrategy implements ScoringStrategy {
         return 0.0;
     }
 }
-
-
-

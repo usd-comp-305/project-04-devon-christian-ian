@@ -11,7 +11,7 @@ public final class Simulator {
             "src/main/resources/capitol_trades_final.csv";
 
     /**
-     * Prevents creating Simulator objects
+     * Prevents creating Simulator objects.
      */
     private Simulator() {
     }
@@ -22,39 +22,33 @@ public final class Simulator {
      * @param args command-line arguments
      */
     public static void main(final String[] args) {
-        // Load CSV
         final TradeScrubber tradeScrubber = new TradeScrubber();
 
-        // Build politicians
         final PoliticianFactory factory =
                 new PoliticianFactory(tradeScrubber);
+
         final List<Politician> politicians =
                 factory.createPoliticianList(CSV_PATH);
 
-        // Create starter teams
         final List<Team> teams = List.of(
                 new Team("Team One"),
                 new Team("Team Two"));
 
-        // Run draft
         final DraftManager draftManager =
                 new DraftManager(politicians, teams, 5);
+
         draftManager.generateDraftOrder();
+
         draftManager.runSnakeDraft();
 
-        // Create scoring strategy
         final ScoringStrategy strategy = new PortfolioProfitStrategy();
 
-        // Create season
         final Season season = new Season(teams);
 
-        // Generate schedule
         season.generateSchedule();
 
-        // Run season
         season.runSeason(strategy);
 
-        // Print champion
         printResults(season);
     }
 
@@ -73,5 +67,4 @@ public final class Simulator {
 
         System.out.println("Champion: " + champion.getName());
     }
-
 }

@@ -31,7 +31,7 @@ public class Team {
     /**
      * Creates a copy of a team.
      *
-     * @param altName the team name
+     * @param altName the team to copy
      */
     public Team(final Team altName) {
         this.name = altName.name;
@@ -150,6 +150,3 @@ public class Team {
         return name;
     }
 }
-
-
-
