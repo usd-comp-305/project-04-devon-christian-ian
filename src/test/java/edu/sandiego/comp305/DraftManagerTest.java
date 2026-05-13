@@ -100,6 +100,3 @@ class DraftManagerTest {
         assertEquals(0, secondTeam.getRoster().size());
     }
 }
-
-
-

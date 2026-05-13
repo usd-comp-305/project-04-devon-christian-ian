@@ -11,7 +11,7 @@ public final class Simulator {
             "src/main/resources/capitol_trades_final.csv";
 
     /**
-     *
+     * Prevents creating Simulator objects
      */
     private Simulator() {
     }
@@ -32,7 +32,8 @@ public final class Simulator {
                 factory.createPoliticianList(CSV_PATH);
 
         // Create starter teams
-        final List<Team> teams = List.of(new Team("Team One"),
+        final List<Team> teams = List.of(
+                new Team("Team One"),
                 new Team("Team Two"));
 
         // Run draft

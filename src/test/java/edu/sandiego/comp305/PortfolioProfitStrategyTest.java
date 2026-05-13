@@ -85,5 +85,3 @@ class PortfolioProfitStrategyTest {
         assertEquals(1500.0, result);
     }
 }
-
-

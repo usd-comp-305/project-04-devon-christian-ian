@@ -133,6 +133,3 @@ class TeamTest {
         assertEquals(lowScorer, result);
     }
 }
-
-
-
