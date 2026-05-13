@@ -14,7 +14,7 @@ public class Match {
     private double playerTwoScore;
 
     /**
-     * Represents one matchup between two teams.
+     * Creates one matchup between two teams.
      *
      * @param playerOneTeam player one's team
      * @param playerTwoTeam player two's team
@@ -27,7 +27,7 @@ public class Match {
     /**
      * Calculates both team scores for the given week.
      *
-     * @param strategy the scoring strategy used to calculate
+     * @param strategy the scoring strategy used to calculate scores
      * @param week the week being played
      */
     public void play(final ScoringStrategy strategy, final int week) {
@@ -36,7 +36,7 @@ public class Match {
     }
 
     /**
-     * Gets the match results.
+     * Gets the match result.
      *
      * @return the match result
      */

@@ -8,7 +8,8 @@ import java.util.Map;
  */
 public final class FinalResults {
 
-    private FinalResults() { }
+    private FinalResults() {
+    }
 
     /**
      * Prints all final results for the completed season.
@@ -49,7 +50,7 @@ public final class FinalResults {
 
         final Map<Team, Integer> standings = season.getStandings();
 
-        for (Map.Entry<Team, Integer> entry : standings.entrySet()) {
+        for (final Map.Entry<Team, Integer> entry : standings.entrySet()) {
             System.out.println(entry.getKey().getName()
                     + ": " + entry.getValue() + " wins");
         }
@@ -65,10 +66,10 @@ public final class FinalResults {
 
         final List<Week> weeks = season.getWeeks();
 
-        for (Week eachWeek : weeks) {
+        for (final Week eachWeek : weeks) {
             System.out.println("Week " + eachWeek.getWeekNumber());
 
-            for (Match eachMatch : eachWeek.getMatches()) {
+            for (final Match eachMatch : eachWeek.getMatches()) {
                 final MatchResults result = eachMatch.getWinner();
 
                 switch (result) {
@@ -96,12 +97,12 @@ public final class FinalResults {
     private static void printTeamRosters(final Season season) {
         System.out.println("\n=== Team Rosters ===");
 
-        for (Team t : season.getStandings().keySet()) {
-            System.out.println(t.getName() + ":");
+        for (final Team team : season.getStandings().keySet()) {
+            System.out.println(team.getName() + ":");
 
-            for (Politician p : t.getRoster()) {
-                System.out.println("  - " + p.getName()
-                        + " (" + p.getParty() + ")");
+            for (final Politician politician : team.getRoster()) {
+                System.out.println("  - " + politician.getName()
+                        + " (" + politician.getParty() + ")");
             }
         }
     }

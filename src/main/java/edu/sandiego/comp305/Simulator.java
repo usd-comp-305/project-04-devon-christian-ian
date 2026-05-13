@@ -49,23 +49,6 @@ public final class Simulator {
 
         season.runSeason(strategy);
 
-        // Print results
         FinalResults.print(season);
-    }
-
-    /**
-     * Prints the season results.
-     *
-     * @param season the completed season
-     */
-    private static void printResults(final Season season) {
-        final Team champion = season.getChampion();
-
-        if (champion == null) {
-            System.out.println("No champion found");
-            return;
-        }
-
-        System.out.println("Champion: " + champion.getName());
     }
 }

@@ -22,7 +22,7 @@ public class TradeScrubber {
      * Splits CSV lines into columns, and columns into Trade objects.
      *
      * @param path The CSV file to access
-     * @return A list of Trades for TradeHistory,
+     * @return A list of trades for TradeHistory,
      * to build into Politician profiles
      */
     public List<Trade> buildTradesFromCSV(final String path) {
@@ -137,7 +137,7 @@ public class TradeScrubber {
     }
 
     /**
-     * Parses the String price entry into useable double
+     * Parses the String price entry into usable double.
      *
      * @param priceString the column entry
      * @return The double required for trade calculations

@@ -38,7 +38,7 @@ public class Week {
     /**
      * Gets a copy of the matches scheduled for this week
      *
-     * @return th schedule matches
+     * @return th scheduled matches
      */
     public List<Match> getMatches() {
         return new ArrayList<>(matches);
@@ -46,7 +46,6 @@ public class Week {
 
     /**
      * Gets the week number.
-     * Used in FinalResults.
      *
      * @return the week number
      */
