@@ -49,7 +49,8 @@ public final class Simulator {
 
         season.runSeason(strategy);
 
-        printResults(season);
+        // Print results
+        FinalResults.print(season);
     }
 
     /**

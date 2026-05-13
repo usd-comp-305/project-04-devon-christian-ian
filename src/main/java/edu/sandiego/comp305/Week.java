@@ -44,4 +44,13 @@ public class Week {
         return new ArrayList<>(matches);
     }
 
+    /**
+     * Gets the week number.
+     * Used in FinalResults.
+     *
+     * @return the week number
+     */
+    public int getWeekNumber() {
+        return weekNumber;
+    }
 }

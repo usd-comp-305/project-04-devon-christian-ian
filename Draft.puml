@@ -1,10 +1,68 @@
 @startuml
+!pragma layout smetana
+skinparam classAttributeIconSize 0
+
+
+
+' ===========================
+'            Season
+' ===========================
+class Season {
+    - standings: Map<Team, Integer>
+    - teams: List<Team>
+    - weeks: List<Week>
+
+    + Season(teams: List<Team>)
+    + generateSchedule(): void
+    + runSeason(strategy: ScoringStrategy): void
+    + updateStandings(match: Match): void
+    + getStandings(): Map<Team, Integer>
+    + getChampion(): Team
+    + getWeeks(): List<Week>
+}
+' ===========================
+'          Simulator
+' ===========================
+class Simulator {
+    + main(args: String[]): void
+}
+
+' ===========================
+'        FinalResults
+' ===========================
+class FinalResults {
+    + print(season: Season): void
+    - printChampion(season: Season): void
+    - printStandings(season: Season): void
+    - printWeeklyResults(season: Season): void
+    - printTeamRosters(season: Season): void
+}
+
+
 
 ' ===========================
 '        TradeScrubber
 ' ===========================
 class TradeScrubber {
-    + BuildTradesFromCSV(path: String): TradeHistory
+    + buildTradesFromCSV(path: String): List<Trade>
+    - extractCsvRows(csvPath: String): List<String[]>
+    - parseCSVLine(line: String): String[]
+    - buildTrades(csvRows: List<String[]>): List<Trade>
+    - parseType(type: String): TradeType
+    - parsePrice(priceString: String): double
+    - estimateAmount(range: String): double
+    - parseDate(dateString: String): LocalDate
+}
+
+' ===========================
+'        PoliticianFactory
+' ===========================
+class PoliticianFactory {
+    - scrubber: TradeScrubber
+    + PoliticianFactory(scrubber: TradeScrubber)
+    + createPoliticianList(path: String): List<Politician>
+    - groupTradesByName(trades: List<Trade>): Map<String, List<Trade>>
+    - buildEachPolitician(grouped: Map<String, List<Trade>>): List<Politician>
 }
 
 ' ===========================
@@ -14,11 +72,14 @@ class Trade {
     - date: LocalDate
     - ticker: String
     - price: double
-    - type: TradeType
     - estimatedAmount: double
+    - type: TradeType
+    - politicianName: String
+    - party: String
 
-    + Trade(date: LocalDate, ticker: String, price: double, estimatedAmount: double, type: TradeType)
-    + calculateEstimatedProfit(laterPrice: double): double
+    + Trade(date: LocalDate, ticker: String, price: double,
+            estimatedAmount: double, type: TradeType,
+            politicianName: String, party: String)
 }
 
 enum TradeType {
@@ -31,13 +92,12 @@ enum TradeType {
 ' ===========================
 class TradeHistory {
     - trades: List<Trade>
+    - seasonStart: LocalDate
 
-    + addTrade(trade: Trade): void
+    + TradeHistory(trades: List<Trade>, seasonStart: LocalDate)
     + getTrades(): List<Trade>
-    + getWeeklyTrades(week: int): List<Trade>
-    + getNetProfit(prices: Map<String, Double>): double
+    + getWeeklyTrades(weekIndex: int): List<Trade>
     + getTotalTradeAmount(): double
-    + getWeeklyProfit(week: int, prices: Map<String, Double>): double
 }
 
 ' ===========================
@@ -45,12 +105,15 @@ class TradeHistory {
 ' ===========================
 class Politician {
     - name: String
-    - IDnumber: int
+    - idNumber: int
     - party: String
     - tradeHistory: TradeHistory
 
-    + Politician(name: String, IDnumber: int, party: String, tradeHistory: TradeHistory)
+    + Politician(name: String, idNumber: int, party: String,
+                 tradeHistory: TradeHistory)
     + getName(): String
+    + getParty(): String
+    + getIdNumber(): int
     + getTradeHistory(): TradeHistory
 }
 
@@ -62,6 +125,7 @@ class DraftManager {
     - teams: List<Team>
     - draftOrder: List<Team>
     - rosterLimit: int
+    - scanner: Scanner
 
     + DraftManager(players: List<Politician>, teams: List<Team>, rosterLimit: int)
     + generateDraftOrder(): void
@@ -75,31 +139,38 @@ class DraftManager {
 class Team {
     - name: String
     - roster: List<Politician>
-    - MVP: Politician
+    - mvp: Politician
     - bust: Politician
 
     + Team(name: String)
+    + Team(other: Team)
     + addPolitician(p: Politician): void
     + getRoster(): List<Politician>
     + calculateWeeklyScore(strategy: ScoringStrategy, week: int): double
     + getMVP(strategy: ScoringStrategy, week: int): Politician
+    + getBust(strategy: ScoringStrategy, week: int): Politician
+    + getName(): String
 }
 
 ' ===========================
 '            Match
 ' ===========================
 class Match {
-    - home: Team
-    - away: Team
-    - homeScore: double
-    - awayScore: double
-    - mvp: Politician
+    - playerOneTeam: Team
+    - playerTwoTeam: Team
+    - playerOneScore: double
+    - playerTwoScore: double
 
-    + Match(home: Team, away: Team)
+    + Match(playerOneTeam: Team, playerTwoTeam: Team)
     + play(strategy: ScoringStrategy, week: int): void
-    + getWinner(): Team
-    + getMVP(): Politician
+    + getWinner(): MatchResults
     + isTie(): boolean
+}
+
+enum MatchResults {
+    PLAYER_ONE
+    PLAYER_TWO
+    TIE
 }
 
 ' ===========================
@@ -110,24 +181,9 @@ class Week {
     - matches: List<Match>
 
     + Week(weekNumber: int, matches: List<Match>)
-    + simulate(strategy: ScoringStrategy): void
+    + simulateWeek(strategy: ScoringStrategy): void
     + getMatches(): List<Match>
-}
-
-' ===========================
-'            Season
-' ===========================
-class Season {
-    - teams: List<Team>
-    - weeks: List<Week>
-    - standings: Map<Team, Integer>
-
-    + Season(teams: List<Team>)
-    + generateSchedule(): void
-    + runSeason(strategy: ScoringStrategy): void
-    + updateStandings(match: Match): void
-    + getStandings(): Map<Team, Integer>
-    + getChampion(): Team
+    + getWeekNumber(): int
 }
 
 ' ===========================
@@ -140,25 +196,31 @@ interface ScoringStrategy {
 class PortfolioProfitStrategy {
     - priceMap: Map<String, Double>
 
-    + PortfolioProfitStrategy(priceMap: Map<String, Double>)
+    + PortfolioProfitStrategy()
     + calculateScore(p: Politician, week: int): double
 }
 
 ScoringStrategy <|.. PortfolioProfitStrategy
 
+
+
 ' ===========================
 '        Relationships
 ' ===========================
-TradeScrubber --> TradeHistory
+TradeScrubber --> Trade
+PoliticianFactory --> Politician
 Politician --> TradeHistory
-TradeType --> Trade
 TradeHistory --> Trade
 Team --> Politician
 Match --> Team
-ScoringStrategy --> Match
 Week --> Match
 Season --> Week
 DraftManager --> Politician
 DraftManager --> Team
+Match --> ScoringStrategy
+Trade --> TradeType
+
+Match --> MatchResults
+
 
 @enduml
