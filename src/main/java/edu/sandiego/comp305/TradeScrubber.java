@@ -90,8 +90,7 @@ public class TradeScrubber {
             final String politicianName = column[0].trim();
             final String party = column[1].trim();
 
-            final LocalDate date =
-                    LocalDate.parse(column[7].trim(), DATE_FMT);
+            final LocalDate date = parseDate(column[7]);
 
             final String ticker = column[5].trim();
             final double price = parsePrice(column[12]);
@@ -109,6 +108,18 @@ public class TradeScrubber {
         }
 
         return trades;
+    }
+
+    /**
+     * Helper method to handle additional date formats
+     *
+     * @param dateString the column entry for the date
+     * @return LocalDate version to normalize all formats
+     */
+    private LocalDate parseDate(final String dateString) {
+        final String normalizedDate = dateString.trim()
+                .replace("Sept", "Sep");
+        return LocalDate.parse(normalizedDate, DATE_FMT);
     }
 
     /**
