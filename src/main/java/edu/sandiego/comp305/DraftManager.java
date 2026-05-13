@@ -232,7 +232,17 @@ public class DraftManager {
             return true;
         }
 
-        return politician.getParty().equalsIgnoreCase(filter);
+        final String party = politician.getParty().trim().toUpperCase();
+
+        if  (filter.equals("REP")) {
+            return party.equals("REPUBLICAN");
+        }
+
+        if (filter.equals("DEM")) {
+            return party.equals("DEMOCRAT") || party.equals("OTHER");
+        }
+
+        return party.equals(filter);
     }
 
     /**
