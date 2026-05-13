@@ -234,7 +234,7 @@ public class DraftManager {
 
         final String party = politician.getParty().trim().toUpperCase();
 
-        if  (filter.equals("REP")) {
+        if (filter.equals("REP")) {
             return party.equals("REPUBLICAN");
         }
 

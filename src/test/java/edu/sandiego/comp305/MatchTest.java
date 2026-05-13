@@ -32,7 +32,7 @@ class MatchTest {
     }
 
     @Test
-    void getWinnerReturnPlayerTwo() {
+    void getWinnerReturnsPlayerTwo() {
         final Team playerOneTeam = new Team("Player One");
         final Team playerTwoTeam = new Team("Player Two");
         final Politician playerOnePolitician = mock(Politician.class);
