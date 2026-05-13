@@ -266,8 +266,3 @@ public class DraftManager {
         return true;
     }
 }
-
-
-
-
-

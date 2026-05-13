@@ -18,8 +18,6 @@ class TradeScrubberTest {
     JS,Rep,Sen,TX,Am,AMZN,3 Jan 2025,3 Jan 2025,0,Spouse,sell,50K-100K,$200.00
         """;
 
-
-
     private Path writeTestCSV() throws Exception {
         final Path tempPath = Files.createTempFile("trades", ".csv");
         Files.writeString(tempPath, TradeScrubberTest.TEST_TRADE_CSV);
@@ -77,9 +75,6 @@ class TradeScrubberTest {
                 75000.0, trades.get(2).getEstimatedAmount()
         );    // midpoint of 50K–100K
     }
-
-
-
 
     @Test
     void buildTradesFromCSVCorrectSize() throws Exception {

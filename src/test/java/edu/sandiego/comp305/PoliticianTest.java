@@ -66,6 +66,3 @@ class PoliticianTest {
         assertEquals(tradeHistory, politician.getTradeHistory());
     }
 }
-
-
-

@@ -4,7 +4,6 @@ import java.util.List;
 
 /**
  * Portfolio-style scoring strategy.
- *
  * Trades are scored using estimated trade value and price data.
  * Buy trades contribute negative score.
  * Sell trades contribute positive score.

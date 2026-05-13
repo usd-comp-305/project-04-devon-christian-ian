@@ -1,4 +1,3 @@
-
 package edu.sandiego.comp305;
 
 import java.util.ArrayList;
@@ -30,7 +29,7 @@ public class Team {
     }
 
     /**
-     * Creates a team.
+     * Creates a copy of a team.
      *
      * @param altName the team name
      */

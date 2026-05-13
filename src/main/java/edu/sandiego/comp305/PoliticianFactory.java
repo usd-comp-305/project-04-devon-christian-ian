@@ -53,7 +53,7 @@ public class PoliticianFactory {
 
         final Map<String, List<Trade>> groupedTrades = new HashMap<>();
 
-        for (Trade indTrade : allTrades) {
+        for (final Trade indTrade : allTrades) {
             final String name = indTrade.politicianName();
 
             if (!groupedTrades.containsKey(name)) {
@@ -79,7 +79,8 @@ public class PoliticianFactory {
         final List<Politician> politicianList = new ArrayList<>();
         int idToBeAssigned = 1;
 
-        for (Map.Entry<String, List<Trade>> entry : groupedTrades.entrySet()) {
+        for (final Map.Entry<String, List<Trade>>
+                entry : groupedTrades.entrySet()) {
             final String name = entry.getKey();
             final List<Trade> namedTrades = entry.getValue();
 

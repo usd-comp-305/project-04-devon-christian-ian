@@ -54,8 +54,8 @@ public class TradeScrubber {
                 }
             }
 
-        } catch (Exception e) {
-            throw new RuntimeException(e);
+        } catch (Exception exception) {
+            throw new RuntimeException(exception);
         }
 
         return csvRows;
@@ -148,7 +148,7 @@ public class TradeScrubber {
             return 0.0;
         }
         return Double.parseDouble(
-                priceString.replace("$","")
+                priceString.replace("$", "")
                         .replace(",", "")
                         .trim());
     }
@@ -164,7 +164,6 @@ public class TradeScrubber {
             return 0.0;
         }
 
-        // Normalize en dash to hyphen
         final String normalizedRange = range.replace("–", "-");
 
         if (!normalizedRange.contains("-")) {
@@ -182,7 +181,7 @@ public class TradeScrubber {
             final double high =
                     Double.parseDouble(parts[1].replace("K", "").trim()) * 1000;
             return (low + high) / 2.0;
-        } catch (NumberFormatException e) {
+        } catch (NumberFormatException exception) {
             return 0.0;
         }
     }
