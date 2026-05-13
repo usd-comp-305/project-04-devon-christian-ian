@@ -1,7 +1,7 @@
 package edu.sandiego.comp305;
 
 /**
- * Represents one matchup between the two teams
+ * Represents one matchup between two teams.
  */
 public class Match {
 
@@ -14,18 +14,18 @@ public class Match {
     private double playerTwoScore;
 
     /**
-     * Creates one matchup between the two teams
+     * Represents one matchup between two teams.
      *
      * @param playerOneTeam player one's team
      * @param playerTwoTeam player two's team
      */
     public Match(final Team playerOneTeam, final Team playerTwoTeam) {
         this.playerOneTeam = new Team(playerOneTeam);
-        this.playerTwoTeam = new Team (playerTwoTeam);
+        this.playerTwoTeam = new Team(playerTwoTeam);
     }
 
     /**
-     * Calculates both team scores for the given week
+     * Calculates both team scores for the given week.
      *
      * @param strategy the scoring strategy used to calculate
      * @param week the week being played
@@ -36,9 +36,9 @@ public class Match {
     }
 
     /**
-     * Gets the winning team
+     * Gets the match results.
      *
-     * @return the winning team, or null if tie
+     * @return the match result
      */
     public MatchResults getWinner() {
         if (isTie()) {
@@ -52,20 +52,11 @@ public class Match {
     }
 
     /**
-     * not yet implemented
-     * @return
-     */
-    public Politician getMVP() {
-        return null;
-    }
-
-    /**
-     * checks whether both teams have the same score
+     * checks whether both teams have the same score.
      *
      * @return true if tied, false if not tied
      */
     public boolean isTie() {
         return (playerOneScore == playerTwoScore);
     }
-
 }

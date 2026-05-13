@@ -2,11 +2,12 @@ package edu.sandiego.comp305;
 
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.mockito.Mockito.mock;
-
 import java.util.ArrayList;
 import java.util.List;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import static org.mockito.Mockito.mock;
 
 /**
  * Tests for DraftManager class.
@@ -100,6 +101,3 @@ class DraftManagerTest {
         assertEquals(0, secondTeam.getRoster().size());
     }
 }
-
-
-
