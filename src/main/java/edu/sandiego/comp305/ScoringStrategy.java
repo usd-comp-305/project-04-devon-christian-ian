@@ -12,7 +12,7 @@ public interface ScoringStrategy {
      * @param week the simulated week number
      * @return the politician's score for that week
      */
-      double calculateScore(
+    public abstract double calculateScore(
             final Politician politician,
             final int week);
 }
