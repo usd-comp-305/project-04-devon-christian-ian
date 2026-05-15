@@ -38,10 +38,12 @@ public class Season {
         if (teams.size() < 2 || !weeks.isEmpty()) {
             return;
         }
-        final List<Match> matches = new ArrayList<>();
-        matches.add(new Match(teams.get(0), teams.get(1)));
-
-        weeks.add(new Week(1, matches));
+        // Create 12 weeks, each with one match between the two teams
+        for (int weekNumber = 1; weekNumber <= 12; weekNumber++) {
+            final List<Match> matches = new ArrayList<>();
+            matches.add(new Match(teams.get(0), teams.get(1)));
+            weeks.add(new Week(weekNumber, matches));
+        }
     }
 
     /**
@@ -52,6 +54,10 @@ public class Season {
     public void runSeason(final ScoringStrategy strategy) {
         for (final Week week : weeks) {
             week.simulateWeek(strategy);
+
+            for (Match weeklyMatch: week.getMatches()) {
+                updateStandings(weeklyMatch);
+            }
         }
     }
 
